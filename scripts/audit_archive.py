@@ -80,8 +80,8 @@ def main():
             'bvid':episode['bvid'],
             'source_title':episode['title'],
             'source_duration_precision':'integer_seconds_from_archived_metadata',
-            'nas_media_duration_seconds':None,
-            'nas_alignment_status':'not_measured',
+            'reference_media_duration_seconds':None,
+            'alignment_status':'not_measured',
             'overlap_evidence':'user_reports_overlapping_adjacent_parts_exact_amount_unknown',
             'cut_status':'unverified',
             'named_parts_duration_sum_seconds':0,
@@ -161,9 +161,9 @@ def main():
     (processing/'timeline-status.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     lines = [
         '# 时间轴状态（尚未实测校准）\n',
-        '本表由 `python3 scripts/audit_archive.py` 根据归档数据生成。时长来自存档页面的整数秒元数据，不是 NAS 原片精确时长。相邻重叠量、NAS 原片时长和删减区间尚无实测值，均不填猜测数字。\n',
+        '本表由 `python3 scripts/audit_archive.py` 根据归档数据生成。时长来自存档页面的整数秒元数据，不是目标原片精确时长。相邻重叠量、目标原片时长和删减区间尚无实测值，均不填猜测数字。\n',
         '相邻 P 的重叠由用户确认存在，但不能用整集时长差均摊每处重叠。`【删】` 是名称线索，不能直接确定真实删减位置。\n',
-        '|剧集|命名切片数|命名切片时长总和（未扣重叠）|原始弹幕数|疑似删减|未参与合并的原页码|NAS 时长|\n|---|---:|---|---:|---|---|---|',
+        '|剧集|命名切片数|命名切片时长总和（未扣重叠）|原始弹幕数|疑似删减|未参与合并的原页码|原片时长|\n|---|---:|---|---:|---|---|---|',
     ]
     for row in report:
         excluded = [str(p['page']) for p in row['parts'] if p['temporary_merge_role']=='excluded_nonstandard_part']
@@ -184,7 +184,7 @@ def main():
                 lines.append(f'|{row["episode"]}|{page["page"]}|{page["part"]}|{page["archived_duration_seconds"]}|{page["comment_count"]}|{times}|')
     lines += ['\n## 预期无弹幕的8集\n', ', '.join(NOT_UPLOADED)+'。用户确认未在 B 站上线，不再列为补抓任务。\n',
               '## 待获取的校准依据\n',
-              '1. 这台 Mac 可读取的 NAS 五季原视频路径及逐集精确媒体时长。',
+              '1. 对应版本原视频的逐集精确媒体时长。',
               '2. 各 B 站分 P 可与原片比对的音频、视频或字幕锚点；现有弹幕文件没有音视频内容。',
               '3. 每个 P 在原片中的区间或多段映射，以及重叠和删减的实测证据。\n',
               '现有37份 merged XML仅累加命名切片时长；占位P已排除，相邻重叠仍未校准。原始分P时间保留不变。\n']
