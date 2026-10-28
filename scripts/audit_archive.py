@@ -188,7 +188,7 @@ def main():
               '2. 各 B 站分 P 可与原片比对的音频、视频或字幕锚点；现有弹幕文件没有音视频内容。',
               '3. 每个 P 在原片中的区间或多段映射，以及重叠和删减的实测证据。\n',
               '现有37份 merged XML仅累加命名切片时长；占位P已排除，相邻重叠仍未校准。原始分P时间保留不变。\n']
-    (docs/'时间轴状态.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    (docs/'时间轴状态.md').write_text('\n'.join(lines).rstrip()+'\n',encoding='utf-8')
     print(f'Validated {verified_parts} parts / {verified_segments} protobuf segments / {comments} comments; generated timeline status (not calibrated).')
 
 if __name__ == '__main__':
