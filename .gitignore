@@ -11,3 +11,6 @@ cookies*.json
 *.m4v
 *.mov
 work/
+nas-metadata/results/
+hacks-metadata-*/
+nas-metadata/compose.local.yaml

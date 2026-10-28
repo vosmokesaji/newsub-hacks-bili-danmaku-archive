@@ -1,0 +1,30 @@
+# TEMPLATE: replace all three source paths with actual NAS directories.
+# No host root, Docker socket, ports, or privileged mode are needed.
+services:
+  hacks-metadata:
+    image: lscr.io/linuxserver/ffmpeg:latest
+    entrypoint: ["/bin/bash", "/scripts/collect-media-info.sh"]
+    command: ["/media", "/output"]
+    restart: "no"
+    network_mode: "none"
+    read_only: true
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+    volumes:
+      - type: bind
+        source: /REPLACE_WITH_HACKS_VIDEO_DIRECTORY
+        target: /media
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: /REPLACE_WITH_COLLECTOR_SCRIPT_DIRECTORY
+        target: /scripts
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: /REPLACE_WITH_EMPTY_OUTPUT_DIRECTORY
+        target: /output
+        bind:
+          create_host_path: false
