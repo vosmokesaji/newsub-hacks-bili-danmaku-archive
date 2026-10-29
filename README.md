@@ -30,12 +30,12 @@
 
 共保存 369 个 protobuf 弹幕分包。29,782 条中，28,511 条来自同集 `SxxExx-*` 命名切片，其余 1,271 条来自预告或需要独立核对的非标准分 P；不要将总条数全部理解为已确认属于正片的弹幕。
 
-**以下 8 集经用户确认未在 B 站上线，无弹幕属于预期情况，无需继续补抓：**
+**原归档中以下8集按用户当时确认作为预期缺失，不再猜测补抓：**
 
 - S03E07、S03E08、S03E09。
 - S04E05、S04E06、S04E08、S04E09、S04E10。
 
-这与“请求被风控而尚未下载”不同：已有目录的下载失败项为 0。
+以上是原40条目目录及当时确认的缺失范围。2026-10-29扩展搜索另发现UP主的 **S04E09新投稿**，已单独留存首帧和公开元数据；尚未下载它的弹幕，也未改变原归档条数。已有目录的下载失败项仍为0，不能与“请求被风控而尚未下载”混淆。
 
 ## 文件组织
 
@@ -50,6 +50,13 @@ docs/
 processing/
   timeline-status.json                 基础审计的结构化数据
   first-frame-sources.json              首帧来源、URL、字段范围及图片校验值
+  first-frame-internet-search.json      扩展互联网搜索的请求、结果、错误及未查范围
+references/
+  reuploads/
+    sources.json                       两个新投稿的公开页面字段、首帧来源及SHA256
+    S04E01-correspondence-candidates.json 未验证的新旧分P对应候选及尾段重切差异
+    BV1UMxG62Eww/、BV1kEHM6UEax/      新CID的28张首帧；与旧CID证据分开保存
+  cache-metadata/                      BiliPlus公开缓存响应，没有取得新首帧
 scripts/
   audit_archive.py                     校验原始 XML/PB，生成基础审计
   build_calibrated_episode.py           按单集留档映射重建 XML/同名 ASS，或 --check
@@ -98,15 +105,22 @@ hacks-danmaku/
 
 第一、三集P2→P6的8个独立候选画面间隔均为 **297.005041667秒（7121帧）**；第三集首P则有片头单独裁切的线索。这个观察不能推广为所有集、所有P的真实交叉时间都相同。具体每接点及每集均摊值见[分P接点比较](calibration/分P接点比较.md)。
 
-### 从 Internet Archive 取得更多首帧
+### 从互联网继续找首帧
 
 第一集的[原始页面快照](https://web.archive.org/web/20260909144054/https://www.bilibili.com/video/BV1XWBXBcE3Q/)包含全合集40条目、291个CID的目录，但合集 `pages` 里没有 `first_frame`。详细首帧字段只在该页当前剧集的 `videoData.pages`，即第一集6个P。因此不能从这一张页面直接取出全集首帧。
 
-其他集需找各自页面存档。第三集已从其[独立快照](https://web.archive.org/web/20260909144052/https://www.bilibili.com/video/BV1aTvvBMEZx/)取得6张首帧并用于画面对齐，目前共保存2集12张。**有独立首帧的集优先与完整原片逐帧比对**，并留存真实PTS、分数、候选区间及例外，不自动套用其他集的间隔。
+其他集需找各自页面存档或可靠元数据。第三集已从其[独立快照](https://web.archive.org/web/20260909144052/https://www.bilibili.com/video/BV1aTvvBMEZx/)取得6张首帧并用于画面对齐，旧CID对应图片目前仍为2集12张。**有独立首帧的集优先与完整原片逐帧比对**，并留存真实PTS、分数、候选区间及例外，不自动套用其他集的间隔。
 
-2026-10-29首轮补查遇到HTTP429后停止；冷却后以单线程、每HTTP调用至少8秒的间隔完成受限条目复核。最终：2集已保存12张首帧，其余38条目的规范URL成功查询但未返回快照；这些统计包含1个预告。本次未新增首帧，现阶段尚未取得全集首帧。**规范URL空结果不证明所有URL变体或其他来源都无存档；限流响应没有被当作无存档结果。**
+2026-10-29规范URL调查遇HTTP429后停止，冷却后单线程、每HTTP调用至少8秒完成复核：其余38条目成功查询但未返回快照，统计包含1个预告。随后继续查了公开合集、第三方真实缓存接口、其他公共存档及搜索引擎：
 
-逐条范围、状态与原页面字段依据见[首帧来源调查](docs/首帧来源调查.md)和[结构化来源清单](processing/first-frame-sources.json)。
+- 从UP主当前合集找到 [S04E01新投稿 / BV1UMxG62Eww](https://www.bilibili.com/video/BV1UMxG62Eww/) 和 [S04E09新投稿 / BV1kEHM6UEax](https://www.bilibili.com/video/BV1kEHM6UEax/)，成功保存 **28张新CID首帧：24张正片命名P、4张首尾占位P**。网页字段、URL、SHA256与图片见 `references/reuploads/`。
+- S04E01前8段的序号和181秒显示时长相同，仅列为对应候选；旧尾段181+202秒，新尾段121+121+144秒，已经重切。**新投稿首帧不能直接当成旧CID首帧；本轮没有据此修改任何XML/ASS或提升校准状态。**
+- BiliPlus批查40个aid，仅命中3个标题/封面缓存；S03E05、S04E01的完整缓存没有首帧，CID与原目录一致。S01E02的BiliPlus、唧唧实际接口未给出图片。S01E02/E04/E05仍未取得新增旧首帧。
+- E02/E04/E05的有界独立档案查询未新增图片；Wayback变体遇429、Common Crawl连续504、空响应体均保留为未知，未解释成“没有存档”。
+
+仍未取得全集首帧。规范URL或特定服务的空结果不证明其他URL及来源都没有资源。新发现的S04E01参考图还需与原片核对，并继续验证新旧切片关系。
+
+逐条范围、状态与原页面字段依据见[首帧来源调查](docs/首帧来源调查.md)、[旧CID来源清单](processing/first-frame-sources.json)和[扩展搜索记录](processing/first-frame-internet-search.json)。
 
 ## 已经做过的处理
 

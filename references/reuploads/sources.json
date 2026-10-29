@@ -1,0 +1,937 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "provenance": "Public HTML SSR window.__INITIAL_STATE__.videoData.pages of two current uploads by the same uploader; only public fields retained",
+  "note": "These are new uploads with new CIDs; they are not the deleted uploads' first frames. Episode identity is supplied by the uploader description; no pixel mapping to old segments has yet been established.",
+  "posts": [
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "title": "【NEW自译|精彩片段】《拉斯维加斯点子王》|我的成长，就是和你对抗",
+      "desc": "https://weibo.com/u/7199907287\nFrom S04E01 【胆大无畏】",
+      "pubdate": 1793124000,
+      "ctime": 1793116290,
+      "duration": 8067,
+      "owner": {
+        "mid": 436788072,
+        "name": "NEW字幕组"
+      },
+      "episode_claimed_in_description": "S04E01",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "source_json_path": "/videoData/pages",
+      "source_http_status": 200,
+      "saved_decoded_html_sha256": "9000a28e9db24966ae8f8dc677a42ec13fe6bc1da887d013238e2b871f842c4f",
+      "stat_at_check": {
+        "danmaku": 12
+      },
+      "pages": [
+        {
+          "cid": 43105716408,
+          "page": 1,
+          "part": "0",
+          "duration": 3816,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_00003c9k19z7omt7m2si18ef90vhhxb_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105718177,
+          "page": 2,
+          "part": "401-1",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_000026l5ips80eazy2ktj80cybfzz5b_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105779727,
+          "page": 3,
+          "part": "401-2",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_00001grmwmgpzggzd2kdjrcnrnbdkdb_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105779822,
+          "page": 4,
+          "part": "401-3",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_00001oaoq8oy6mtmu2rj7o5b52qf62b_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780002,
+          "page": 5,
+          "part": "401-4",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00003r41nelinixiv2lxxerk2gqfylb_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780048,
+          "page": 6,
+          "part": "401-5",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_00002bzxrl37mu9wo2hl7izvii5lp5b_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780380,
+          "page": 7,
+          "part": "401-6",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_00000548lfdv2nalt2espwzhexfvr7b_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780461,
+          "page": 8,
+          "part": "401-7",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00003omgk4lt0pv8r2rfl8yw24x2s3b_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780635,
+          "page": 9,
+          "part": "401-8",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_000014mffr4lkv80i1zew8lbx589h1b_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780884,
+          "page": 10,
+          "part": "401-9",
+          "duration": 121,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_00001byde2xec5xq62p4fe9rgevp0bb_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780861,
+          "page": 11,
+          "part": "401-10",
+          "duration": 121,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_000008nutctlq7zkl24glzf6as33jsb_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780934,
+          "page": 12,
+          "part": "401-11",
+          "duration": 144,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_000036m1fjuannjwt21xvwcpu9ygltb_firsti.jpg",
+          "ctime": 1793116290
+        },
+        {
+          "cid": 43105780960,
+          "page": 13,
+          "part": "1",
+          "duration": 2417,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00001ufvrpm0yv9h22hboresj3xgrcb_firsti.jpg",
+          "ctime": 1793116290
+        }
+      ]
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "title": "【NEW自译|精彩片段】《拉斯维加斯点子王》|To you all watching this: \"There's no show without you.\"",
+      "desc": "https://weibo.com/u/7199907287\nFrom S04E09 【陷入深渊】",
+      "pubdate": 1792876800,
+      "ctime": 1792853768,
+      "duration": 8511,
+      "owner": {
+        "mid": 436788072,
+        "name": "NEW字幕组"
+      },
+      "episode_claimed_in_description": "S04E09",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "source_json_path": "/videoData/pages",
+      "source_http_status": 200,
+      "saved_decoded_html_sha256": "a44a3e0ea0c7700a6f01472c3bb7b03ffea03c9c975ea7bf907781d5f28de851",
+      "stat_at_check": {
+        "danmaku": 87
+      },
+      "pages": [
+        {
+          "cid": 43021043487,
+          "page": 1,
+          "part": "0",
+          "duration": 3816,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_00000i3mqpmxuhsc52bxn72nym06u2b_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021107437,
+          "page": 2,
+          "part": "409-1",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00002fpakw1856wqv25qg8hldxfxjhb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021107724,
+          "page": 3,
+          "part": "409-2",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00002445aiw7pdgh92juyc9r3jhqddb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021108117,
+          "page": 4,
+          "part": "409-3",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_00000tytqgn5i62ga29s1zx8561imlb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021108508,
+          "page": 5,
+          "part": "409-4",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_000003a8d5v46axdc2rm7jjbkocjphb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021108584,
+          "page": 6,
+          "part": "409-5",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_00002xoionxlkn3382wv5h79g85wrdb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021109006,
+          "page": 7,
+          "part": "409-6",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00000vbj1z1eimoph2js1x3x2qno1pb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021109522,
+          "page": 8,
+          "part": "409-7",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_00003i4gxhhiq8jha2ps13ecaiiflyb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021109722,
+          "page": 9,
+          "part": "409-8",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00000rjnyrlnyv04y1yutvkkmy1bz9b_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021109830,
+          "page": 10,
+          "part": "409-9",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_00000xx8n9n8vi7262fh4wsjawi5pgb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021110097,
+          "page": 11,
+          "part": "409-10",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00002x3prjua3oel827okzkup6ae9gb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021110280,
+          "page": 12,
+          "part": "409-11",
+          "duration": 181,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_0000066ia2mgcvr462lmlrvxa5nf7xb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021110720,
+          "page": 13,
+          "part": "409-12",
+          "duration": 121,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/_000031xfa54awwnge1y94julpfpb8eb_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021110854,
+          "page": 14,
+          "part": "409-13",
+          "duration": 166,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i1.hdslb.com/bfs/storyff/_00000y0tmuecnnkeh22tx7wkkk9r90b_firsti.jpg",
+          "ctime": 1792853768
+        },
+        {
+          "cid": 43021110957,
+          "page": 15,
+          "part": "1",
+          "duration": 2417,
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/_00000zflha4du0hqy23nlnuhqddiemb_firsti.jpg",
+          "ctime": 1792853768
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 1,
+      "cid": 43105716408,
+      "part": "0",
+      "duration_seconds": 3816,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_00003c9k19z7omt7m2si18ef90vhhxb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P01_43105716408.jpg",
+      "http_status": 200,
+      "bytes": 99868,
+      "content_type": "image/jpeg",
+      "sha256": "530cd426b61539a05b927a539d2c416fe5a30579ec0ffdc366758a9f2ce00459",
+      "part_kind": "placeholder",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 2,
+      "cid": 43105718177,
+      "part": "401-1",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_000026l5ips80eazy2ktj80cybfzz5b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P02_43105718177.jpg",
+      "http_status": 200,
+      "bytes": 22135,
+      "content_type": "image/jpeg",
+      "sha256": "bf828a28dfbba7e5738c5af7144fd73d6a1cfc64e3c470164f44d30539c1159b",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 3,
+      "cid": 43105779727,
+      "part": "401-2",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_00001grmwmgpzggzd2kdjrcnrnbdkdb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P03_43105779727.jpg",
+      "http_status": 200,
+      "bytes": 37271,
+      "content_type": "image/jpeg",
+      "sha256": "b68d33d2729f3a97005a202dd27b59d9363296d2ae5977ba77d5364dd1a6ca8c",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 4,
+      "cid": 43105779822,
+      "part": "401-3",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_00001oaoq8oy6mtmu2rj7o5b52qf62b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P04_43105779822.jpg",
+      "http_status": 200,
+      "bytes": 43443,
+      "content_type": "image/jpeg",
+      "sha256": "cfb17146afed8c60c2a1830516fa377496a70ba5184fb35141b0661236fac79c",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 5,
+      "cid": 43105780002,
+      "part": "401-4",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00003r41nelinixiv2lxxerk2gqfylb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P05_43105780002.jpg",
+      "http_status": 200,
+      "bytes": 53534,
+      "content_type": "image/jpeg",
+      "sha256": "cea75564be2cffc1b00e8291cc628c807b0359cb681b3cab16f6f3403eac2113",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 6,
+      "cid": 43105780048,
+      "part": "401-5",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_00002bzxrl37mu9wo2hl7izvii5lp5b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P06_43105780048.jpg",
+      "http_status": 200,
+      "bytes": 43844,
+      "content_type": "image/jpeg",
+      "sha256": "79ac51db6b3fcd2df60bb09fbb47087c2f5aa6bb7ce10f477de1337e934c7cd4",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 7,
+      "cid": 43105780380,
+      "part": "401-6",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_00000548lfdv2nalt2espwzhexfvr7b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P07_43105780380.jpg",
+      "http_status": 200,
+      "bytes": 44128,
+      "content_type": "image/jpeg",
+      "sha256": "2c6dabc72f7fef5e35fa4fac552aef0fb8a064f5acbcc0c0b78c15989d45533f",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 8,
+      "cid": 43105780461,
+      "part": "401-7",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00003omgk4lt0pv8r2rfl8yw24x2s3b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P08_43105780461.jpg",
+      "http_status": 200,
+      "bytes": 28339,
+      "content_type": "image/jpeg",
+      "sha256": "09bac03eb2177728532a96fc281405c7fea14b2b83a475ef042418fdfd62bdc0",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 9,
+      "cid": 43105780635,
+      "part": "401-8",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_000014mffr4lkv80i1zew8lbx589h1b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P09_43105780635.jpg",
+      "http_status": 200,
+      "bytes": 39818,
+      "content_type": "image/jpeg",
+      "sha256": "a79b4cb5b2a7f3ceb0ab374d1bd0a1b52aa9d01efc1249a7dfa0d435080f8060",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 10,
+      "cid": 43105780884,
+      "part": "401-9",
+      "duration_seconds": 121,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_00001byde2xec5xq62p4fe9rgevp0bb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P10_43105780884.jpg",
+      "http_status": 200,
+      "bytes": 33443,
+      "content_type": "image/jpeg",
+      "sha256": "5204261bb887dc2640519d8fa207b7f184b5c62d49260dcb862ae4c57d1d2ac7",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 11,
+      "cid": 43105780861,
+      "part": "401-10",
+      "duration_seconds": 121,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_000008nutctlq7zkl24glzf6as33jsb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P11_43105780861.jpg",
+      "http_status": 200,
+      "bytes": 37984,
+      "content_type": "image/jpeg",
+      "sha256": "bbaf689e114b2b72b8de2ed0f04a2428f2627b1e3a5c538176f174766c45bdd4",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 12,
+      "cid": 43105780934,
+      "part": "401-11",
+      "duration_seconds": 144,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_000036m1fjuannjwt21xvwcpu9ygltb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P12_43105780934.jpg",
+      "http_status": 200,
+      "bytes": 58941,
+      "content_type": "image/jpeg",
+      "sha256": "6b35e100952bf9f1b04f22e05d1b04bf303f8d94168c20fd86b2649a67749d5c",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1UMxG62Eww",
+      "aid": 117513660865025,
+      "episode_claimed_in_description": "S04E01",
+      "page": 13,
+      "cid": 43105780960,
+      "part": "1",
+      "duration_seconds": 2417,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00001ufvrpm0yv9h22hboresj3xgrcb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1UMxG62Eww/",
+      "file": "references/reuploads/BV1UMxG62Eww/P13_43105780960.jpg",
+      "http_status": 200,
+      "bytes": 52384,
+      "content_type": "image/jpeg",
+      "sha256": "9ee16b94eb419de4d86de443db727275ce925263c29ae5cd1cf99d66eaa168ad",
+      "part_kind": "placeholder",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 1,
+      "cid": 43021043487,
+      "part": "0",
+      "duration_seconds": 3816,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_00000i3mqpmxuhsc52bxn72nym06u2b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P01_43021043487.jpg",
+      "http_status": 200,
+      "bytes": 99868,
+      "content_type": "image/jpeg",
+      "sha256": "530cd426b61539a05b927a539d2c416fe5a30579ec0ffdc366758a9f2ce00459",
+      "part_kind": "placeholder",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 2,
+      "cid": 43021107437,
+      "part": "409-1",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00002fpakw1856wqv25qg8hldxfxjhb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P02_43021107437.jpg",
+      "http_status": 200,
+      "bytes": 22356,
+      "content_type": "image/jpeg",
+      "sha256": "2f9bbac299f9afe17404b27fa7b05708fee05cb0766c347381da6b18638bda15",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 3,
+      "cid": 43021107724,
+      "part": "409-2",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00002445aiw7pdgh92juyc9r3jhqddb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P03_43021107724.jpg",
+      "http_status": 200,
+      "bytes": 35279,
+      "content_type": "image/jpeg",
+      "sha256": "ba1b2998622fc19bb3c2f2b26f2400182bfb5b6ab4e291f79cbc966a24794db1",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 4,
+      "cid": 43021108117,
+      "part": "409-3",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_00000tytqgn5i62ga29s1zx8561imlb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P04_43021108117.jpg",
+      "http_status": 200,
+      "bytes": 51977,
+      "content_type": "image/jpeg",
+      "sha256": "2f22335f56413b86a23e44d3728f498172c0f430ac61d80518290ba6015e6906",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 5,
+      "cid": 43021108508,
+      "part": "409-4",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_000003a8d5v46axdc2rm7jjbkocjphb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P05_43021108508.jpg",
+      "http_status": 200,
+      "bytes": 46218,
+      "content_type": "image/jpeg",
+      "sha256": "3732c230a970bf216182288765f5943438a95f89080fa28d96723f0c534cf686",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 6,
+      "cid": 43021108584,
+      "part": "409-5",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_00002xoionxlkn3382wv5h79g85wrdb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P06_43021108584.jpg",
+      "http_status": 200,
+      "bytes": 25097,
+      "content_type": "image/jpeg",
+      "sha256": "f55982552bc64f76a4fdcdd27199d94ab9bd74a6efca7772814d7c8e9b37eeca",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 7,
+      "cid": 43021109006,
+      "part": "409-6",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00000vbj1z1eimoph2js1x3x2qno1pb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P07_43021109006.jpg",
+      "http_status": 200,
+      "bytes": 40533,
+      "content_type": "image/jpeg",
+      "sha256": "580f63dad1304ace9a37dadf9a4a5789b6eb561347e64a6ed72735bb6a060103",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 8,
+      "cid": 43021109522,
+      "part": "409-7",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_00003i4gxhhiq8jha2ps13ecaiiflyb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P08_43021109522.jpg",
+      "http_status": 200,
+      "bytes": 41832,
+      "content_type": "image/jpeg",
+      "sha256": "bcab060672029b36e9f5b98e8f543969df2d16aaf116c3da63f9149be5ca4209",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 9,
+      "cid": 43021109722,
+      "part": "409-8",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00000rjnyrlnyv04y1yutvkkmy1bz9b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P09_43021109722.jpg",
+      "http_status": 200,
+      "bytes": 80510,
+      "content_type": "image/jpeg",
+      "sha256": "8c4872a46eaee8b176b0765beceaddf8cdda490b1cfd42baf0c7e544f780c00a",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 10,
+      "cid": 43021109830,
+      "part": "409-9",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_00000xx8n9n8vi7262fh4wsjawi5pgb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P10_43021109830.jpg",
+      "http_status": 200,
+      "bytes": 100601,
+      "content_type": "image/jpeg",
+      "sha256": "cfe0626095aa053d9e9cec54f565afe91655aad90be768e4286a4560ad523114",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 11,
+      "cid": 43021110097,
+      "part": "409-10",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00002x3prjua3oel827okzkup6ae9gb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P11_43021110097.jpg",
+      "http_status": 200,
+      "bytes": 26331,
+      "content_type": "image/jpeg",
+      "sha256": "90cb4caf8dff0078c79d8bae766f00f05780d2d2af85abff9cd6bf921f4f3c4b",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 12,
+      "cid": 43021110280,
+      "part": "409-11",
+      "duration_seconds": 181,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_0000066ia2mgcvr462lmlrvxa5nf7xb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P12_43021110280.jpg",
+      "http_status": 200,
+      "bytes": 20247,
+      "content_type": "image/jpeg",
+      "sha256": "d103978c55a1107e46edecefd4d67e213aa6f6bdd73e593730fda1e0d57d5e42",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 13,
+      "cid": 43021110720,
+      "part": "409-12",
+      "duration_seconds": 121,
+      "first_frame_url": "https://i2.hdslb.com/bfs/storyff/_000031xfa54awwnge1y94julpfpb8eb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P13_43021110720.jpg",
+      "http_status": 200,
+      "bytes": 30752,
+      "content_type": "image/jpeg",
+      "sha256": "a2618ab24085f84c863a2b40819197a6b3a8a3705eebfab4934effd878c0adec",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 14,
+      "cid": 43021110854,
+      "part": "409-13",
+      "duration_seconds": 166,
+      "first_frame_url": "https://i1.hdslb.com/bfs/storyff/_00000y0tmuecnnkeh22tx7wkkk9r90b_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P14_43021110854.jpg",
+      "http_status": 200,
+      "bytes": 28211,
+      "content_type": "image/jpeg",
+      "sha256": "90c25399cf0e4ce9b93d150781ecc10f717e432761a8af6751a73a28c8b422b1",
+      "part_kind": "episode_segment",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    },
+    {
+      "bvid": "BV1kEHM6UEax",
+      "aid": 117496447376064,
+      "episode_claimed_in_description": "S04E09",
+      "page": 15,
+      "cid": 43021110957,
+      "part": "1",
+      "duration_seconds": 2417,
+      "first_frame_url": "https://i0.hdslb.com/bfs/storyff/_00000zflha4du0hqy23nlnuhqddiemb_firsti.jpg",
+      "source_page": "https://www.bilibili.com/video/BV1kEHM6UEax/",
+      "file": "references/reuploads/BV1kEHM6UEax/P15_43021110957.jpg",
+      "http_status": 200,
+      "bytes": 52384,
+      "content_type": "image/jpeg",
+      "sha256": "9ee16b94eb419de4d86de443db727275ce925263c29ae5cd1cf99d66eaa168ad",
+      "part_kind": "placeholder",
+      "old_cid_mapping_status": "unverified_new_upload_only"
+    }
+  ],
+  "summary": {
+    "new_uploads": 2,
+    "saved_images": 28,
+    "episode_segment_images": 24,
+    "placeholder_images": 4,
+    "old_cid_images_recovered": 0
+  },
+  "limitations": [
+    "Episode identity follows the uploader description; not a full-episode pixel validation",
+    "New CIDs are distinct from the deleted catalogue; these images must not be silently assigned to old CIDs",
+    "Matching part labels and integer durations only create candidates; near the end S04E01 is resegmented",
+    "No calibration mappings or ASS files have been changed using these images"
+  ]
+}

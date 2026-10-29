@@ -1,0 +1,228 @@
+{
+  "episode": "S04E01",
+  "note": "Candidates only. New upload content was resegmented near the end; do not map new first_frame to old CID on duration alone.",
+  "pairs": [
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412669820,
+      "old_page": 2,
+      "old_part": "S04E01-1",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105718177,
+      "new_page": 2,
+      "new_part": "401-1",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412669997,
+      "old_page": 3,
+      "old_part": "S04E01-2",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105779727,
+      "new_page": 3,
+      "new_part": "401-2",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412670228,
+      "old_page": 4,
+      "old_part": "S04E01-3",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105779822,
+      "new_page": 4,
+      "new_part": "401-3",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412670595,
+      "old_page": 5,
+      "old_part": "S04E01-4",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105780002,
+      "new_page": 5,
+      "new_part": "401-4",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412670653,
+      "old_page": 6,
+      "old_part": "S04E01-5",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105780048,
+      "new_page": 6,
+      "new_part": "401-5",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412670987,
+      "old_page": 7,
+      "old_part": "S04E01-6",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105780380,
+      "new_page": 7,
+      "new_part": "401-6",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412671053,
+      "old_page": 8,
+      "old_part": "S04E01-7",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105780461,
+      "new_page": 8,
+      "new_part": "401-7",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    },
+    {
+      "old_bvid": "BV1TpQMBwEXC",
+      "old_cid": 37412671274,
+      "old_page": 9,
+      "old_part": "S04E01-8",
+      "old_duration_seconds": 181,
+      "new_bvid": "BV1UMxG62Eww",
+      "new_cid": 43105780635,
+      "new_page": 9,
+      "new_part": "401-8",
+      "new_duration_seconds": 181,
+      "candidate_reason": "分P名称序号相同且显示时长同为181秒",
+      "verification_status": "unverified: not an old-CID first-frame recovery; requires pixel matching or other independent evidence"
+    }
+  ],
+  "old_tail": [
+    {
+      "cid": 37412733123,
+      "page": 10,
+      "from": "vupload",
+      "part": "S04E01-9",
+      "duration": 181,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      }
+    },
+    {
+      "cid": 37412733177,
+      "page": 11,
+      "from": "vupload",
+      "part": "S04E01-10",
+      "duration": 202,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      }
+    },
+    {
+      "cid": 37412733454,
+      "page": 12,
+      "from": "vupload",
+      "part": "1",
+      "duration": 2412,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      }
+    }
+  ],
+  "new_tail": [
+    {
+      "cid": 43105780884,
+      "page": 10,
+      "from": "vupload",
+      "part": "401-9",
+      "duration": 121,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      },
+      "first_frame": "http://i0.hdslb.com/bfs/storyff/_00001byde2xec5xq62p4fe9rgevp0bb_firsti.jpg",
+      "ctime": 1793116290
+    },
+    {
+      "cid": 43105780861,
+      "page": 11,
+      "from": "vupload",
+      "part": "401-10",
+      "duration": 121,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      },
+      "first_frame": "http://i2.hdslb.com/bfs/storyff/_000008nutctlq7zkl24glzf6as33jsb_firsti.jpg",
+      "ctime": 1793116290
+    },
+    {
+      "cid": 43105780934,
+      "page": 12,
+      "from": "vupload",
+      "part": "401-11",
+      "duration": 144,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      },
+      "first_frame": "http://i2.hdslb.com/bfs/storyff/_000036m1fjuannjwt21xvwcpu9ygltb_firsti.jpg",
+      "ctime": 1793116290
+    },
+    {
+      "cid": 43105780960,
+      "page": 13,
+      "from": "vupload",
+      "part": "1",
+      "duration": 2417,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      },
+      "first_frame": "http://i1.hdslb.com/bfs/storyff/_00001ufvrpm0yv9h22hboresj3xgrcb_firsti.jpg",
+      "ctime": 1793116290
+    }
+  ]
+}

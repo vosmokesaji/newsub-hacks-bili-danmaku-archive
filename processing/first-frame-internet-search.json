@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "scope": "Expanded public Internet search beyond canonical Wayback video URLs; original 40-post catalogue retained unchanged",
+  "summary": {
+    "new_old_cid_first_frames": 0,
+    "new_upload_reference_images": 28,
+    "new_upload_episode_segment_images": 24,
+    "new_upload_placeholder_images": 4,
+    "previously_saved_old_cid_images": 12,
+    "calibration_files_changed": false
+  },
+  "new_upload_manifest": "references/reuploads/sources.json",
+  "new_old_correspondence_candidates": "references/reuploads/S04E01-correspondence-candidates.json",
+  "archive_queries": {
+    "schema_version": 1,
+    "created_at_utc": "2026-10-29T09:09:48.014241+00:00",
+    "scope": "针对S01E02、S01E04、S01E05已知BV/AV及公共API URL的独立公开档案检索；未用账号；没有本地媒体或NAS信息。",
+    "result": "本分支未发现可与目标CID核对的新增分P首帧图。空结果仅适用于列出的确切查询，不等同于互联网无资源。",
+    "wayback": {
+      "planned_query_count": 14,
+      "actual_http_request_count": 1,
+      "stop_reason": "HTTP429_stop_immediately",
+      "rate_limited_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115797603127610%2F",
+      "interpretation": "E02的AV地址available查询首请求即HTTP429，立即停止。其余13项未请求，不能记作无存档。",
+      "unqueried_targets": [
+        {
+          "episode": "S01E02",
+          "kind": "available-mobile-bv",
+          "target": "https://m.bilibili.com/video/BV1wpvkB3EGk",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fm.bilibili.com%2Fvideo%2FBV1wpvkB3EGk"
+        },
+        {
+          "episode": "S01E02",
+          "kind": "available-api-bv",
+          "target": "https://api.bilibili.com/x/web-interface/view?bvid=BV1wpvkB3EGk",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV1wpvkB3EGk"
+        },
+        {
+          "episode": "S01E02",
+          "kind": "cdx-av-prefix",
+          "target": "www.bilibili.com/video/av115797603127610*",
+          "url": "https://web.archive.org/cdx/search/cdx?url=www.bilibili.com%2Fvideo%2Fav115797603127610%2A&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=urlkey"
+        },
+        {
+          "episode": "S01E02",
+          "kind": "cdx-mobile-prefix",
+          "target": "m.bilibili.com/video/BV1wpvkB3EGk*",
+          "url": "https://web.archive.org/cdx/search/cdx?url=m.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2A&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=urlkey"
+        },
+        {
+          "episode": "S01E02",
+          "kind": "cdx-api-aid-prefix",
+          "target": "api.bilibili.com/x/web-interface/view?aid=115797603127610*",
+          "url": "https://web.archive.org/cdx/search/cdx?url=api.bilibili.com%2Fx%2Fweb-interface%2Fview%3Faid%3D115797603127610%2A&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=urlkey"
+        },
+        {
+          "episode": "S01E02",
+          "kind": "cdx-api-bv-prefix",
+          "target": "api.bilibili.com/x/web-interface/view?bvid=BV1wpvkB3EGk*",
+          "url": "https://web.archive.org/cdx/search/cdx?url=api.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV1wpvkB3EGk%2A&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=urlkey"
+        },
+        {
+          "episode": "S01E02",
+          "kind": "cdx-pagelist-prefix",
+          "target": "api.bilibili.com/x/player/pagelist?bvid=BV1wpvkB3EGk*",
+          "url": "https://web.archive.org/cdx/search/cdx?url=api.bilibili.com%2Fx%2Fplayer%2Fpagelist%3Fbvid%3DBV1wpvkB3EGk%2A&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=urlkey"
+        },
+        {
+          "episode": "S01E04",
+          "kind": "available-av-desktop",
+          "target": "https://www.bilibili.com/video/av115854326896164/",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115854326896164%2F"
+        },
+        {
+          "episode": "S01E04",
+          "kind": "available-mobile-bv",
+          "target": "https://m.bilibili.com/video/BV1U6iyB8E2x",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fm.bilibili.com%2Fvideo%2FBV1U6iyB8E2x"
+        },
+        {
+          "episode": "S01E04",
+          "kind": "available-api-bv",
+          "target": "https://api.bilibili.com/x/web-interface/view?bvid=BV1U6iyB8E2x",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV1U6iyB8E2x"
+        },
+        {
+          "episode": "S01E05",
+          "kind": "available-av-desktop",
+          "target": "https://www.bilibili.com/video/av115868688257371/",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115868688257371%2F"
+        },
+        {
+          "episode": "S01E05",
+          "kind": "available-mobile-bv",
+          "target": "https://m.bilibili.com/video/BV15vrVBwEQq",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fm.bilibili.com%2Fvideo%2FBV15vrVBwEQq"
+        },
+        {
+          "episode": "S01E05",
+          "kind": "available-api-bv",
+          "target": "https://api.bilibili.com/x/web-interface/view?bvid=BV15vrVBwEQq",
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV15vrVBwEQq"
+        }
+      ],
+      "http_requests": [
+        {
+          "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115797603127610%2F",
+          "label": "S01E02-available-av-desktop",
+          "started_at_utc": "2026-10-29T09:01:10.489500+00:00",
+          "http_status": 429,
+          "error": "HTTP Error 429: Too Many Requests",
+          "finished_at_utc": "2026-10-29T09:01:11.529348+00:00",
+          "sha256": "ae138caf8767f7be2fe6f47f1663b0e2e28d903264707aa9b6f73bb7b223902c"
+        }
+      ]
+    },
+    "ghostarchive": {
+      "homepage": "https://ghostarchive.org/",
+      "substring_queries": [
+        {
+          "episode": "S01E02",
+          "term": "BV1wpvkB3EGk",
+          "url": "https://ghostarchive.org/search?term=BV1wpvkB3EGk",
+          "final_url": "https://ghostarchive.org/vidsearch?q=BV1wpvkB3EGk",
+          "status": 200,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "interpretation": "HTTP200空响应体且转到vidsearch，结果未知，不能算无存档。"
+        },
+        {
+          "episode": "S01E02",
+          "term": "115797603127610",
+          "url": "https://ghostarchive.org/search?term=115797603127610",
+          "final_url": "https://ghostarchive.org/vidsearch?q=115797603127610",
+          "status": 200,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "interpretation": "HTTP200空响应体且转到vidsearch，结果未知，不能算无存档。"
+        },
+        {
+          "episode": "S01E04",
+          "term": "BV1U6iyB8E2x",
+          "url": "https://ghostarchive.org/search?term=BV1U6iyB8E2x",
+          "final_url": "https://ghostarchive.org/vidsearch?q=BV1U6iyB8E2x",
+          "status": 200,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "interpretation": "HTTP200空响应体且转到vidsearch，结果未知，不能算无存档。"
+        },
+        {
+          "episode": "S01E04",
+          "term": "115854326896164",
+          "url": "https://ghostarchive.org/search?term=115854326896164",
+          "final_url": "https://ghostarchive.org/vidsearch?q=115854326896164",
+          "status": 200,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "interpretation": "HTTP200空响应体且转到vidsearch，结果未知，不能算无存档。"
+        },
+        {
+          "episode": "S01E05",
+          "term": "BV15vrVBwEQq",
+          "url": "https://ghostarchive.org/search?term=BV15vrVBwEQq",
+          "final_url": "https://ghostarchive.org/vidsearch?q=BV15vrVBwEQq",
+          "status": 200,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "interpretation": "HTTP200空响应体且转到vidsearch，结果未知，不能算无存档。"
+        },
+        {
+          "episode": "S01E05",
+          "term": "115868688257371",
+          "url": "https://ghostarchive.org/search?term=115868688257371",
+          "final_url": "https://ghostarchive.org/vidsearch?q=115868688257371",
+          "status": 200,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "interpretation": "HTTP200空响应体且转到vidsearch，结果未知，不能算无存档。"
+        }
+      ],
+      "exact_url_queries": [
+        {
+          "url": "https://ghostarchive.org/search?term=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2F",
+          "final_url": "https://ghostarchive.org/search?term=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2F",
+          "status": 200,
+          "bytes": 4091,
+          "sha256": "c1c8c5150309b740a397efe02c149577c6acbe747d21e36e35510383f0bbe41f",
+          "interpretation": "该确切URL的检索页明确显示No archives for that site"
+        },
+        {
+          "url": "https://ghostarchive.org/search?term=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115797603127610%2F",
+          "final_url": "https://ghostarchive.org/search?term=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115797603127610%2F",
+          "status": 200,
+          "bytes": 4111,
+          "sha256": "bfd9b4759fb38c25a5b7ff0f8c653a7237c88050fa050bce2f5eb3d71af38e77",
+          "interpretation": "该确切URL的检索页明确显示No archives for that site"
+        }
+      ],
+      "scope_limit": "只核对了E02规范BV与AV两个确切URL；未穷尽参数、移动端或其他集的确切URL。"
+    },
+    "arquivo_pt": {
+      "documentation": "https://sobre.arquivo.pt/wp-content/uploads/API-Arquivo.pt-APDSI-27-03-2025.pdf",
+      "queries": [
+        {
+          "episode": "S01E02",
+          "target": "https://www.bilibili.com/video/BV1wpvkB3EGk/",
+          "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2F&maxItems=50",
+          "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2F&maxItems=50",
+          "status": 200,
+          "bytes": 277,
+          "sha256": "0c1e2eca5a07adf7c682d2b2ff87051f74c89e830762e4c7badf2bee6a6d2674",
+          "estimated_nr_results": 0,
+          "response_items": [],
+          "interpretation": "历史版本API返回0条，仅说明本确切URL未检出历史记录。"
+        },
+        {
+          "episode": "S01E02",
+          "target": "https://www.bilibili.com/video/av115797603127610/",
+          "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115797603127610%2F&maxItems=50",
+          "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav115797603127610%2F&maxItems=50",
+          "status": 200,
+          "bytes": 282,
+          "sha256": "64dbdaffce1458531e6c20e9355c9477c1bc27c60700155d7ab701281842d831",
+          "estimated_nr_results": 0,
+          "response_items": [],
+          "interpretation": "历史版本API返回0条，仅说明本确切URL未检出历史记录。"
+        },
+        {
+          "episode": "S01E04",
+          "target": "https://www.bilibili.com/video/BV1U6iyB8E2x/",
+          "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1U6iyB8E2x%2F&maxItems=50",
+          "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1U6iyB8E2x%2F&maxItems=50",
+          "status": 200,
+          "bytes": 277,
+          "sha256": "ded9fb893a9679f348c3c8284118c3bb77f7ca7afc8d6c81e832985aec99d404",
+          "estimated_nr_results": 0,
+          "response_items": [],
+          "interpretation": "历史版本API返回0条，仅说明本确切URL未检出历史记录。"
+        },
+        {
+          "episode": "S01E05",
+          "target": "https://www.bilibili.com/video/BV15vrVBwEQq/",
+          "url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV15vrVBwEQq%2F&maxItems=50",
+          "final_url": "https://arquivo.pt/textsearch?versionHistory=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV15vrVBwEQq%2F&maxItems=50",
+          "status": 200,
+          "bytes": 277,
+          "sha256": "7ec971299868cb005b70e9a2ea27e4727446a063890dc2f097e38dd14b7f362a",
+          "estimated_nr_results": 0,
+          "response_items": [],
+          "interpretation": "历史版本API返回0条，仅说明本确切URL未检出历史记录。"
+        }
+      ],
+      "scope_limit": "E02的BV/AV与E04/E05的BV共4条确切URL。"
+    },
+    "other_public_search": {
+      "precise_identifiers": [
+        "BV1wpvkB3EGk",
+        "115797603127610",
+        "BV1U6iyB8E2x",
+        "BV15vrVBwEQq"
+      ],
+      "title_queries": [
+        "绝望写手/Hacks S01E02",
+        "绝望写手/Hacks S01E04"
+      ],
+      "observations": [
+        "精确标题可命中搜索引擎保存的E02/E05页面正文，内容含选集名称和时长；未暴露可核对CID的first_frame链接。",
+        "对E02标识符/分P名称的图片检索没有发现相关目标图片。",
+        "archive.ph首页在Web工具返回HTTP429，未继续该服务，也未查询目标URL。"
+      ],
+      "indexed_page_urls": [
+        "https://www.bilibili.com/video/BV1wpvkB3EGk/",
+        "https://www.bilibili.com/video/BV15vrVBwEQq/"
+      ],
+      "warning": "搜索索引正文和视频封面均未当成分P首帧证据。"
+    },
+    "new_first_frame_count": 0,
+    "git_changes_by_this_branch": false
+  },
+  "commoncrawl_queries": {
+    "scope": "Three missing S1 episode BV URL prefixes, four newest Common Crawl indices; bounded public queries",
+    "started_at_utc": "2026-10-29T09:04:20.374628+00:00",
+    "queries": [
+      {
+        "index": "CC-MAIN-2026-43",
+        "target": "www.bilibili.com/video/BV1wpvkB3EGk*",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index?url=www.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2A&output=json&filter=status%3A200&pageSize=100",
+        "started_at_utc": "2026-10-29T09:04:20.374820+00:00",
+        "http_status": 504,
+        "error": "HTTP Error 504: Gateway Time-out",
+        "sha256": "4dfd31da49e8f63867a310d3ae57d3a0b492d5cc7ae382108f57738a8b577d4c"
+      },
+      {
+        "index": "CC-MAIN-2026-43",
+        "target": "www.bilibili.com/video/BV1U6iyB8E2x*",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index?url=www.bilibili.com%2Fvideo%2FBV1U6iyB8E2x%2A&output=json&filter=status%3A200&pageSize=100",
+        "started_at_utc": "2026-10-29T09:04:35.264312+00:00",
+        "http_status": 504,
+        "error": "HTTP Error 504: Gateway Time-out",
+        "sha256": "4dfd31da49e8f63867a310d3ae57d3a0b492d5cc7ae382108f57738a8b577d4c"
+      },
+      {
+        "index": "CC-MAIN-2026-43",
+        "target": "www.bilibili.com/video/BV15vrVBwEQq*",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index?url=www.bilibili.com%2Fvideo%2FBV15vrVBwEQq%2A&output=json&filter=status%3A200&pageSize=100",
+        "started_at_utc": "2026-10-29T09:04:49.377489+00:00",
+        "http_status": 504,
+        "error": "HTTP Error 504: Gateway Time-out",
+        "sha256": "4dfd31da49e8f63867a310d3ae57d3a0b492d5cc7ae382108f57738a8b577d4c"
+      },
+      {
+        "index": "CC-MAIN-2026-39",
+        "target": "www.bilibili.com/video/BV1wpvkB3EGk*",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=www.bilibili.com%2Fvideo%2FBV1wpvkB3EGk%2A&output=json&filter=status%3A200&pageSize=100",
+        "started_at_utc": "2026-10-29T09:05:03.309024+00:00",
+        "http_status": 504,
+        "error": "HTTP Error 504: Gateway Time-out",
+        "sha256": "4dfd31da49e8f63867a310d3ae57d3a0b492d5cc7ae382108f57738a8b577d4c"
+      },
+      {
+        "index": "CC-MAIN-2026-39",
+        "target": "www.bilibili.com/video/BV1U6iyB8E2x*",
+        "url": "https://index.commoncrawl.org/CC-MAIN-2026-39-index?url=www.bilibili.com%2Fvideo%2FBV1U6iyB8E2x%2A&output=json&filter=status%3A200&pageSize=100",
+        "started_at_utc": "2026-10-29T09:05:18.177679+00:00",
+        "http_status": 504,
+        "error": "HTTP Error 504: Gateway Time-out",
+        "sha256": "4dfd31da49e8f63867a310d3ae57d3a0b492d5cc7ae382108f57738a8b577d4c"
+      }
+    ],
+    "records": [],
+    "stop_reason": "stopped_after_five_consecutive_HTTP504_gateway_errors",
+    "unqueried_targets_are_not_empty_results": true
+  },
+  "third_party_queries": [
+    {
+      "name": "biliplus-api-readme",
+      "url": "https://www.biliplus.com/api/README",
+      "status": 200,
+      "bytes": 21997,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "8b13af2fd5d94e44720179283bb21d448e1a4a6d5c3dc57fd180ef98f4405644"
+    },
+    {
+      "name": "biliplus-view-e02",
+      "url": "https://www.biliplus.com/api/view?id=115797603127610",
+      "status": 200,
+      "bytes": 46,
+      "content_type": "application/json; charset=\"UTF-8\"",
+      "sha256": "d3203fce9682ddaa957f9c31204f2158bd81c8fac979247d50e4dcbb629d269a"
+    },
+    {
+      "name": "biliplus-cidinfo-e02p2",
+      "url": "https://www.biliplus.com/api/cidinfo?cid=35040659482",
+      "status": 200,
+      "bytes": 47,
+      "content_type": "application/json; charset=\"UTF-8\"",
+      "sha256": "3ea10f1d52105ae5fe39975a37c05e5ce7333181225875357d075e3bb0b89cdc"
+    },
+    {
+      "name": "biliplus-ciddb-e02",
+      "url": "https://www.biliplus.com/all/video/av115797603127610/",
+      "status": 200,
+      "bytes": 24157,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "f27b0332a63cc5b683193a4eb8f3b34ff506bd73e4d17cf47149ded56f1f462b"
+    },
+    {
+      "name": "jiji-info-e02",
+      "url": "https://www.jijidown.com/api/v1/video_bv/get_info?id=1wpvkB3EGk&refresh=false",
+      "status": 200,
+      "bytes": 564,
+      "content_type": "application/json; charset=UTF-8",
+      "sha256": "f2f80528f2464895d5c6d76e007e662d2af1b7c6b4eee09e89fc0b02381539c3"
+    },
+    {
+      "name": "jiji-info-av-e02",
+      "url": "https://www.jijidown.com/api/v1/video/get_info?id=115797603127610&refresh=false",
+      "status": 200,
+      "bytes": 564,
+      "content_type": "application/json; charset=UTF-8",
+      "sha256": "f2f80528f2464895d5c6d76e007e662d2af1b7c6b4eee09e89fc0b02381539c3"
+    },
+    {
+      "name": "biliplus-view-all-e02",
+      "url": "https://www.biliplus.com/api/view_all?av=115797603127610&ts=1793264577&sign=9014b8f46b926380a23dd6d0fb3999ab",
+      "status": 200,
+      "final_url": "https://www.biliplus.com/api/view_all?av=115797603127610&ts=1793264577&sign=9014b8f46b926380a23dd6d0fb3999ab",
+      "bytes": 44,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "61ea237d3445dff0c159cd99f57774747ec1487cc6c2c0148b46729bada71004"
+    },
+    {
+      "name": "xbeibeix-e02",
+      "url": "https://xbeibeix.com/video/BV1wpvkB3EGk",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "jiji-info-e02-default",
+      "url": "https://www.jijidown.com/api/v1/video/get_info?id=115797603127610",
+      "status": 200,
+      "final_url": "https://www.jijidown.com/api/v1/video/get_info?id=115797603127610",
+      "bytes": 564,
+      "content_type": "application/json; charset=UTF-8",
+      "sha256": "f2f80528f2464895d5c6d76e007e662d2af1b7c6b4eee09e89fc0b02381539c3"
+    },
+    {
+      "name": "biliplus-aidinfo-all",
+      "url": "https://www.biliplus.com/api/aidinfo?aid=115779836057807,115797603127610,115808541874126,115854326896164,115868688257371,115893350700051,115908299267354,115933347649368,115972757262607,115972807595787,116007117002501,116053120194455,116066743293324,116107008548623,116142492553239,116187656690661,116215993471324,116227552842996,116261308601552,116295383127554,116306540108506,116335044466938,116346503306033,116374689029111,116384503831487,116420104950020,116459934129143,116494813896098,116606768322331,116279981644431,116412169395549,116451813888289,116504158935991,116542427765256,116578716752743,116622840830054,116692466341861,116748804169010,116775731666897,116845575279934",
+      "status": 200,
+      "bytes": 915,
+      "content_type": "application/json; charset=\"UTF-8\"",
+      "sha256": "0b3427fda0492bf0f8256fee6c04786a962446e72d432ad6005a4ca086c42bec",
+      "saved_response_file": "references/cache-metadata/biliplus-aidinfo-all.json"
+    },
+    {
+      "name": "jiji-download-info-e02",
+      "url": "https://www.jijidown.com/api/v1/video/get_download_info?id=115797603127610",
+      "status": 200,
+      "bytes": 35,
+      "content_type": "application/json; charset=UTF-8",
+      "sha256": "31af78dad30901ad44f92d25168eae6e698465279c540b0c2071e78f26feeada"
+    },
+    {
+      "name": "jiji-download-info-bv-e02",
+      "url": "https://www.jijidown.com/api/v1/video_bv/get_download_info?id=1wpvkB3EGk",
+      "status": 200,
+      "bytes": 35,
+      "content_type": "application/json; charset=UTF-8",
+      "sha256": "31af78dad30901ad44f92d25168eae6e698465279c540b0c2071e78f26feeada"
+    },
+    {
+      "name": "biliplus-view-s03e05",
+      "url": "https://www.biliplus.com/api/view?id=116346503306033",
+      "status": 200,
+      "bytes": 2028,
+      "final_url": "https://www.biliplus.com/api/view?id=116346503306033",
+      "content_type": "application/json; charset=\"UTF-8\"",
+      "sha256": "71cbfaa95af4c834f58abf3db927fb1931a1146ccea12fbdfa6c3134452976fd",
+      "json_keys": [
+        "ver",
+        "id",
+        "aid",
+        "lastupdate",
+        "lastupdatets",
+        "title",
+        "description",
+        "pic",
+        "tid",
+        "typename",
+        "created",
+        "created_at",
+        "author",
+        "mid",
+        "play",
+        "coins",
+        "review",
+        "video_review",
+        "favorites",
+        "tag",
+        "list",
+        "bangumi",
+        "v2_app_api"
+      ],
+      "first_frame_count": 0,
+      "preview_count": 0,
+      "saved_response_file": "references/cache-metadata/biliplus-view-s03e05.json"
+    },
+    {
+      "name": "biliplus-view-s04e01",
+      "url": "https://www.biliplus.com/api/view?id=116384503831487",
+      "status": 200,
+      "bytes": 2452,
+      "final_url": "https://www.biliplus.com/api/view?id=116384503831487",
+      "content_type": "application/json; charset=\"UTF-8\"",
+      "sha256": "bc45b92fa2de0b3dd4ceb3a806f54bc21eed980075d94921bbe9e490fe20128d",
+      "json_keys": [
+        "ver",
+        "id",
+        "aid",
+        "lastupdate",
+        "lastupdatets",
+        "title",
+        "description",
+        "pic",
+        "tid",
+        "typename",
+        "created",
+        "created_at",
+        "author",
+        "mid",
+        "play",
+        "coins",
+        "review",
+        "video_review",
+        "favorites",
+        "tag",
+        "list",
+        "bangumi",
+        "v2_app_api"
+      ],
+      "first_frame_count": 0,
+      "preview_count": 0,
+      "saved_response_file": "references/cache-metadata/biliplus-view-s04e01.json"
+    },
+    {
+      "name": "beibeigame-e02",
+      "url": "https://beibeigame.com/video/BV1wpvkB3EGk",
+      "status": 200,
+      "bytes": 38401,
+      "final_url": "https://beibeigame.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "91968727a59e432d0bf72570806bbecae33f879c6a61221b68971c2a41af4093"
+    },
+    {
+      "name": "bbdownloader-e02",
+      "url": "https://bbdownloader.com/video/BV1wpvkB3EGk",
+      "error": "HTTP Error 502: Bad Gateway",
+      "status": 502,
+      "error_bytes": 16
+    },
+    {
+      "name": "jiji-moe-info-e02",
+      "url": "https://jiji.moe/api/v1/video_bv/get_info?id=1wpvkB3EGk",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "name": "jiji-moe-download-info-e02",
+      "url": "https://jiji.moe/api/v1/video_bv/get_download_info?id=1wpvkB3EGk",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "name": "biliplus-view-all-s03e05",
+      "url": "https://www.biliplus.com/api/view_all?av=116346503306033&ts=1793264890&sign=c0f3ee118ee7be80bbc64c2a1bc82692",
+      "status": 200,
+      "bytes": 745,
+      "sha256": "21d92365dbfe4a6d921b5b2c1f00f025b94d1b493f6e0bfa70f39b966e8c57fa",
+      "first_frame_count": 0,
+      "saved_response_file": "references/cache-metadata/biliplus-view-all-s03e05.json"
+    },
+    {
+      "name": "biliplus-ciddb-s03e05",
+      "url": "https://www.biliplus.com/all/video/av116346503306033/",
+      "status": 200,
+      "bytes": 24157,
+      "final_url": "https://www.biliplus.com/all/video/av116346503306033/",
+      "sha256": "ce33cce8e72212161737a7fc4bde76e975a76bd983ceb9567836d2da6229d42d",
+      "first_frame_count": 0
+    },
+    {
+      "name": "biliplus-view-all-s04e01",
+      "url": "https://www.biliplus.com/api/view_all?av=116384503831487&ts=1793264917&sign=97602cd105230b6ed4650fcd8a118367",
+      "status": 200,
+      "bytes": 1173,
+      "sha256": "de0ad6eb7393ef03da161e4b2ee29d53c5dd4aa38b4e8a16586047046822ec81",
+      "first_frame_count": 0,
+      "saved_response_file": "references/cache-metadata/biliplus-view-all-s04e01.json"
+    },
+    {
+      "name": "biliplus-ciddb-s04e01",
+      "url": "https://www.biliplus.com/all/video/av116384503831487/",
+      "status": 200,
+      "bytes": 24157,
+      "final_url": "https://www.biliplus.com/all/video/av116384503831487/",
+      "sha256": "af709790d0895250200a836709be0b2565632a679fe73a03f6c114e3abd6dbaa",
+      "first_frame_count": 0
+    },
+    {
+      "name": "biliplus-cidinfo-s03e05p2",
+      "url": "https://www.biliplus.com/api/cidinfo?cid=37238343301",
+      "status": 200,
+      "bytes": 403,
+      "final_url": "https://www.biliplus.com/api/cidinfo?cid=37238343301",
+      "sha256": "21a53ae65f160a41365b43a424b04af568514926e18925a988a4a2a94c7506c9",
+      "first_frame_count": 0
+    },
+    {
+      "name": "favlist-backup-source",
+      "url": "https://update.greasyfork.org/scripts/521668/bilibili%20favlist%20backup.user.js",
+      "status": 200,
+      "bytes": 350770,
+      "final_url": "https://update.greasyfork.org/scripts/521668/bilibili%20favlist%20backup.user.js",
+      "sha256": "0a711e92bfb0b2dbfa8dbd26f2ac7cb488126b814aab0c32996568bab2551a4f",
+      "first_frame_count": 1,
+      "interpretation": "first_frame occurs in generic source code; not recovered video metadata or an image"
+    }
+  ],
+  "third_party_findings": {
+    "aidinfo_scope_posts": 40,
+    "matched_cached_episodes": [
+      "S01E01",
+      "S03E05",
+      "S04E01"
+    ],
+    "cached_s03e05_s04e01_cids_match_original_catalogue": true,
+    "new_first_frame_fields": 0,
+    "saved_public_cache_directory": "references/cache-metadata"
+  },
+  "current_collection_findings": {
+    "uploader_mid": 436788072,
+    "season_id": 7051465,
+    "public_collection_title": "LV Diva & CADDY Strawberry【NEW自译】【全集见官网】",
+    "current_posts": 2,
+    "new_post_bvids": [
+      "BV1UMxG62Eww",
+      "BV1kEHM6UEax"
+    ],
+    "collection_endpoint": "https://api.bilibili.com/x/polymer/web-space/seasons_archives_list?mid=436788072&season_id=7051465&sort_reverse=false&page_num=1&page_size=30",
+    "collection_business_code": 0,
+    "new_post_view_api_http_status": 412,
+    "new_post_public_html_http_status": 200,
+    "dynamic_feed_http_status": 412
+  },
+  "limitations": [
+    "No exhaustive Internet absence claim is made",
+    "HTTP429, HTTP412, HTTP504, TLS errors and empty response bodies are unknown availability, not missing archives",
+    "New-upload reference images are separate from original-CID evidence; no existing alignment promoted to verified",
+    "No account cookies, private media, device metadata or personal paths are included"
+  ]
+}
