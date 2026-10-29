@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "episode": "S01E03",
+  "bvid": "BV1aTvvBMEZx",
+  "status": "visual_candidate_pending_playback",
+  "reference": {
+    "release": "绝望写手.Hacks.S01E03.1080p.H265-NEW字幕组.mp4",
+    "sha256": "c7651eb75965df01d49dbfd67765677f5b60e882b125a674d5955fc4f05e083a",
+    "size_bytes": 364997280,
+    "duration_seconds": 1752.375625,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 35080571971,
+      "file": "hacks-danmaku/S01E03/P01_S01E03-1_35080571971.xml",
+      "sha256": "ab5fa9b60c3c48112299784cd433cd93d8846ac4ebe76b5470ec58c78df84b7e",
+      "comments": 97
+    },
+    {
+      "cid": 35080636487,
+      "file": "hacks-danmaku/S01E03/P02_S01E03-2_35080636487.xml",
+      "sha256": "4f51e09ca8f4b110cb0e05fbd828e94a78b647b329652d93d5075ddec5bfc414",
+      "comments": 99
+    },
+    {
+      "cid": 35080637874,
+      "file": "hacks-danmaku/S01E03/P03_S01E03-3_35080637874.xml",
+      "sha256": "a7e4d9f80a48550624802f849a364055712f982649801a43ddcbcd3d3155d75c",
+      "comments": 101
+    },
+    {
+      "cid": 35080700813,
+      "file": "hacks-danmaku/S01E03/P04_S01E03-4_35080700813.xml",
+      "sha256": "bc04fb8e064bfc23c2e440d851f2ff38913821c735baa09bc1f7d83a67c9774c",
+      "comments": 132
+    },
+    {
+      "cid": 35080702737,
+      "file": "hacks-danmaku/S01E03/P05_S01E03-5_35080702737.xml",
+      "sha256": "b56ccbc131c70681bb51b4767d7c3bc99f6df9522bbbf7c7edb22c529d626a4c",
+      "comments": 157
+    },
+    {
+      "cid": 35080703759,
+      "file": "hacks-danmaku/S01E03/P06_S01E03-6_35080703759.xml",
+      "sha256": "7a9176480f11c23a3ddbd53f831909aae2009024b4051cfe754232850bff3d40",
+      "comments": 129
+    }
+  ],
+  "mapping": [
+    {
+      "part": 1,
+      "cid": 35080571971,
+      "source_comments": 97,
+      "archived_integer_duration_seconds": 297,
+      "preview_offset_seconds": 4.004,
+      "offset_status": "earliest compatible static-image interval selected for trial, not uniquely measured start",
+      "candidate_image_interval_seconds": [
+        4.004,
+        4.963291666666667
+      ],
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 2,
+      "cid": 35080636487,
+      "source_comments": 99,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 297.04675,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "candidate_image_interval_seconds": [
+        297.04675,
+        297.04675
+      ],
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 3,
+      "cid": 35080637874,
+      "source_comments": 101,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 594.0517916666666,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "candidate_image_interval_seconds": [
+        594.0517916666666,
+        594.0517916666666
+      ],
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 4,
+      "cid": 35080700813,
+      "source_comments": 132,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 891.0568333333333,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "candidate_image_interval_seconds": [
+        891.0568333333333,
+        891.0568333333333
+      ],
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 5,
+      "cid": 35080702737,
+      "source_comments": 157,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 1188.061875,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "candidate_image_interval_seconds": [
+        1188.061875,
+        1188.061875
+      ],
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 6,
+      "cid": 35080703759,
+      "source_comments": 129,
+      "archived_integer_duration_seconds": 262,
+      "preview_offset_seconds": 1485.0669166666667,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "candidate_image_interval_seconds": [
+        1485.0669166666667,
+        1485.0669166666667
+      ],
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    }
+  ],
+  "visual_matches": [
+    {
+      "part": 2,
+      "reference": "P02_35080636487.jpg",
+      "window_searches": [
+        {
+          "window_start": 294,
+          "frame_count": 168,
+          "best_index": 73,
+          "best_time": 297.04675,
+          "best_score": 0.9928027391433716,
+          "best_at_edge": false
+        }
+      ],
+      "best_at_window_edge": false,
+      "candidate_pts": 7129122,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 297.04675,
+      "approx_frame_number": 7122,
+      "grayscale_ncc": 0.9989027976989746,
+      "gradient_ncc": 0.974502682685852,
+      "combined_score": 0.9928027391433716,
+      "near_peak_band_seconds": [
+        297.04675,
+        297.04675
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 297,
+          "score": 0.945289671421051
+        },
+        {
+          "approx_seconds": 287,
+          "score": 0.824708878993988
+        },
+        {
+          "approx_seconds": 265,
+          "score": 0.5836761593818665
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 3,
+      "reference": "P03_35080637874.jpg",
+      "window_searches": [
+        {
+          "window_start": 591,
+          "frame_count": 168,
+          "best_index": 73,
+          "best_time": 594.0517916666666,
+          "best_score": 0.9974095225334167,
+          "best_at_edge": false
+        }
+      ],
+      "best_at_window_edge": false,
+      "candidate_pts": 14257243,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 594.0517916666666,
+      "approx_frame_number": 14243,
+      "grayscale_ncc": 0.9996103048324585,
+      "gradient_ncc": 0.990807294845581,
+      "combined_score": 0.9974095225334167,
+      "near_peak_band_seconds": [
+        594.0517916666666,
+        594.0517916666666
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 594,
+          "score": 0.9790983200073242
+        },
+        {
+          "approx_seconds": 621,
+          "score": 0.8064129948616028
+        },
+        {
+          "approx_seconds": 631,
+          "score": 0.8029802441596985
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 4,
+      "reference": "P04_35080700813.jpg",
+      "window_searches": [
+        {
+          "window_start": 888,
+          "frame_count": 168,
+          "best_index": 73,
+          "best_time": 891.0568333333333,
+          "best_score": 0.997831404209137,
+          "best_at_edge": false
+        }
+      ],
+      "best_at_window_edge": false,
+      "candidate_pts": 21385364,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 891.0568333333333,
+      "approx_frame_number": 21364,
+      "grayscale_ncc": 0.9993808269500732,
+      "gradient_ncc": 0.9931831359863281,
+      "combined_score": 0.997831404209137,
+      "near_peak_band_seconds": [
+        891.0568333333333,
+        891.0568333333333
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 891,
+          "score": 0.9869545698165894
+        },
+        {
+          "approx_seconds": 651,
+          "score": 0.5060677528381348
+        },
+        {
+          "approx_seconds": 1038,
+          "score": 0.48086225986480713
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 5,
+      "reference": "P05_35080702737.jpg",
+      "window_searches": [
+        {
+          "window_start": 1185,
+          "frame_count": 168,
+          "best_index": 73,
+          "best_time": 1188.061875,
+          "best_score": 0.9943259954452515,
+          "best_at_edge": false
+        }
+      ],
+      "best_at_window_edge": false,
+      "candidate_pts": 28513485,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 1188.061875,
+      "approx_frame_number": 28485,
+      "grayscale_ncc": 0.9994142055511475,
+      "gradient_ncc": 0.9790613651275635,
+      "combined_score": 0.9943259954452515,
+      "near_peak_band_seconds": [
+        1188.061875,
+        1188.061875
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 1188,
+          "score": 0.8811876177787781
+        },
+        {
+          "approx_seconds": 1193,
+          "score": 0.7894985675811768
+        },
+        {
+          "approx_seconds": 87,
+          "score": 0.5393595695495605
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 6,
+      "reference": "P06_35080703759.jpg",
+      "window_searches": [
+        {
+          "window_start": 1482,
+          "frame_count": 168,
+          "best_index": 73,
+          "best_time": 1485.0669166666667,
+          "best_score": 0.9969625473022461,
+          "best_at_edge": false
+        }
+      ],
+      "best_at_window_edge": false,
+      "candidate_pts": 35641606,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 1485.0669166666667,
+      "approx_frame_number": 35606,
+      "grayscale_ncc": 0.9989557266235352,
+      "gradient_ncc": 0.9909829497337341,
+      "combined_score": 0.9969625473022461,
+      "near_peak_band_seconds": [
+        1485.0669166666667,
+        1485.0669166666667
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 1485,
+          "score": 0.9789947271347046
+        },
+        {
+          "approx_seconds": 1490,
+          "score": 0.5922982692718506
+        },
+        {
+          "approx_seconds": 1751,
+          "score": 0.3877289891242981
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    }
+  ],
+  "reference_images": [
+    {
+      "part": 1,
+      "cid": 35080571971,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00003im6di3wat93c25hutp0s9wmqeb_firsti.jpg",
+      "file": "calibration/S01E03/evidence/P01_35080571971.jpg",
+      "sha256": "4a3179d6c4ef9f3c819aac7582b1b12d11c4978430db040e0cdf1f67e0ede441"
+    },
+    {
+      "part": 2,
+      "cid": 35080636487,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00000zvjnivqgsa1i27342u6k0iw7kb_firsti.jpg",
+      "file": "calibration/S01E03/evidence/P02_35080636487.jpg",
+      "sha256": "c17acd9693b7905406ad386f8d0c1c284d64a70c70dad1892710ba43a91ebe47"
+    },
+    {
+      "part": 3,
+      "cid": 35080637874,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00003kypb8f4gt47r2b15r4wq17c7ab_firsti.jpg",
+      "file": "calibration/S01E03/evidence/P03_35080637874.jpg",
+      "sha256": "6611e3e88b4dc4f585a9a4ef97aea999f6a6e81f33282a9ec58f41c9af915735"
+    },
+    {
+      "part": 4,
+      "cid": 35080700813,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00001zftixy193p5a2j3l8ztgmy75qb_firsti.jpg",
+      "file": "calibration/S01E03/evidence/P04_35080700813.jpg",
+      "sha256": "46623bdeaefbbd43fad1fcbe81a0e855e91fdecfc9cb7fb9b0c8735a7c4f96af"
+    },
+    {
+      "part": 5,
+      "cid": 35080702737,
+      "url": "https://i2.hdslb.com/bfs/storyff/_00002z6fkijckd4tc2as9wt6fzsvp3b_firsti.jpg",
+      "file": "calibration/S01E03/evidence/P05_35080702737.jpg",
+      "sha256": "4cf5f9cd252416fd085726dee314be0591d12d12da7bc23e1306e27b9c9d8e5d"
+    },
+    {
+      "part": 6,
+      "cid": 35080703759,
+      "url": "https://i2.hdslb.com/bfs/storyff/_00001cfr4b8ed41dh2jw4bdmy6rej8b_firsti.jpg",
+      "file": "calibration/S01E03/evidence/P06_35080703759.jpg",
+      "sha256": "4a640bacc5f8786cfa5e2cde9523d04d9ae5bd2121736c6eb7a765fde6b2314d"
+    }
+  ],
+  "public_source_snapshot": "https://web.archive.org/web/20260909144052/https://www.bilibili.com/video/BV1aTvvBMEZx/",
+  "method": "global 1fps coarse search, full-frame-rate hardware decode with original copyts PTS; center grayscale and gradient NCC masks watermarks/subtitles",
+  "roi_at_320x180": {
+    "x": [
+      10,
+      310
+    ],
+    "y": [
+      25,
+      150
+    ]
+  },
+  "P1_static_image_analysis": {
+    "reference": "P01_35080571971.jpg",
+    "method": "mean absolute difference and absolute black/notice/logo levels; original PTS; no NCC for black scene",
+    "comparison_region": [
+      0,
+      0,
+      1280,
+      620
+    ],
+    "excluded": "bottom Bilibili watermark",
+    "best_frame": {
+      "n": 112,
+      "pts": 112112,
+      "seconds": 4.671333333333333,
+      "full_top620_mae": 0.18655872344970703,
+      "full_top620_rmse": 1.5865110158920288,
+      "content_black_mae": 0.0,
+      "copyright_mae": 3.5617032051086426,
+      "logo_mae": 2.1964054107666016
+    },
+    "broad_near_min_band": {
+      "threshold": "global minimum MAE + 0.05 (not a confidence interval)",
+      "min_seconds": 4.004,
+      "max_seconds": 4.963291666666667,
+      "count": 24
+    },
+    "joint_plausibility_band": {
+      "threshold": "content MAE <0.1, copyright MAE <5, logo MAE <3",
+      "min_seconds": 4.004,
+      "max_seconds": 4.963291666666667,
+      "count": 24
+    },
+    "frame_zero": {
+      "n": 0,
+      "pts": 0,
+      "seconds": 0.0,
+      "full_top620_mae": 1.9328843355178833,
+      "full_top620_rmse": 19.199920654296875,
+      "content_black_mae": 0.0,
+      "copyright_mae": 38.347225189208984,
+      "logo_mae": 19.408483505249023
+    },
+    "conclusion": "Reference image is incompatible with original t=0; approximately 4-5s black interval is compatible but visually static and non-unique. This is an image-location band, NOT a verified P1 start; first_frame sampling offset remains unknown."
+  },
+  "assumptions": [
+    "P1 trial offset is the earliest frame of the visually compatible 4–5 second interval; exact start is not uniquely measured",
+    "P2–P6 thumbnails represent the part opening with zero unknown sampling offset",
+    "No unmeasured edits or speed changes inside each part"
+  ],
+  "interval_comparison": {
+    "matched_anchor_intervals_seconds": [
+      297.00504166666667,
+      297.00504166666667,
+      297.0050416666668,
+      297.00504166666656
+    ],
+    "matches_S01E01_P2_to_P6": true,
+    "P1_is_exception": true,
+    "actual_overlap_seconds": null,
+    "reason": "P1 has a nonunique black-scene interval; thumbnail sampling offsets and actual part durations unmeasured"
+  },
+  "ass_style": {
+    "tool": "biliass==2.5.0",
+    "comments": 761,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "display_region_ratio": 0.55,
+    "font_face": "Heiti SC",
+    "font_size": 44,
+    "opacity": 0.85,
+    "marquee_seconds": 8,
+    "still_seconds": 4,
+    "reduce_comments": false
+  },
+  "artifacts": {
+    "naive_merged_xml": {
+      "file": "calibration/S01E03/naive-merged.xml",
+      "sha256": "07d274ba7d86597d6d260efefdfaace7b8f2494edfe53918fc9cb1d85e54b95a"
+    },
+    "aligned_xml": {
+      "file": "calibration/S01E03/aligned.xml",
+      "sha256": "ba4d79358382012e3105ba2389e931f0f9c80415860f3ca0288e05d06004a179"
+    },
+    "ass": {
+      "file": "calibration/S01E03/绝望写手.Hacks.S01E03.1080p.H265-NEW字幕组.ass",
+      "sha256": "0f456d05791e57e42369e997c11d228bf6a9d36a851ae11efe717ae21f462c3d"
+    }
+  },
+  "xml_comment": "VISUAL CANDIDATE: P1 trial offset uses earliest compatible black-scene interval 4.004..4.963292s; P2-P6 assume zero thumbnail sampling offset. Not yet confirmed in playback.",
+  "limits": [
+    "P1=0 is inconsistent with the reference thumbnail; P1=4.004 is a trial selection from a nonunique interval, not a frame-exact measurement",
+    "P2–P6 candidate image intervals match episode one; true per-part overlaps remain unmeasured",
+    "No user playback confirmation yet; do not infer no edits from this candidate mapping"
+  ]
+}

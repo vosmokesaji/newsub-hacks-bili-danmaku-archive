@@ -25,10 +25,29 @@ def main():
     folder=inside('calibration/'+args.episode)
     manifest_path=folder/'alignment.json'
     manifest=json.loads(manifest_path.read_text())
+    if manifest.get('mapping') is None:
+        if not args.check:
+            raise ValueError('No independently supported mapping is archived for this episode')
+        count=0
+        for source in manifest['original_parts']:
+            path=inside(source['file'])
+            if digest(path)!=source['sha256']:
+                raise ValueError('Original data checksum mismatch')
+            rows=ET.parse(path).getroot().findall('d')
+            if len(rows)!=source['comments']:
+                raise ValueError('Original count mismatch')
+            count+=len(rows)
+        for info in manifest['artifacts'].values():
+            if digest(inside(info['file']))!=info['sha256']:
+                raise ValueError('Uncalibrated artifact checksum mismatch')
+        if 'ass'in manifest['artifacts'] or 'aligned_xml'in manifest['artifacts']:
+            raise ValueError('Pending mapping must not claim aligned playback artifacts')
+        print(f'{args.episode}: {count} original comments and naive merge verified; alignment remains pending')
+        return
     offsets={p['cid']:p['preview_offset_seconds']for p in manifest['mapping']}
     tree=ET.Element('i')
     ET.SubElement(tree,'source').text=manifest['bvid']
-    tree.append(ET.Comment(COMMENT))
+    tree.append(ET.Comment(manifest.get('xml_comment',COMMENT)))
     seen=set()
     for source in manifest['original_parts']:
         path=inside(source['file'])

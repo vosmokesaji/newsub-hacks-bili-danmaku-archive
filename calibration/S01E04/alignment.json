@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "episode": "S01E04",
+  "bvid": "BV1U6iyB8E2x",
+  "status": "needs_independent_anchors",
+  "reference": {
+    "release": "绝望写手.Hacks.S01E04.1080p.H265-NEW字幕组V2.mp4",
+    "sha256": "da260fb77cb693bf252068e72df9fea338072ed43570cec68bb3bdc603b9a0f4",
+    "size_bytes": 388200450,
+    "duration_seconds": 1777.358917,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 35249193420,
+      "file": "hacks-danmaku/S01E04/P01_S01E04-1_35249193420.xml",
+      "sha256": "f7b0cb12764cad6cb4c74ebbecfb3e17b991a484bb19cceca81a05850dc9b1b0",
+      "comments": 101
+    },
+    {
+      "cid": 35248277955,
+      "file": "hacks-danmaku/S01E04/P02_S01E04-2_35248277955.xml",
+      "sha256": "bc2a41a33789e094beb6cc312e7f8f748d2fcc3becb87d91e499292c35a2780f",
+      "comments": 99
+    },
+    {
+      "cid": 35248277994,
+      "file": "hacks-danmaku/S01E04/P03_S01E04-3_35248277994.xml",
+      "sha256": "c11e9ef16c5c6fcf047426294e0da95837fc0edc306094f382cd5e7f0cb67f62",
+      "comments": 100
+    },
+    {
+      "cid": 35248278131,
+      "file": "hacks-danmaku/S01E04/P04_S01E04-4_35248278131.xml",
+      "sha256": "7d85a882f8281fe7b7a205bd489a8071858236ec3dd7aa439d0bc47554d5f128",
+      "comments": 135
+    },
+    {
+      "cid": 35248278381,
+      "file": "hacks-danmaku/S01E04/P05_S01E04-5_35248278381.xml",
+      "sha256": "cc6ee1a363693cb5aedae44760e51e752a8e750e5635b4019d482b9beed0a641",
+      "comments": 141
+    },
+    {
+      "cid": 35248278516,
+      "file": "hacks-danmaku/S01E04/P06_S01E04-6_35248278516.xml",
+      "sha256": "24871c09b63b84248424ca63a23bcf6fa723fab99d96f274a6b4bcc88d51f778",
+      "comments": 125
+    }
+  ],
+  "mapping": null,
+  "artifacts": {
+    "naive_merged_xml": {
+      "file": "calibration/S01E04/naive-merged.xml",
+      "sha256": "d7d1b5fd4882df8dca80a95d7bdc26983a1f021a0e76d8de656a352bc8188353"
+    }
+  },
+  "anchor_status": {
+    "public_first_frames": "not_found_in_queried_wayback_snapshots",
+    "scope_of_queries": "direct public video page; E02 additionally known p=4 links, E02/E04/E05 prefix CDX probes",
+    "actual_overlap_seconds": null
+  },
+  "limitations": [
+    "No verified per-part start times; no aligned ASS generated",
+    "Naive merged XML is archived for comparison, not presented as synchronized playback",
+    "Do not copy the 297.005-second interval measured on episodes one and three without independent evidence"
+  ]
+}

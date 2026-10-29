@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "episode": "S01E02",
+  "bvid": "BV1wpvkB3EGk",
+  "status": "needs_independent_anchors",
+  "reference": {
+    "release": "绝望写手.Hacks.S01E02.1080p.H265-NEW字幕组.mp4",
+    "sha256": "50c60191001e443a283725ab82a90abf2cf638cc69372ab203e04cd7ee0ed30a",
+    "size_bytes": 334356046,
+    "duration_seconds": 2037.744042,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 35040657955,
+      "file": "hacks-danmaku/S01E02/P01_S01E02-1_35040657955.xml",
+      "sha256": "14bde97009b017c0b7e684f0307c2579e104938af8efb85cf76038120170e7a0",
+      "comments": 105
+    },
+    {
+      "cid": 35040659482,
+      "file": "hacks-danmaku/S01E02/P02_S01E02-2_35040659482.xml",
+      "sha256": "11bd1d153851c0938c15a86486e131604f7d395cb25146b934d99bb6cce8c812",
+      "comments": 124
+    },
+    {
+      "cid": 35040660509,
+      "file": "hacks-danmaku/S01E02/P03_S01E02-3_35040660509.xml",
+      "sha256": "c68354310727bcec32a7b918957ea3dfa8d9d1e3048563feb06515a51786c371",
+      "comments": 142
+    },
+    {
+      "cid": 35040723099,
+      "file": "hacks-danmaku/S01E02/P04_S01E02-4_35040723099.xml",
+      "sha256": "fa8dbedf01183002c939ed795eda61bd340effc1bb22474e88b300ae29b81fa5",
+      "comments": 103
+    },
+    {
+      "cid": 35040723834,
+      "file": "hacks-danmaku/S01E02/P05_S01E02-5_35040723834.xml",
+      "sha256": "c476947db1250c4549a6ed53f7d19b489f0e95c0b8cd0ddb908fc72dc0e1b671",
+      "comments": 116
+    },
+    {
+      "cid": 35040725070,
+      "file": "hacks-danmaku/S01E02/P06_S01E02-6_35040725070.xml",
+      "sha256": "fcd3c8db71fd1b7cce3531c67fe2bdba6c048f8a4ded560e19474388e057a43d",
+      "comments": 141
+    },
+    {
+      "cid": 35040725807,
+      "file": "hacks-danmaku/S01E02/P07_S01E02-7_35040725807.xml",
+      "sha256": "a5d518511b85ae61cb5cec1874fa7b0b5160fb4a496628ce29a7bbb442a0d37a",
+      "comments": 124
+    }
+  ],
+  "mapping": null,
+  "artifacts": {
+    "naive_merged_xml": {
+      "file": "calibration/S01E02/naive-merged.xml",
+      "sha256": "0e0d6b27e8a0dcb7b8ac59cb470110aff681637368792b0dffa838590e5e5260"
+    }
+  },
+  "anchor_status": {
+    "public_first_frames": "not_found_in_queried_wayback_snapshots",
+    "scope_of_queries": "direct public video page; E02 additionally known p=4 links, E02/E04/E05 prefix CDX probes",
+    "actual_overlap_seconds": null
+  },
+  "limitations": [
+    "No verified per-part start times; no aligned ASS generated",
+    "Naive merged XML is archived for comparison, not presented as synchronized playback",
+    "Do not copy the 297.005-second interval measured on episodes one and three without independent evidence"
+  ],
+  "additional_public_checks": {
+    "videoshot_web_api": "-404",
+    "videoshot_cdn_images": "404; no usable sprite images",
+    "preview_time_index": "retained but not a visual anchor or exact duration",
+    "playurl_current_wbi_mp4": "-404; no media URL",
+    "authentication": "no account credentials used; no challenge solved"
+  }
+}

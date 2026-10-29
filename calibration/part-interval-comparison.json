@@ -1,0 +1,155 @@
+{
+  "observed_anchor_intervals": [
+    {
+      "episode": "S01E01",
+      "from_part": 2,
+      "to_part": 3,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E01",
+      "from_part": 3,
+      "to_part": 4,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E01",
+      "from_part": 4,
+      "to_part": 5,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E01",
+      "from_part": 5,
+      "to_part": 6,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E03",
+      "from_part": 2,
+      "to_part": 3,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E03",
+      "from_part": 3,
+      "to_part": 4,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E03",
+      "from_part": 4,
+      "to_part": 5,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    },
+    {
+      "episode": "S01E03",
+      "from_part": 5,
+      "to_part": 6,
+      "pts_delta": 7128121,
+      "time_base": "1/24000",
+      "seconds_exact": "7128121/24000",
+      "seconds": 297.00504166666667,
+      "evidence": "matched candidate reference-image PTS; in-part sampling offsets unknown",
+      "actual_overlap_seconds": null
+    }
+  ],
+  "all_observed_intervals_equal": true,
+  "episodes_with_visual_evidence": [
+    "S01E01",
+    "S01E03"
+  ],
+  "episode_statuses": [
+    {
+      "episode": "S01E01",
+      "status": "user_validated_playback",
+      "has_mapping": true
+    },
+    {
+      "episode": "S01E02",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E03",
+      "status": "visual_candidate_pending_playback",
+      "has_mapping": true
+    },
+    {
+      "episode": "S01E04",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E05",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E06",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E07",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E08",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E09",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    },
+    {
+      "episode": "S01E10",
+      "status": "needs_independent_anchors",
+      "has_mapping": false
+    }
+  ],
+  "actual_overlaps_equal": null,
+  "limits": [
+    "Image-anchor spacing is not an overlap measurement",
+    "No inference is made for episodes without independent anchors",
+    "First-part trimming/black intervals are handled separately in each episode manifest"
+  ]
+}
