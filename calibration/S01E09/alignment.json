@@ -2,7 +2,7 @@
   "schema_version": 1,
   "episode": "S01E09",
   "bvid": "BV15hz9BuE1b",
-  "status": "needs_independent_anchors",
+  "status": "estimated_equal_overlap_pending_playback",
   "reference": {
     "release": "绝望写手.Hacks.S01E09.1080p.H265-NEW字幕组.mp4",
     "sha256": "4d6819ed49e7ceb097d5f2e60ef71ad23e296349f2813f92ac7e6d778fe48964",
@@ -48,11 +48,92 @@
       "comments": 25
     }
   ],
-  "mapping": null,
+  "mapping": [
+    {
+      "part": 1,
+      "cid": 35668494037,
+      "source_comments": 66,
+      "archived_integer_duration_seconds": 297,
+      "last_comment_seconds_lower_bound": "295.138",
+      "preview_offset_seconds": 0.0,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": null,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 2,
+      "cid": 35668494328,
+      "source_comments": 99,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "296.077",
+      "preview_offset_seconds": 293.7521084,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.2478916,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 3,
+      "cid": 35668494484,
+      "source_comments": 120,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "298.481",
+      "preview_offset_seconds": 591.5042168,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.2478916,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 4,
+      "cid": 35668494679,
+      "source_comments": 158,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "299.667",
+      "preview_offset_seconds": 889.2563252,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.2478916,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 5,
+      "cid": 35668494857,
+      "source_comments": 99,
+      "archived_integer_duration_seconds": 241,
+      "last_comment_seconds_lower_bound": "237.849",
+      "preview_offset_seconds": 1187.0084336,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.2478916,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 6,
+      "cid": 35668494910,
+      "source_comments": 25,
+      "archived_integer_duration_seconds": 129,
+      "last_comment_seconds_lower_bound": "93.737",
+      "preview_offset_seconds": 1424.760542,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.2478916,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    }
+  ],
   "artifacts": {
     "naive_merged_xml": {
       "file": "calibration/S01E09/naive-merged.xml",
       "sha256": "a13c4c4a8cb43f23dd63993f31e9322f5d293ea0b01539f415b9b7b8d5595a70"
+    },
+    "aligned_xml": {
+      "file": "calibration/S01E09/aligned.xml",
+      "sha256": "6167476848a1c3b0c51f6ca6167cbf3a2114e2bda0cd6f5f1a0bdcc428d3652d"
+    },
+    "ass": {
+      "file": "calibration/S01E09/绝望写手.Hacks.S01E09.1080p.H265-NEW字幕组.ass",
+      "sha256": "186918af97574b66725bd930ff549f96968d24ce94c459a59aa01bd644a99884"
     }
   },
   "anchor_status": {
@@ -64,5 +145,46 @@
     "No verified per-part start times; no aligned ASS generated",
     "Naive merged XML is archived for comparison, not presented as synchronized playback",
     "Do not copy the 297.005-second interval measured on episodes one and three without independent evidence"
-  ]
+  ],
+  "estimation_model": {
+    "method": "share_positive_archived_duration_excess_equally_across_joins",
+    "requested_by": "user on 2026-10-29",
+    "duration_basis": "archived integer-second part durations, not the last comment time",
+    "source_sum_seconds": 1570.0,
+    "reference_seconds": 1553.760542,
+    "source_sum_minus_reference_seconds": 16.239458,
+    "join_count": 5,
+    "estimated_overlap_per_join_seconds": 3.2478916,
+    "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+    "shortfall_unresolved": false,
+    "shortfall_seconds": 0,
+    "raw_comment_tail_is_only_lower_bound": true,
+    "comparison_to_measured_image_intervals": "not established for this episode",
+    "actual_overlap_seconds": null
+  },
+  "assumptions": [
+    "first part starts at reference zero (unverified)",
+    "each part has no unmeasured internal edits or speed change",
+    "positive excess attributed entirely to identical adjacent overlaps, per user-selected preview model"
+  ],
+  "limits": [
+    "This is a requested timing estimate, not independent visual calibration or playback confirmation",
+    "Part-duration rounding, intro/outro differences, edits and version differences can invalidate uniform sharing",
+    "Last comment timestamps are lower bounds only; no negative overlap or forced stretching is applied for shortfalls"
+  ],
+  "xml_comment": "ESTIMATED PREVIEW: uniform sharing of positive archived-duration excess, requested by user. Not measured overlaps. Shortfall episodes retain naive timing and unresolved content/version differences.",
+  "ass_style": {
+    "tool": "biliass==2.5.0",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "display_region_ratio": 0.55,
+    "font_face": "Heiti SC",
+    "font_size": 44,
+    "opacity": 0.85,
+    "marquee_seconds": 8,
+    "still_seconds": 4,
+    "reduce_comments": false
+  }
 }

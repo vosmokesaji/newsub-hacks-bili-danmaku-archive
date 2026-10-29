@@ -98,52 +98,182 @@
     {
       "episode": "S01E01",
       "status": "user_validated_playback",
-      "has_mapping": true
+      "has_mapping": true,
+      "estimation_model": null
     },
     {
       "episode": "S01E02",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "estimated_equal_overlap_pending_playback",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 2058.0,
+        "reference_seconds": 2037.744042,
+        "source_sum_minus_reference_seconds": 20.255958,
+        "join_count": 6,
+        "estimated_overlap_per_join_seconds": 3.375993,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": false,
+        "shortfall_seconds": 0,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E03",
       "status": "visual_candidate_pending_playback",
-      "has_mapping": true
+      "has_mapping": true,
+      "estimation_model": null
     },
     {
       "episode": "S01E04",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "estimated_equal_overlap_pending_playback",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 1794.0,
+        "reference_seconds": 1777.358917,
+        "source_sum_minus_reference_seconds": 16.641083,
+        "join_count": 5,
+        "estimated_overlap_per_join_seconds": 3.3282166,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": false,
+        "shortfall_seconds": 0,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E05",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "uncalibrated_shortfall_preview",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 1802.0,
+        "reference_seconds": 1831.07925,
+        "source_sum_minus_reference_seconds": -29.07925,
+        "join_count": 5,
+        "estimated_overlap_per_join_seconds": 0.0,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": true,
+        "shortfall_seconds": 29.07925,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E06",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "estimated_equal_overlap_pending_playback",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 1908.0,
+        "reference_seconds": 1891.347792,
+        "source_sum_minus_reference_seconds": 16.652208,
+        "join_count": 6,
+        "estimated_overlap_per_join_seconds": 2.775368,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": false,
+        "shortfall_seconds": 0,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E07",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "estimated_equal_overlap_pending_playback",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 1725.0,
+        "reference_seconds": 1709.249208,
+        "source_sum_minus_reference_seconds": 15.750792,
+        "join_count": 5,
+        "estimated_overlap_per_join_seconds": 3.1501584,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": false,
+        "shortfall_seconds": 0,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E08",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "uncalibrated_shortfall_preview",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 1873.0,
+        "reference_seconds": 1876.791583,
+        "source_sum_minus_reference_seconds": -3.791583,
+        "join_count": 6,
+        "estimated_overlap_per_join_seconds": 0.0,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": true,
+        "shortfall_seconds": 3.791583,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E09",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "estimated_equal_overlap_pending_playback",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 1570.0,
+        "reference_seconds": 1553.760542,
+        "source_sum_minus_reference_seconds": 16.239458,
+        "join_count": 5,
+        "estimated_overlap_per_join_seconds": 3.2478916,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": false,
+        "shortfall_seconds": 0,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     },
     {
       "episode": "S01E10",
-      "status": "needs_independent_anchors",
-      "has_mapping": false
+      "status": "estimated_equal_overlap_pending_playback",
+      "has_mapping": true,
+      "estimation_model": {
+        "method": "share_positive_archived_duration_excess_equally_across_joins",
+        "requested_by": "user on 2026-10-29",
+        "duration_basis": "archived integer-second part durations, not the last comment time",
+        "source_sum_seconds": 2120.0,
+        "reference_seconds": 2099.889458,
+        "source_sum_minus_reference_seconds": 20.110542,
+        "join_count": 6,
+        "estimated_overlap_per_join_seconds": 3.351757,
+        "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+        "shortfall_unresolved": false,
+        "shortfall_seconds": 0,
+        "raw_comment_tail_is_only_lower_bound": true,
+        "comparison_to_measured_image_intervals": "not established for this episode",
+        "actual_overlap_seconds": null
+      }
     }
   ],
   "actual_overlaps_equal": null,

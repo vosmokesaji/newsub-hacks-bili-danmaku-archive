@@ -7,7 +7,9 @@
 |S01E01|用户实播确认通过；原始分P时长/图片取样偏移仍未测定|[原始XML/PB](../hacks-danmaku/S01E01/)|[旧合并XML](S01E01/naive-merged.xml)|[映射、来源校验值与限制](S01E01/alignment.json)|[校对后XML](S01E01/aligned.xml)、[同名ASS](S01E01/绝望写手.Hacks.S01E01.1080p.H265-NEW字幕组.ass)|
 |S01E03|独立画面候选，待实播确认；P1保留4–5秒不确定区间|[原始XML/PB](../hacks-danmaku/S01E03/)|[旧合并XML](S01E03/naive-merged.xml)|[候选映射](S01E03/alignment.json)、[核对说明](S01E03/README.md)|[候选XML](S01E03/aligned.xml)、[同名ASS](S01E03/绝望写手.Hacks.S01E03.1080p.H265-NEW字幕组.ass)|
 
-S01E02、S01E04–S01E10的原始分P引用、校验值、对应版本及旧合并均已按集留档；因暂缺独立画面锚点，映射保留为null，未生成冒充已校准的ASS。公开原稿页面存档、预览图和媒体接口的查询没有取得这些集的有效图像/原切片，不能只凭总时长补齐起点。
+S01E02、S01E04–S01E10的原始分P引用、校验值、对应版本及旧合并均已按集留档。公开原稿页面存档、预览图和媒体接口的查询没有取得这些集的有效图像/原切片；用户在2026-10-29明确要求按“切片总时长多于原片的部分，平均分配到相邻接点”生成待验证试播。
+
+这些集的同名ASS和 `aligned.xml` 已生成，清单状态与ASS注释明确标记为**估算试播，不是独立实测校准**。S01E05、S01E08切片总和短于原片，保留简单拼接的试播文件，并标记缺口未解决；不做负重叠或强制拉伸。第一、三集原有画面映射保持不变。
 
 各接点的独立观测与处理状态见[分P接点比较](分P接点比较.md)及[结构化对照](part-interval-comparison.json)。
 
@@ -29,8 +31,12 @@ P2–P6 的公开首帧均在参考原片中找到高度相似的帧，使用真
 
 `python3 scripts/build_calibrated_episode.py S01E01 --check` 无需联网和额外依赖，核对原始文件、映射重建XML、产物和公开图片校验值。
 
-重建ASS需要本目录要求的 `biliass==2.5.0`：在项目虚拟环境安装 `requirements-calibration.txt` 后执行 `python3 scripts/build_calibrated_episode.py S01E01`。会重新生成本集处理产物并更新校验值，不修改原始分P。
+重建ASS需要Python 3.11+及固定版本 `biliass==2.5.0`：在项目虚拟环境安装 `requirements-calibration.txt` 后执行 `python3 scripts/build_calibrated_episode.py S01E01`。会重新生成本集处理产物并更新校验值，不修改原始分P。
 
-`python3 scripts/compare_part_intervals.py` 重建逐集接点间隔对照。对待核对集使用 `scripts/build_calibrated_episode.py <剧集> --check` 只验证原始数据和旧合并，不会捏造映射。
+`python3 scripts/compare_part_intervals.py` 重建逐集接点间隔对照。对尚无映射的待核对集使用 `scripts/build_calibrated_episode.py <剧集> --check` 只验证原始数据和旧合并，不会捏造映射；已有映射则另验证处理后XML/ASS及重建一致性。
+
+在安装固定版本转换依赖的环境中，`python3 scripts/estimate_equal_overlap.py` 重建所有属于估算/缺口试播状态的集；不会覆盖独立画面对齐集。`--playback-dir <本地播放目录>` 可将同名ASS复制到已有本地目录，该路径不保存到归档清单。
+
+模型：`D=sum(d_i)-T`，`o=max(D,0)/(n-1)`，第i个分P起点=`sum(d_j,j<i)-(i-1)*o`。若D<0，o=0并保留缺口警告。最后一条弹幕只记录为下界，不作为d_i。
 
 状态必须区分：用户实播确认、独立画面对照得到的候选对齐、仅时长比较、证据不足。无独立锚点时不凭空填入起点、重叠或删减位置。

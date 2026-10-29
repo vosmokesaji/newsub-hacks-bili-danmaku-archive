@@ -79,7 +79,7 @@ def main():
         lines=ass_path.read_text(encoding='utf-8-sig').splitlines()
         if sum(line.startswith('Dialogue:')for line in lines)!=len(seen):
             raise ValueError('ASS event count mismatch')
-        print(f'{args.episode}: originals, reproducible XML, {len(seen)} comments, ASS and source images verified')
+        print(f'{args.episode}: originals, reproducible XML, {len(seen)} comments and ASS verified; status={manifest["status"]}; reference images={len(manifest.get("reference_images",[]))}')
         return
     from biliass import convert_to_ass
     xml_path.write_bytes(generated)
@@ -88,6 +88,9 @@ def main():
         display_region_ratio=style['display_region_ratio'],font_face=style['font_face'],
         font_size=style['font_size'],text_opacity=style['opacity'],
         duration_marquee=style['marquee_seconds'],duration_still=style['still_seconds'],reduce_comments=False)
+    if manifest.get('estimation_model'):
+        tag='; Timing model: '+manifest['status']+'; not independently calibrated\n'
+        ass=ass.replace('[Script Info]\n','[Script Info]\n'+tag,1)
     name=Path(manifest['reference']['release']).with_suffix('.ass').name
     ass_path=folder/name
     ass_path.write_text(ass,encoding='utf-8-sig')

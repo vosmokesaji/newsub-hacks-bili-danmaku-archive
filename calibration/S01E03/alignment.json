@@ -481,7 +481,6 @@
   },
   "ass_style": {
     "tool": "biliass==2.5.0",
-    "comments": 761,
     "resolution": [
       1920,
       1080
