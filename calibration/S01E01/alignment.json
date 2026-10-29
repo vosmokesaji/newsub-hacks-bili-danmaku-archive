@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "episode": "S01E01",
+  "bvid": "BV1XWBXBcE3Q",
+  "status": "user_validated_playback",
+  "validation": {
+    "date": "2026-10-29",
+    "method": "user_playback_confirmation",
+    "feedback": "弹幕的时间点没问题，非常完美"
+  },
+  "reference": {
+    "release": "绝望写手.Hacks.S01E01.1080p.H265-NEW字幕组.mp4",
+    "sha256": "ce32894f3cd2defe6629d349e17909a9a42416d74ad8235f28564a4d3df4694a",
+    "size_bytes": 363422059,
+    "duration_seconds": 1743.49175,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 34973421029,
+      "file": "hacks-danmaku/S01E01/P01_S01E01-1_34973421029.xml",
+      "sha256": "db9138f66a3ed1ac56eb071e7acb886d5b9f77e37ec467d337c5a3a3709aee83",
+      "comments": 110
+    },
+    {
+      "cid": 34973421336,
+      "file": "hacks-danmaku/S01E01/P02_S01E01-2_34973421336.xml",
+      "sha256": "9920113e8e2bb27faac48fb480329cc8d614e72971329295fa67fb76aace7951",
+      "comments": 108
+    },
+    {
+      "cid": 34973483069,
+      "file": "hacks-danmaku/S01E01/P03_S01E01-3_34973483069.xml",
+      "sha256": "97ae375dbee84124f6c28d99a5049b70ae775dfe98044a3f75f540492f648b5d",
+      "comments": 94
+    },
+    {
+      "cid": 34973483291,
+      "file": "hacks-danmaku/S01E01/P04_S01E01-4_34973483291.xml",
+      "sha256": "b4ec13f85378c62467b916e727501afc36cc035c23148018faa9f9bf711003b7",
+      "comments": 137
+    },
+    {
+      "cid": 34973483639,
+      "file": "hacks-danmaku/S01E01/P05_S01E01-5_34973483639.xml",
+      "sha256": "4b773b76ffdbc13f58433fc03ec00fe703b5999b2112ecbba0d079745962cabd",
+      "comments": 125
+    },
+    {
+      "cid": 34973483827,
+      "file": "hacks-danmaku/S01E01/P06_S01E01-6_34973483827.xml",
+      "sha256": "b5d309f5cbefd3c1cd3d598bb7da7f80276d9ed1d5273695fb6e6d0d0d1deec3",
+      "comments": 187
+    }
+  ],
+  "mapping": [
+    {
+      "part": 1,
+      "cid": 34973421029,
+      "source_comments": 110,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 0.0,
+      "offset_delta_from_previous_naive_merge_seconds": 0.0,
+      "offset_status": "P1 zero assumed",
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 2,
+      "cid": 34973421336,
+      "source_comments": 108,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 297.04675,
+      "offset_delta_from_previous_naive_merge_seconds": -3.9532500000000255,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 3,
+      "cid": 34973483069,
+      "source_comments": 94,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 594.0517916666666,
+      "offset_delta_from_previous_naive_merge_seconds": -7.948208333333355,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 4,
+      "cid": 34973483291,
+      "source_comments": 137,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 891.0568333333333,
+      "offset_delta_from_previous_naive_merge_seconds": -11.943166666666684,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 5,
+      "cid": 34973483639,
+      "source_comments": 125,
+      "archived_integer_duration_seconds": 301,
+      "preview_offset_seconds": 1188.061875,
+      "offset_delta_from_previous_naive_merge_seconds": -15.9381249999999,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 6,
+      "cid": 34973483827,
+      "source_comments": 187,
+      "archived_integer_duration_seconds": 259,
+      "preview_offset_seconds": 1485.0669166666667,
+      "offset_delta_from_previous_naive_merge_seconds": -19.933083333333343,
+      "offset_status": "thumbnail visual match, zero sample offset assumed",
+      "thumbnail_in_part_sample_offset_measured": false,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    }
+  ],
+  "visual_matches": [
+    {
+      "part": 2,
+      "reference": "P02_34973421336.jpg",
+      "candidate_pts": 7129122,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 297.04675,
+      "approx_frame_number": 7122,
+      "grayscale_ncc": 0.9989324808120728,
+      "gradient_ncc": 0.9628766775131226,
+      "combined_score": 0.98991858959198,
+      "near_peak_band_seconds": [
+        297.04675,
+        297.04675
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 296,
+          "score": 0.9342492818832397
+        },
+        {
+          "approx_seconds": 290,
+          "score": 0.8769527077674866
+        },
+        {
+          "approx_seconds": 304,
+          "score": 0.851433515548706
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 3,
+      "reference": "P03_34973483069.jpg",
+      "candidate_pts": 14257243,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 594.0517916666666,
+      "approx_frame_number": 14243,
+      "grayscale_ncc": 0.99959397315979,
+      "gradient_ncc": 0.9842110872268677,
+      "combined_score": 0.9957482814788818,
+      "near_peak_band_seconds": [
+        594.0517916666666,
+        594.0517916666666
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 594,
+          "score": 0.9282516241073608
+        },
+        {
+          "approx_seconds": 599,
+          "score": 0.815241813659668
+        },
+        {
+          "approx_seconds": 414,
+          "score": 0.7354532480239868
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 4,
+      "reference": "P04_34973483291.jpg",
+      "candidate_pts": 21385364,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 891.0568333333333,
+      "approx_frame_number": 21364,
+      "grayscale_ncc": 0.999504566192627,
+      "gradient_ncc": 0.9934062957763672,
+      "combined_score": 0.997979998588562,
+      "near_peak_band_seconds": [
+        891.0568333333333,
+        891.0568333333333
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 892,
+          "score": 0.9035609364509583
+        },
+        {
+          "approx_seconds": 942,
+          "score": 0.5357934236526489
+        },
+        {
+          "approx_seconds": 1180,
+          "score": 0.5212235450744629
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 5,
+      "reference": "P05_34973483639.jpg",
+      "candidate_pts": 28513485,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 1188.061875,
+      "approx_frame_number": 28485,
+      "grayscale_ncc": 0.9997347593307495,
+      "gradient_ncc": 0.9857842922210693,
+      "combined_score": 0.9962471127510071,
+      "near_peak_band_seconds": [
+        1188.061875,
+        1188.061875
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 1187,
+          "score": 0.986487865447998
+        },
+        {
+          "approx_seconds": 919,
+          "score": 0.682438313961029
+        },
+        {
+          "approx_seconds": 1372,
+          "score": 0.5735765695571899
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    },
+    {
+      "part": 6,
+      "reference": "P06_34973483827.jpg",
+      "candidate_pts": 35641606,
+      "time_base": "1/24000",
+      "candidate_time_seconds": 1485.0669166666667,
+      "approx_frame_number": 35606,
+      "grayscale_ncc": 0.9995357394218445,
+      "gradient_ncc": 0.9774496555328369,
+      "combined_score": 0.9940142035484314,
+      "near_peak_band_seconds": [
+        1485.0669166666667,
+        1485.0669166666667
+      ],
+      "near_peak_band_threshold": "best combined score minus 0.0005; not a statistical CI",
+      "coarse_independent_peaks": [
+        {
+          "approx_seconds": 1483,
+          "score": 0.984422504901886
+        },
+        {
+          "approx_seconds": 1491,
+          "score": 0.9693992137908936
+        },
+        {
+          "approx_seconds": 1496,
+          "score": 0.9030697345733643
+        }
+      ],
+      "thumbnail_in_part_offset_seconds": null,
+      "part_start_seconds": null,
+      "status": "candidate_visual_match_only_not_verified_part_start"
+    }
+  ],
+  "reference_images": [
+    {
+      "part": 1,
+      "cid": 34973421029,
+      "url": "https://i1.hdslb.com/bfs/storyff/_0000240ebupa7btys2spsgmykjo7j9b_firsti.jpg",
+      "file": "calibration/S01E01/evidence/P01_34973421029.jpg",
+      "sha256": "86ef1d0974ef80b93d46fae586a46608cf66e1f9c5c3f0ca16769859968c1842"
+    },
+    {
+      "part": 2,
+      "cid": 34973421336,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00000sjheo0itvnbo2qhflfclttsgeb_firsti.jpg",
+      "file": "calibration/S01E01/evidence/P02_34973421336.jpg",
+      "sha256": "4908acaefba8d4edcbf3f5f69c5b3108eb962b3d415c05f20851b64b2cfec1fe"
+    },
+    {
+      "part": 3,
+      "cid": 34973483069,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00001lmzjbjwbw8bc2jhgzbmdwknneb_firsti.jpg",
+      "file": "calibration/S01E01/evidence/P03_34973483069.jpg",
+      "sha256": "5b0283c5ef0fa47f7a6db804504c6451214c69d7328b8ab380ce19aa222d293d"
+    },
+    {
+      "part": 4,
+      "cid": 34973483291,
+      "url": "https://i1.hdslb.com/bfs/storyff/_00002lqpjwz574vc02fjsgqogh485hb_firsti.jpg",
+      "file": "calibration/S01E01/evidence/P04_34973483291.jpg",
+      "sha256": "a27233b033e08727b47c0d09435b2b19a6aea93848cadcf2fc11da56ce6b3e1a"
+    },
+    {
+      "part": 5,
+      "cid": 34973483639,
+      "url": "https://i0.hdslb.com/bfs/storyff/_00000t3lgdve5fgd22d7yt6a2vu6r7b_firsti.jpg",
+      "file": "calibration/S01E01/evidence/P05_34973483639.jpg",
+      "sha256": "bb0f45d10f7fb87843d96e8c035e35b576e2f2dd688c6653624843209756b6f2"
+    },
+    {
+      "part": 6,
+      "cid": 34973483827,
+      "url": "https://i1.hdslb.com/bfs/storyff/_00003iz653khkayz726mfm2mt6n2gbb_firsti.jpg",
+      "file": "calibration/S01E01/evidence/P06_34973483827.jpg",
+      "sha256": "7b5bd2d1ffa42839991740969b6ceaa565d6f672ecfbc1f44d0289f1624f9601"
+    }
+  ],
+  "method": "global 1fps coarse search, full-frame-rate hardware decode with original copyts PTS; center grayscale and gradient NCC masks watermarks/subtitles",
+  "roi_at_320x180": {
+    "x": [
+      10,
+      310
+    ],
+    "y": [
+      25,
+      150
+    ]
+  },
+  "assumptions": [
+    "P1 begins at original time zero",
+    "first_frame images correspond to the start of P2-P6 with zero sampling offset",
+    "no edits or speed changes inside each part"
+  ],
+  "interval_comparison": {
+    "matched_anchor_intervals_seconds": [
+      297.00504166666667,
+      297.00504166666667,
+      297.0050416666668,
+      297.00504166666656
+    ],
+    "observed_equal_between_P2_P6": true,
+    "actual_overlap_seconds": null,
+    "reason": "thumbnail sampling offsets and actual part durations unmeasured; integer duration difference is not an overlap measurement"
+  },
+  "artifacts": {
+    "naive_merged_xml": {
+      "file": "calibration/S01E01/naive-merged.xml",
+      "sha256": "c29b83fe2edc64726e31605956cb86e9f6fda92b356bbeac5abdcc384bf17c18"
+    },
+    "aligned_xml": {
+      "file": "calibration/S01E01/aligned.xml",
+      "sha256": "4acad8036fe431acaf216d51070245419f2686253d4e7b767e50dd64253805c9"
+    },
+    "ass": {
+      "file": "calibration/S01E01/绝望写手.Hacks.S01E01.1080p.H265-NEW字幕组.ass",
+      "sha256": "94cebd8db5e2b99254831da8f6ad9169fdbde121763b871dcfe1364fb8c8187e"
+    }
+  },
+  "limits": [
+    "实播通过不等于原始分P时长、首帧采样偏移或中途删减已做帧级测量",
+    "仅适用于本清单标识的原片，不将间隔推定为其他集的规律",
+    "不发布原视频、私人存储目录、设备连接信息或从私人原片提取的对照截图"
+  ],
+  "ass_style": {
+    "tool": "biliass==2.5.0",
+    "comments": 761,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "display_region_ratio": 0.55,
+    "font_face": "Heiti SC",
+    "font_size": 44,
+    "opacity": 0.85,
+    "marquee_seconds": 8,
+    "still_seconds": 4,
+    "reduce_comments": false
+  }
+}
