@@ -1,0 +1,1441 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "status": "new_upload_visual_candidates_only",
+  "posts": [
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "method": "Global 1fps grayscale ROI NCC; fine frame-rate grayscale/gradient NCC weighted .75/.25; original copyts PTS",
+      "roi_320x180": {
+        "x": [
+          10,
+          310
+        ],
+        "y": [
+          25,
+          150
+        ]
+      },
+      "anchors": [
+        {
+          "new_cid": 43105718177,
+          "new_page": 2,
+          "new_part": "401-1",
+          "status": "repeated_intro_logo_requires_nonunique_start_analysis",
+          "candidate_pts": null,
+          "old_cid_correspondence": "unverified"
+        },
+        {
+          "new_cid": 43105779727,
+          "new_page": 3,
+          "new_part": "401-2",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P03_43105779727.jpg",
+          "reference_image_sha256": "b68d33d2729f3a97005a202dd27b59d9363296d2ae5977ba77d5364dd1a6ca8c",
+          "candidate_pts": 4272268,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 178.01116666666667,
+          "combined_score": 0.9971234202384949,
+          "grayscale_ncc": 0.9998432993888855,
+          "gradient_ncc": 0.9889638423919678,
+          "near_peak_band_seconds": [
+            178.01116666666667,
+            178.01116666666667
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 177,
+              "score": 0.9507154822349548
+            },
+            {
+              "approx_seconds": 184,
+              "score": 0.8767668604850769
+            },
+            {
+              "approx_seconds": 221,
+              "score": 0.7005155086517334
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 174,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105779822,
+          "new_page": 4,
+          "new_part": "401-3",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P04_43105779822.jpg",
+          "reference_image_sha256": "cfb17146afed8c60c2a1830516fa377496a70ba5184fb35141b0661236fac79c",
+          "candidate_pts": 8544536,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 356.02233333333334,
+          "combined_score": 0.9987689256668091,
+          "grayscale_ncc": 0.9997217059135437,
+          "gradient_ncc": 0.9959107041358948,
+          "near_peak_band_seconds": [
+            356.02233333333334,
+            356.02233333333334
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 357,
+              "score": 0.9433678388595581
+            },
+            {
+              "approx_seconds": 312,
+              "score": 0.6521083116531372
+            },
+            {
+              "approx_seconds": 101,
+              "score": 0.5688211917877197
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 354,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780002,
+          "new_page": 5,
+          "new_part": "401-4",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P05_43105780002.jpg",
+          "reference_image_sha256": "cea75564be2cffc1b00e8291cc628c807b0359cb681b3cab16f6f3403eac2113",
+          "candidate_pts": 12816804,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 534.0335,
+          "combined_score": 0.9984493255615234,
+          "grayscale_ncc": 0.9997096061706543,
+          "gradient_ncc": 0.9946683645248413,
+          "near_peak_band_seconds": [
+            534.0335,
+            534.0335
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 534,
+              "score": 0.8441887497901917
+            },
+            {
+              "approx_seconds": 529,
+              "score": 0.6502699255943298
+            },
+            {
+              "approx_seconds": 981,
+              "score": 0.3673971891403198
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 531,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780048,
+          "new_page": 6,
+          "new_part": "401-5",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P06_43105780048.jpg",
+          "reference_image_sha256": "79ac51db6b3fcd2df60bb09fbb47087c2f5aa6bb7ce10f477de1337e934c7cd4",
+          "candidate_pts": 17088071,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 712.0029583333334,
+          "combined_score": 0.9974023103713989,
+          "grayscale_ncc": 0.9996364116668701,
+          "gradient_ncc": 0.9907000064849854,
+          "near_peak_band_seconds": [
+            712.0029583333334,
+            712.0029583333334
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 712,
+              "score": 0.9373544454574585
+            },
+            {
+              "approx_seconds": 1433,
+              "score": 0.5080091953277588
+            },
+            {
+              "approx_seconds": 1634,
+              "score": 0.49802547693252563
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 709,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780380,
+          "new_page": 7,
+          "new_part": "401-6",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P07_43105780380.jpg",
+          "reference_image_sha256": "2c6dabc72f7fef5e35fa4fac552aef0fb8a064f5acbcc0c0b78c15989d45533f",
+          "candidate_pts": 21360339,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 890.014125,
+          "combined_score": 0.997812032699585,
+          "grayscale_ncc": 0.9997873306274414,
+          "gradient_ncc": 0.9918862581253052,
+          "near_peak_band_seconds": [
+            890.014125,
+            890.014125
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 889,
+              "score": 0.7130646705627441
+            },
+            {
+              "approx_seconds": 882,
+              "score": 0.5324900150299072
+            },
+            {
+              "approx_seconds": 877,
+              "score": 0.5099963545799255
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 886,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780461,
+          "new_page": 8,
+          "new_part": "401-7",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P08_43105780461.jpg",
+          "reference_image_sha256": "09bac03eb2177728532a96fc281405c7fea14b2b83a475ef042418fdfd62bdc0",
+          "candidate_pts": 25632607,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1068.0252916666666,
+          "combined_score": 0.9946669936180115,
+          "grayscale_ncc": 0.9997648000717163,
+          "gradient_ncc": 0.9793736934661865,
+          "near_peak_band_seconds": [
+            1068.0252916666666,
+            1068.0252916666666
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1068,
+              "score": 0.9528886079788208
+            },
+            {
+              "approx_seconds": 1095,
+              "score": 0.7552747130393982
+            },
+            {
+              "approx_seconds": 1089,
+              "score": 0.6835070848464966
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1065,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780635,
+          "new_page": 9,
+          "new_part": "401-8",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P09_43105780635.jpg",
+          "reference_image_sha256": "a79b4cb5b2a7f3ceb0ab374d1bd0a1b52aa9d01efc1249a7dfa0d435080f8060",
+          "candidate_pts": 29904875,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1246.0364583333333,
+          "combined_score": 0.9971652030944824,
+          "grayscale_ncc": 0.9992278814315796,
+          "gradient_ncc": 0.9909773468971252,
+          "near_peak_band_seconds": [
+            1246.0364583333333,
+            1246.0364583333333
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1245,
+              "score": 0.7447260022163391
+            },
+            {
+              "approx_seconds": 1257,
+              "score": 0.45016971230506897
+            },
+            {
+              "approx_seconds": 1107,
+              "score": 0.44426947832107544
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1242,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780884,
+          "new_page": 10,
+          "new_part": "401-9",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P10_43105780884.jpg",
+          "reference_image_sha256": "5204261bb887dc2640519d8fa207b7f184b5c62d49260dcb862ae4c57d1d2ac7",
+          "candidate_pts": 34176142,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1424.0059166666667,
+          "combined_score": 0.9967713356018066,
+          "grayscale_ncc": 0.9992399215698242,
+          "gradient_ncc": 0.9893656969070435,
+          "near_peak_band_seconds": [
+            1424.0059166666667,
+            1424.0059166666667
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1424,
+              "score": 0.9273843765258789
+            },
+            {
+              "approx_seconds": 930,
+              "score": 0.28356146812438965
+            },
+            {
+              "approx_seconds": 19,
+              "score": 0.28029656410217285
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1421,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780861,
+          "new_page": 11,
+          "new_part": "401-10",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P11_43105780861.jpg",
+          "reference_image_sha256": "bbaf689e114b2b72b8de2ed0f04a2428f2627b1e3a5c538176f174766c45bdd4",
+          "candidate_pts": 37008972,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1542.0405,
+          "combined_score": 0.9955801963806152,
+          "grayscale_ncc": 0.9990338087081909,
+          "gradient_ncc": 0.9852193593978882,
+          "near_peak_band_seconds": [
+            1542.0405,
+            1542.0405
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1542,
+              "score": 0.9490142464637756
+            },
+            {
+              "approx_seconds": 24,
+              "score": 0.4141061007976532
+            },
+            {
+              "approx_seconds": 215,
+              "score": 0.39858633279800415
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1539,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43105780934,
+          "new_page": 12,
+          "new_part": "401-11",
+          "reference_image_file": "references/reuploads/BV1UMxG62Eww/P12_43105780934.jpg",
+          "reference_image_sha256": "6b35e100952bf9f1b04f22e05d1b04bf303f8d94168c20fd86b2649a67749d5c",
+          "candidate_pts": 39840801,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1660.033375,
+          "combined_score": 0.9963057637214661,
+          "grayscale_ncc": 0.9990965127944946,
+          "gradient_ncc": 0.9879333972930908,
+          "near_peak_band_seconds": [
+            1660.033375,
+            1660.033375
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1690,
+              "score": 0.8371677994728088
+            },
+            {
+              "approx_seconds": 1709,
+              "score": 0.7347798347473145
+            },
+            {
+              "approx_seconds": 1660,
+              "score": 0.7172883749008179
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1687,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "refinement": {
+            "reason": "global 1fps sampling can miss brief cuts; previous candidate had low score",
+            "search_hint_seconds": 1660,
+            "hint_basis": "archived duration less 3 seconds per join, used only to select a wider search window; not accepted as timing evidence",
+            "searched_range_seconds": [
+              1648,
+              1673
+            ],
+            "previous_candidate": {
+              "pts": 40571531,
+              "score": 0.6618757843971252
+            },
+            "accepted_candidate_requires_image_similarity": true
+          },
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        }
+      ],
+      "limits": [
+        "New-CID evidence only; old-CID segment correspondence is unverified",
+        "Image sample position inside uploaded part remains unknown",
+        "Repeated intro logo was not forced to a unique start"
+      ],
+      "reference": {
+        "release": "绝望写手.Hacks.S04E01.1080p.H265-NEW字幕组V2.mp4",
+        "sha256": "87f6ae168067c9b68844cf47e373e8d82aa99ba5889c75f3cc1fda24dd95c6e4",
+        "size_bytes": 451133653,
+        "duration_seconds": 1805.152,
+        "frame_rate": "24000/1001"
+      }
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "method": "Global 1fps grayscale ROI NCC; fine frame-rate grayscale/gradient NCC weighted .75/.25; original copyts PTS",
+      "roi_320x180": {
+        "x": [
+          10,
+          310
+        ],
+        "y": [
+          25,
+          150
+        ]
+      },
+      "anchors": [
+        {
+          "new_cid": 43021107437,
+          "new_page": 2,
+          "new_part": "409-1",
+          "status": "repeated_intro_logo_requires_nonunique_start_analysis",
+          "candidate_pts": null,
+          "old_cid_correspondence": "unverified"
+        },
+        {
+          "new_cid": 43021107724,
+          "new_page": 3,
+          "new_part": "409-2",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P03_43021107724.jpg",
+          "reference_image_sha256": "ba1b2998622fc19bb3c2f2b26f2400182bfb5b6ab4e291f79cbc966a24794db1",
+          "candidate_pts": 4272268,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 178.01116666666667,
+          "combined_score": 0.9984346032142639,
+          "grayscale_ncc": 0.9998887777328491,
+          "gradient_ncc": 0.9940721392631531,
+          "near_peak_band_seconds": [
+            178.01116666666667,
+            178.01116666666667
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 177,
+              "score": 0.9883859157562256
+            },
+            {
+              "approx_seconds": 150,
+              "score": 0.6764659881591797
+            },
+            {
+              "approx_seconds": 230,
+              "score": 0.6671164035797119
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 174,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021108117,
+          "new_page": 4,
+          "new_part": "409-3",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P04_43021108117.jpg",
+          "reference_image_sha256": "2f22335f56413b86a23e44d3728f498172c0f430ac61d80518290ba6015e6906",
+          "candidate_pts": 8544536,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 356.02233333333334,
+          "combined_score": 0.9981774091720581,
+          "grayscale_ncc": 0.999699592590332,
+          "gradient_ncc": 0.9936108589172363,
+          "near_peak_band_seconds": [
+            356.02233333333334,
+            356.02233333333334
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 355,
+              "score": 0.6235679984092712
+            },
+            {
+              "approx_seconds": 794,
+              "score": 0.48105257749557495
+            },
+            {
+              "approx_seconds": 2030,
+              "score": 0.4128643274307251
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 352,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021108508,
+          "new_page": 5,
+          "new_part": "409-4",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P05_43021108508.jpg",
+          "reference_image_sha256": "3732c230a970bf216182288765f5943438a95f89080fa28d96723f0c534cf686",
+          "candidate_pts": 12816804,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 534.0335,
+          "combined_score": 0.9976102113723755,
+          "grayscale_ncc": 0.999599814414978,
+          "gradient_ncc": 0.9916414022445679,
+          "near_peak_band_seconds": [
+            534.0335,
+            534.0335
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 527,
+              "score": 0.6057484149932861
+            },
+            {
+              "approx_seconds": 655,
+              "score": 0.5354033708572388
+            },
+            {
+              "approx_seconds": 1549,
+              "score": 0.45026087760925293
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 524,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "refinement": {
+            "reason": "global 1fps sampling can miss brief cuts; previous candidate had low score",
+            "search_hint_seconds": 534,
+            "hint_basis": "archived duration less 3 seconds per join, used only to select a wider search window; not accepted as timing evidence",
+            "searched_range_seconds": [
+              522,
+              547
+            ],
+            "previous_candidate": {
+              "pts": 12646634,
+              "score": 0.47781071066856384
+            },
+            "accepted_candidate_requires_image_similarity": true
+          },
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021108584,
+          "new_page": 6,
+          "new_part": "409-5",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P06_43021108584.jpg",
+          "reference_image_sha256": "f55982552bc64f76a4fdcdd27199d94ab9bd74a6efca7772814d7c8e9b37eeca",
+          "candidate_pts": 17088071,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 712.0029583333334,
+          "combined_score": 0.9952847361564636,
+          "grayscale_ncc": 0.9997944831848145,
+          "gradient_ncc": 0.9817554950714111,
+          "near_peak_band_seconds": [
+            712.0029583333334,
+            712.0029583333334
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1961,
+              "score": 0.6185404062271118
+            },
+            {
+              "approx_seconds": 653,
+              "score": 0.5178810954093933
+            },
+            {
+              "approx_seconds": 525,
+              "score": 0.50462806224823
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1958,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "refinement": {
+            "reason": "global 1fps sampling can miss brief cuts; previous candidate had low score",
+            "search_hint_seconds": 712,
+            "hint_basis": "archived duration less 3 seconds per join, used only to select a wider search window; not accepted as timing evidence",
+            "searched_range_seconds": [
+              700,
+              725
+            ],
+            "previous_candidate": {
+              "pts": 47086039,
+              "score": 0.48900002241134644
+            },
+            "accepted_candidate_requires_image_similarity": true
+          },
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021109006,
+          "new_page": 7,
+          "new_part": "409-6",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P07_43021109006.jpg",
+          "reference_image_sha256": "580f63dad1304ace9a37dadf9a4a5789b6eb561347e64a6ed72735bb6a060103",
+          "candidate_pts": 21360339,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 890.014125,
+          "combined_score": 0.9931381940841675,
+          "grayscale_ncc": 0.9989306926727295,
+          "gradient_ncc": 0.9757606983184814,
+          "near_peak_band_seconds": [
+            890.014125,
+            890.014125
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 889,
+              "score": 0.9041913151741028
+            },
+            {
+              "approx_seconds": 880,
+              "score": 0.8634399175643921
+            },
+            {
+              "approx_seconds": 901,
+              "score": 0.754875898361206
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 886,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021109522,
+          "new_page": 8,
+          "new_part": "409-7",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P08_43021109522.jpg",
+          "reference_image_sha256": "bcab060672029b36e9f5b98e8f543969df2d16aaf116c3da63f9149be5ca4209",
+          "candidate_pts": 25632607,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1068.0252916666666,
+          "combined_score": 0.9961878061294556,
+          "grayscale_ncc": 0.9997472763061523,
+          "gradient_ncc": 0.9855095148086548,
+          "near_peak_band_seconds": [
+            1068.0252916666666,
+            1068.0252916666666
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1068,
+              "score": 0.8069085478782654
+            },
+            {
+              "approx_seconds": 205,
+              "score": 0.5643927454948425
+            },
+            {
+              "approx_seconds": 1328,
+              "score": 0.5449984669685364
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1065,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021109722,
+          "new_page": 9,
+          "new_part": "409-8",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P09_43021109722.jpg",
+          "reference_image_sha256": "8c4872a46eaee8b176b0765beceaddf8cdda490b1cfd42baf0c7e544f780c00a",
+          "candidate_pts": 29904875,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1246.0364583333333,
+          "combined_score": 0.9982344508171082,
+          "grayscale_ncc": 0.9994350671768188,
+          "gradient_ncc": 0.9946324825286865,
+          "near_peak_band_seconds": [
+            1246.0364583333333,
+            1246.0364583333333
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1247,
+              "score": 0.9268292188644409
+            },
+            {
+              "approx_seconds": 1257,
+              "score": 0.25870224833488464
+            },
+            {
+              "approx_seconds": 356,
+              "score": 0.2570435702800751
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1244,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021109830,
+          "new_page": 10,
+          "new_part": "409-9",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P10_43021109830.jpg",
+          "reference_image_sha256": "cfe0626095aa053d9e9cec54f565afe91655aad90be768e4286a4560ad523114",
+          "candidate_pts": 34176142,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1424.0059166666667,
+          "combined_score": 0.9993077516555786,
+          "grayscale_ncc": 0.9997637867927551,
+          "gradient_ncc": 0.9979395866394043,
+          "near_peak_band_seconds": [
+            1424.0059166666667,
+            1424.0059166666667
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1424,
+              "score": 0.9796620607376099
+            },
+            {
+              "approx_seconds": 539,
+              "score": 0.4378415048122406
+            },
+            {
+              "approx_seconds": 631,
+              "score": 0.41737473011016846
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1421,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021110097,
+          "new_page": 11,
+          "new_part": "409-10",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P11_43021110097.jpg",
+          "reference_image_sha256": "90cb4caf8dff0078c79d8bae766f00f05780d2d2af85abff9cd6bf921f4f3c4b",
+          "candidate_pts": 38448410,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1602.0170833333334,
+          "combined_score": 0.9902641177177429,
+          "grayscale_ncc": 0.9981015920639038,
+          "gradient_ncc": 0.9667518138885498,
+          "near_peak_band_seconds": [
+            1602.0170833333334,
+            1602.0170833333334
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1593,
+              "score": 0.8855900764465332
+            },
+            {
+              "approx_seconds": 1602,
+              "score": 0.8180981278419495
+            },
+            {
+              "approx_seconds": 1337,
+              "score": 0.4767003655433655
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1590,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "refinement": {
+            "reason": "global 1fps sampling can miss brief cuts; previous candidate had low score",
+            "search_hint_seconds": 1602,
+            "hint_basis": "archived duration less 3 seconds per join, used only to select a wider search window; not accepted as timing evidence",
+            "searched_range_seconds": [
+              1590,
+              1615
+            ],
+            "previous_candidate": {
+              "pts": 38248210,
+              "score": 0.773533046245575
+            },
+            "accepted_candidate_requires_image_similarity": true
+          },
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021110280,
+          "new_page": 12,
+          "new_part": "409-11",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P12_43021110280.jpg",
+          "reference_image_sha256": "d103978c55a1107e46edecefd4d67e213aa6f6bdd73e593730fda1e0d57d5e42",
+          "candidate_pts": 42720678,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1780.02825,
+          "combined_score": 0.9749668836593628,
+          "grayscale_ncc": 0.9976515769958496,
+          "gradient_ncc": 0.9069128036499023,
+          "near_peak_band_seconds": [
+            1780.02825,
+            1780.02825
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1780,
+              "score": 0.5823967456817627
+            },
+            {
+              "approx_seconds": 2033,
+              "score": 0.460826575756073
+            },
+            {
+              "approx_seconds": 18,
+              "score": 0.451383501291275
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1777,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021110720,
+          "new_page": 13,
+          "new_part": "409-12",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P13_43021110720.jpg",
+          "reference_image_sha256": "a2618ab24085f84c863a2b40819197a6b3a8a3705eebfab4934effd878c0adec",
+          "candidate_pts": 46992946,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 1958.0394166666667,
+          "combined_score": 0.9977648854255676,
+          "grayscale_ncc": 0.9993958473205566,
+          "gradient_ncc": 0.9928719997406006,
+          "near_peak_band_seconds": [
+            1958.0394166666667,
+            1958.0394166666667
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 1957,
+              "score": 0.886528491973877
+            },
+            {
+              "approx_seconds": 1952,
+              "score": 0.7296879887580872
+            },
+            {
+              "approx_seconds": 662,
+              "score": 0.4929877817630768
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 1954,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        },
+        {
+          "new_cid": 43021110854,
+          "new_page": 14,
+          "new_part": "409-13",
+          "reference_image_file": "references/reuploads/BV1kEHM6UEax/P14_43021110854.jpg",
+          "reference_image_sha256": "90c25399cf0e4ce9b93d150781ecc10f717e432761a8af6751a73a28c8b422b1",
+          "candidate_pts": 49824775,
+          "time_base": "1/24000",
+          "candidate_time_seconds": 2076.032291666667,
+          "combined_score": 0.9963506460189819,
+          "grayscale_ncc": 0.998659610748291,
+          "gradient_ncc": 0.9894236922264099,
+          "near_peak_band_seconds": [
+            2076.032291666667,
+            2076.032291666667
+          ],
+          "near_peak_definition": "best score minus 0.0005; observed band, not confidence interval",
+          "coarse_independent_peaks": [
+            {
+              "approx_seconds": 2076,
+              "score": 0.3293117880821228
+            },
+            {
+              "approx_seconds": 1605,
+              "score": 0.28958719968795776
+            },
+            {
+              "approx_seconds": 720,
+              "score": 0.27889323234558105
+            }
+          ],
+          "window_searches": [
+            {
+              "window_start": 2073,
+              "frame_count": 168,
+              "best_at_edge": false
+            }
+          ],
+          "best_at_window_edge": false,
+          "thumbnail_in_part_offset_seconds": null,
+          "actual_part_duration_seconds": null,
+          "old_cid_correspondence": "unverified",
+          "status": "candidate_new_upload_image_position_not_verified_old_segment_start",
+          "evidence_grade": "high_similarity_candidate; no playback confirmation and no verified old-CID mapping"
+        }
+      ],
+      "limits": [
+        "New-CID evidence only; old-CID segment correspondence is unverified",
+        "Image sample position inside uploaded part remains unknown",
+        "Repeated intro logo was not forced to a unique start"
+      ],
+      "reference": {
+        "release": "绝望写手.Hacks.S04E09.1080p.H265-NEW字幕组V2.mp4",
+        "sha256": "3dc645ed515fe9c00610474e3b366a3133acb64dd9b444e4bb62e05e00c3b851",
+        "size_bytes": 625834329,
+        "duration_seconds": 2241.376,
+        "frame_rate": "24000/1001"
+      }
+    }
+  ],
+  "observed_new_image_intervals": [
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-2",
+      "to_new_part": "401-3",
+      "from_new_cid": 43105779727,
+      "to_new_cid": 43105779822,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-3",
+      "to_new_part": "401-4",
+      "from_new_cid": 43105779822,
+      "to_new_cid": 43105780002,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-4",
+      "to_new_part": "401-5",
+      "from_new_cid": 43105780002,
+      "to_new_cid": 43105780048,
+      "pts_delta": 4271267,
+      "time_base": "1/24000",
+      "seconds_exact": "4271267/24000",
+      "seconds": 177.96945833333334,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-5",
+      "to_new_part": "401-6",
+      "from_new_cid": 43105780048,
+      "to_new_cid": 43105780380,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-6",
+      "to_new_part": "401-7",
+      "from_new_cid": 43105780380,
+      "to_new_cid": 43105780461,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-7",
+      "to_new_part": "401-8",
+      "from_new_cid": 43105780461,
+      "to_new_cid": 43105780635,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-8",
+      "to_new_part": "401-9",
+      "from_new_cid": 43105780635,
+      "to_new_cid": 43105780884,
+      "pts_delta": 4271267,
+      "time_base": "1/24000",
+      "seconds_exact": "4271267/24000",
+      "seconds": 177.96945833333334,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-9",
+      "to_new_part": "401-10",
+      "from_new_cid": 43105780884,
+      "to_new_cid": 43105780861,
+      "pts_delta": 2832830,
+      "time_base": "1/24000",
+      "seconds_exact": "283283/2400",
+      "seconds": 118.03458333333333,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E01",
+      "new_bvid": "BV1UMxG62Eww",
+      "from_new_part": "401-10",
+      "to_new_part": "401-11",
+      "from_new_cid": 43105780861,
+      "to_new_cid": 43105780934,
+      "pts_delta": 2831829,
+      "time_base": "1/24000",
+      "seconds_exact": "943943/8000",
+      "seconds": 117.992875,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-2",
+      "to_new_part": "409-3",
+      "from_new_cid": 43021107724,
+      "to_new_cid": 43021108117,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-3",
+      "to_new_part": "409-4",
+      "from_new_cid": 43021108117,
+      "to_new_cid": 43021108508,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-4",
+      "to_new_part": "409-5",
+      "from_new_cid": 43021108508,
+      "to_new_cid": 43021108584,
+      "pts_delta": 4271267,
+      "time_base": "1/24000",
+      "seconds_exact": "4271267/24000",
+      "seconds": 177.96945833333334,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-5",
+      "to_new_part": "409-6",
+      "from_new_cid": 43021108584,
+      "to_new_cid": 43021109006,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-6",
+      "to_new_part": "409-7",
+      "from_new_cid": 43021109006,
+      "to_new_cid": 43021109522,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-7",
+      "to_new_part": "409-8",
+      "from_new_cid": 43021109522,
+      "to_new_cid": 43021109722,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-8",
+      "to_new_part": "409-9",
+      "from_new_cid": 43021109722,
+      "to_new_cid": 43021109830,
+      "pts_delta": 4271267,
+      "time_base": "1/24000",
+      "seconds_exact": "4271267/24000",
+      "seconds": 177.96945833333334,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-9",
+      "to_new_part": "409-10",
+      "from_new_cid": 43021109830,
+      "to_new_cid": 43021110097,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-10",
+      "to_new_part": "409-11",
+      "from_new_cid": 43021110097,
+      "to_new_cid": 43021110280,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-11",
+      "to_new_part": "409-12",
+      "from_new_cid": 43021110280,
+      "to_new_cid": 43021110720,
+      "pts_delta": 4272268,
+      "time_base": "1/24000",
+      "seconds_exact": "1068067/6000",
+      "seconds": 178.01116666666667,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    },
+    {
+      "episode": "S04E09",
+      "new_bvid": "BV1kEHM6UEax",
+      "from_new_part": "409-12",
+      "to_new_part": "409-13",
+      "from_new_cid": 43021110720,
+      "to_new_cid": 43021110854,
+      "pts_delta": 2831829,
+      "time_base": "1/24000",
+      "seconds_exact": "943943/8000",
+      "seconds": 117.992875,
+      "evidence": "new-upload matched image PTS only",
+      "actual_overlap_seconds": null,
+      "old_cid_correspondence": "unverified"
+    }
+  ],
+  "summary": {
+    "matched_non_intro_images": 22,
+    "intro_images_without_unique_start": 2,
+    "old_cid_mappings_verified": 0,
+    "old_danmaku_mapping_changed_using_new_images": false
+  },
+  "limits": [
+    "Image similarity establishes candidate image position, not exact uploaded-part start or true overlap",
+    "Current new CIDs are not the original deleted CIDs",
+    "The wider refinement search used a duration-based hint only to choose a search window; final candidates require direct image similarity",
+    "Original video frames and local device paths are not included"
+  ]
+}

@@ -25,6 +25,15 @@ def main():
     folder=inside('calibration/'+args.episode)
     manifest_path=folder/'alignment.json'
     manifest=json.loads(manifest_path.read_text())
+    for source in manifest.get('excluded_parts',[]):
+        if digest(inside(source['file']))!=source['sha256']:
+            raise ValueError('Excluded original checksum mismatch')
+        if len(ET.parse(inside(source['file'])).getroot().findall('d'))!=source['comments']:
+            raise ValueError('Excluded original count mismatch')
+    for source in manifest['original_parts']+manifest.get('excluded_parts',[]):
+        for package in source.get('protobuf_packages',[]):
+            if digest(inside(package['file']))!=package['sha256']:
+                raise ValueError('Original protobuf checksum mismatch')
     if manifest.get('mapping') is None:
         if not args.check:
             raise ValueError('No independently supported mapping is archived for this episode')
@@ -42,7 +51,7 @@ def main():
                 raise ValueError('Uncalibrated artifact checksum mismatch')
         if 'ass'in manifest['artifacts'] or 'aligned_xml'in manifest['artifacts']:
             raise ValueError('Pending mapping must not claim aligned playback artifacts')
-        print(f'{args.episode}: {count} original comments and naive merge verified; alignment remains pending')
+        print(f'{args.episode}: {count} original comments and archived artifacts verified; alignment remains pending')
         return
     offsets={p['cid']:p['preview_offset_seconds']for p in manifest['mapping']}
     tree=ET.Element('i')

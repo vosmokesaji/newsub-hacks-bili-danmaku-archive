@@ -26,12 +26,18 @@ def main():
     for path in paths:
         data=json.loads(path.read_text())
         if data['status']not in ELIGIBLE:
-            print(data['episode'],': keeping independently supported mapping unchanged')
+            print(data['episode'],': keeping existing status and mapping unchanged')
             continue
         ep=next(e for e in catalog if e['bvid']==data['bvid'])
         named=[p for p in ep['pages'] if p['cid']in {s['cid']for s in data['original_parts']} and p['part'].startswith(data['episode']+'-')]
-        if len(named)!=len(ep['pages']):
-            raise ValueError('This estimator currently requires a catalog with only named slices; handle placeholders explicitly first')
+        included={p['cid']for p in named}
+        excluded={p['cid']for p in data.get('excluded_parts',[])}
+        if included&excluded or included|excluded!={p['cid']for p in ep['pages']}:
+            raise ValueError('All catalogue parts must be explicitly included or excluded')
+        if included!={p['cid']for p in data['original_parts']}:
+            raise ValueError('Only matching named episode slices may enter this estimator')
+        if any(p['part'].startswith(data['episode']+'-')for p in ep['pages']if p['cid']in excluded):
+            raise ValueError('Named episode slices cannot be silently excluded')
         if len(named)<2:
             raise ValueError('Uniform adjacent-overlap estimation requires at least two parts')
         duration=Decimal(str(data['reference']['duration_seconds']))

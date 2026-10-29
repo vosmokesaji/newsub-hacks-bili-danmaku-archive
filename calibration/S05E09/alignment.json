@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "episode": "S05E09",
+  "bvid": "BV1Biji6GEWS",
+  "status": "nonstandard_parts_pending_content_alignment",
+  "reference": {
+    "release": "绝望写手.Hacks.S05E09.1080p.H265-NEW字幕组.mp4",
+    "sha256": "5acd21b139e754a4006b6a970e03817504fee4fbd6ffdb55970ae89cdad176af",
+    "size_bytes": 583845885,
+    "duration_seconds": 2099.764333,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 39236600049,
+      "part": "0",
+      "page": 1,
+      "archived_integer_duration_seconds": 2417,
+      "file": "hacks-danmaku/S05E09/P01_0_39236600049.xml",
+      "sha256": "c4908d59cada0e3d9b982b1c3bcbdc2fbf31169ca960a5b643ec9a9db30e6919",
+      "comments": 0,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment01.pb",
+          "sha256": "a4e8bebcf83e1a48c9d516a4d56607109b988e7caf77c0cab76d6a351d51e19d"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment02.pb",
+          "sha256": "325a020f88630e0dd25c7b16966737c1aaacfdefc1dc25123fe28292577886ee"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment03.pb",
+          "sha256": "cab7141f68eb331cdffa9e4fc053c25165fe544cf1c5ef371c85bf0811b84534"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment04.pb",
+          "sha256": "d596b20941d090d8d840259cf1b4dd1d0a44e589a760f4cada14c7159118c633"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment05.pb",
+          "sha256": "16239d306e29180f611edfc0fe6b2b26a06ec65eb07cfae5ae20611c252ea233"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment06.pb",
+          "sha256": "0e0392878e652910a6a6d515969597a57fa87a546ec17a2c2d68268334df0dbf"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P01_0_39236600049.segment07.pb",
+          "sha256": "5f6e6639c6ed7cb0b95d8c871440c889de2af204f73bad3b1b8ccf6f521f840c"
+        }
+      ]
+    },
+    {
+      "cid": 39236600870,
+      "part": "1",
+      "page": 2,
+      "archived_integer_duration_seconds": 4518,
+      "file": "hacks-danmaku/S05E09/P02_1_39236600870.xml",
+      "sha256": "bbecf637c9e8d86007716bb09ebe6393a9cb780d4909ab0d7d1165993d15fe70",
+      "comments": 732,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment01.pb",
+          "sha256": "6622edc713520ad38c5b70767647573d495646b7dd676a705468c7c7630161b3"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment02.pb",
+          "sha256": "71b7c01675859f0c7541e53344965f3e7c2a701fa38c3068aa589dad4382c1bc"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment03.pb",
+          "sha256": "bf8dcab3a75b07508dd21a7507c11b8fabc1140bf66baa176b64ec1223d96896"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment04.pb",
+          "sha256": "94783ab784b9a8c8a43605d60e2e01a706cb875a7f0056399842d4d9d1feaa24"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment05.pb",
+          "sha256": "55fdaa597476acbc862fddf10c3ab5d3a962ddf4c457508fd192e47fe44e7638"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment06.pb",
+          "sha256": "b06c6d3f7f62585b0dce5713bcb2e7259b94e6c273a337108de318b7fb737a4a"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment07.pb",
+          "sha256": "5f6e6639c6ed7cb0b95d8c871440c889de2af204f73bad3b1b8ccf6f521f840c"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment08.pb",
+          "sha256": "11323218e621d02b19f68def937e4bbcd25f02698201be84d90b5efcadf5a119"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment09.pb",
+          "sha256": "8adbd954807d9510f33393bd780acf0500c952a41fe2de9d45bbd08e9f9a42d7"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment10.pb",
+          "sha256": "f881e76d9793b737b39e17bd8274d1149a0d2f5e7042d70eea03421f2596f872"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment11.pb",
+          "sha256": "48b6fd2eaeaf805a0c15dc199341ffa06cfcab5166b403d2eff79bd1feed4785"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment12.pb",
+          "sha256": "de0772b49b77aa212fb44f4688865501df1939438701149432fc05a8c0d76fe4"
+        },
+        {
+          "file": "hacks-danmaku/S05E09/P02_1_39236600870.segment13.pb",
+          "sha256": "adca32bec4b66b050af748293268ff496d043ee71ec679dd6264c10b72588320"
+        }
+      ]
+    }
+  ],
+  "excluded_parts": [],
+  "mapping": null,
+  "artifacts": {},
+  "anchor_status": {
+    "public_first_frames": "no recovered old-CID first frames; see first-frame source survey",
+    "actual_overlap_seconds": null
+  },
+  "cut_label_clues": [],
+  "limitations": [
+    "Original comments and their per-part timestamps are preserved unchanged",
+    "No measured overlaps or cut intervals are inferred from total duration alone",
+    "Reference records contain only release identity, duration and fingerprint; no device or storage paths",
+    "Only nonstandard long parts exist; no concatenation, scaling or playback ASS is generated until content identity is established"
+  ]
+}

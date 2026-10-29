@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "episode": "S02E08",
+  "bvid": "BV1V8wtzWEL2",
+  "status": "estimated_equal_overlap_pending_playback",
+  "reference": {
+    "release": "绝望写手.Hacks.S02E08.1080p.H265-NEW字幕组.mp4",
+    "sha256": "f51853699fff81a4dc0918399a2d4956a45a0fc003499fc86a6ba7c5c7bee197",
+    "size_bytes": 408282423,
+    "duration_seconds": 2061.142417,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 36696361753,
+      "part": "S02E08-1",
+      "page": 1,
+      "archived_integer_duration_seconds": 297,
+      "file": "hacks-danmaku/S02E08/P01_S02E08-1_36696361753.xml",
+      "sha256": "3fe8c48b8df30669fef77ff5c5dd82c2a114f1cbe9e44d6d0707be7be4cd935c",
+      "comments": 94,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P01_S02E08-1_36696361753.segment01.pb",
+          "sha256": "31b9a2dc71aef2d594f27e09d059b8bd86d687c3387d087c0ba93698c1640223"
+        }
+      ]
+    },
+    {
+      "cid": 36696362705,
+      "part": "S02E08-2",
+      "page": 2,
+      "archived_integer_duration_seconds": 301,
+      "file": "hacks-danmaku/S02E08/P02_S02E08-2_36696362705.xml",
+      "sha256": "264a8a2b852f25047d0b72147e05cb715e012140af55d861ec6fd5a22e1b74be",
+      "comments": 108,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P02_S02E08-2_36696362705.segment01.pb",
+          "sha256": "37c450a998e0139c8eb41d302ccb8c53c1746fa6733f27c5dcd73d339be87d51"
+        }
+      ]
+    },
+    {
+      "cid": 36696362868,
+      "part": "S02E08-3",
+      "page": 3,
+      "archived_integer_duration_seconds": 301,
+      "file": "hacks-danmaku/S02E08/P03_S02E08-3_36696362868.xml",
+      "sha256": "46f6fdc7dcbc1c8ad4a07309944e20bd901b508363a77bfd9d64fabbe2f5d1bb",
+      "comments": 123,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P03_S02E08-3_36696362868.segment01.pb",
+          "sha256": "9b7226dc497513fa0dc3c266060fb777d6f84394c396a58676ee58a9ce94b255"
+        }
+      ]
+    },
+    {
+      "cid": 36696424668,
+      "part": "S02E08-4",
+      "page": 4,
+      "archived_integer_duration_seconds": 301,
+      "file": "hacks-danmaku/S02E08/P04_S02E08-4_36696424668.xml",
+      "sha256": "6d5159e46d65d5e07dbb8608db75726a3d44ffef1b181bec732dc9b27ae669a4",
+      "comments": 132,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P04_S02E08-4_36696424668.segment01.pb",
+          "sha256": "959d306016286dff401855212ced48f84695a27a9777b62e065d75d8a2b21d0c"
+        }
+      ]
+    },
+    {
+      "cid": 36696424864,
+      "part": "S02E08-5",
+      "page": 5,
+      "archived_integer_duration_seconds": 301,
+      "file": "hacks-danmaku/S02E08/P05_S02E08-5_36696424864.xml",
+      "sha256": "70acf7d9f31f3b98686ef27bd8bbb2285e6ecc6f9371e415c5ce380a2c691add",
+      "comments": 103,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P05_S02E08-5_36696424864.segment01.pb",
+          "sha256": "7d0419aaa822f688afd7a86a2e1490298e146ef3670f4e46cafc1885acf7fd63"
+        }
+      ]
+    },
+    {
+      "cid": 36696425245,
+      "part": "S02E08-6",
+      "page": 6,
+      "archived_integer_duration_seconds": 301,
+      "file": "hacks-danmaku/S02E08/P06_S02E08-6_36696425245.xml",
+      "sha256": "9389e58d06609d4920da45737274b8859938190273ddac2597a3ea6351009023",
+      "comments": 142,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P06_S02E08-6_36696425245.segment01.pb",
+          "sha256": "729e358ddddd630bd97f9c0871c19da42329cceafc763f552e42d413b30d2247"
+        }
+      ]
+    },
+    {
+      "cid": 36696425450,
+      "part": "S02E08-7",
+      "page": 7,
+      "archived_integer_duration_seconds": 279,
+      "file": "hacks-danmaku/S02E08/P07_S02E08-7_36696425450.xml",
+      "sha256": "a36a531cf46b43325d968752d1ab35fc29fda81fd2aa755ce2d86e2ae4175c5c",
+      "comments": 150,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S02E08/P07_S02E08-7_36696425450.segment01.pb",
+          "sha256": "0359423f330b442ff130473c222a679925bb3bc803b81f8901b05fa57e9b5ac4"
+        }
+      ]
+    }
+  ],
+  "excluded_parts": [],
+  "mapping": [
+    {
+      "part": 1,
+      "cid": 36696361753,
+      "source_comments": 94,
+      "archived_integer_duration_seconds": 297,
+      "last_comment_seconds_lower_bound": "290.154",
+      "preview_offset_seconds": 0.0,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": null,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 2,
+      "cid": 36696362705,
+      "source_comments": 108,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "299.1",
+      "preview_offset_seconds": 293.69040283333334,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.309597166666667,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 3,
+      "cid": 36696362868,
+      "source_comments": 123,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "298.451",
+      "preview_offset_seconds": 591.3808056666667,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.309597166666667,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 4,
+      "cid": 36696424668,
+      "source_comments": 132,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "289.461",
+      "preview_offset_seconds": 889.0712085,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.309597166666667,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 5,
+      "cid": 36696424864,
+      "source_comments": 103,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "298.686",
+      "preview_offset_seconds": 1186.7616113333333,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.309597166666667,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 6,
+      "cid": 36696425245,
+      "source_comments": 142,
+      "archived_integer_duration_seconds": 301,
+      "last_comment_seconds_lower_bound": "297.93",
+      "preview_offset_seconds": 1484.4520141666667,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.309597166666667,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 7,
+      "cid": 36696425450,
+      "source_comments": 150,
+      "archived_integer_duration_seconds": 279,
+      "last_comment_seconds_lower_bound": "275.322",
+      "preview_offset_seconds": 1782.142417,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 3.309597166666667,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    }
+  ],
+  "artifacts": {
+    "naive_merged_xml": {
+      "file": "calibration/S02E08/naive-merged.xml",
+      "sha256": "3671d7777661a64cd993f913f1e3b932a533d8faf8ef8c4814a24e1de1608d8d"
+    },
+    "aligned_xml": {
+      "file": "calibration/S02E08/aligned.xml",
+      "sha256": "090f8483b68b99c617973735488892e4985fba2a0bfe49cbe75580375a5ec9c7"
+    },
+    "ass": {
+      "file": "calibration/S02E08/绝望写手.Hacks.S02E08.1080p.H265-NEW字幕组.ass",
+      "sha256": "1391f683d756bc6e846e9a03b137f32554f5ccfc87e012ad845c1dab9f26e1b3"
+    }
+  },
+  "anchor_status": {
+    "public_first_frames": "no recovered old-CID first frames; see first-frame source survey",
+    "actual_overlap_seconds": null
+  },
+  "cut_label_clues": [],
+  "limitations": [
+    "Original comments and their per-part timestamps are preserved unchanged",
+    "No measured overlaps or cut intervals are inferred from total duration alone",
+    "Reference records contain only release identity, duration and fingerprint; no device or storage paths"
+  ],
+  "estimation_model": {
+    "method": "share_positive_archived_duration_excess_equally_across_joins",
+    "requested_by": "user on 2026-10-29",
+    "duration_basis": "archived integer-second part durations, not the last comment time",
+    "source_sum_seconds": 2081.0,
+    "reference_seconds": 2061.142417,
+    "source_sum_minus_reference_seconds": 19.857583,
+    "join_count": 6,
+    "estimated_overlap_per_join_seconds": 3.309597166666667,
+    "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+    "shortfall_unresolved": false,
+    "shortfall_seconds": 0,
+    "raw_comment_tail_is_only_lower_bound": true,
+    "comparison_to_measured_image_intervals": "not established for this episode",
+    "actual_overlap_seconds": null
+  },
+  "assumptions": [
+    "first part starts at reference zero (unverified)",
+    "each part has no unmeasured internal edits or speed change",
+    "positive excess attributed entirely to identical adjacent overlaps, per user-selected preview model"
+  ],
+  "limits": [
+    "This is a requested timing estimate, not independent visual calibration or playback confirmation",
+    "Part-duration rounding, intro/outro differences, edits and version differences can invalidate uniform sharing",
+    "Last comment timestamps are lower bounds only; no negative overlap or forced stretching is applied for shortfalls"
+  ],
+  "xml_comment": "ESTIMATED PREVIEW: uniform sharing of positive archived-duration excess, requested by user. Not measured overlaps. Shortfall episodes retain naive timing and unresolved content/version differences.",
+  "ass_style": {
+    "tool": "biliass==2.5.0",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "display_region_ratio": 0.55,
+    "font_face": "Heiti SC",
+    "font_size": 44,
+    "opacity": 0.85,
+    "marquee_seconds": 8,
+    "still_seconds": 4,
+    "reduce_comments": false
+  }
+}

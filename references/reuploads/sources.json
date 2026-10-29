@@ -933,5 +933,6 @@
     "New CIDs are distinct from the deleted catalogue; these images must not be silently assigned to old CIDs",
     "Matching part labels and integer durations only create candidates; near the end S04E01 is resegmented",
     "No calibration mappings or ASS files have been changed using these images"
-  ]
+  ],
+  "visual_match_candidates": "references/reuploads/visual-match-candidates.json"
 }

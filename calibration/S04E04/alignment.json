@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "episode": "S04E04",
+  "bvid": "BV17M9iBwEHi",
+  "status": "estimated_equal_overlap_pending_playback",
+  "reference": {
+    "release": "绝望写手.Hacks.S04E04.1080p.H265-NEW字幕组V2.mp4",
+    "sha256": "97c5a5231229c3c47b2e979c08a5f85b57863a7a27413e01c7688ff0cca8cfbf",
+    "size_bytes": 443255641,
+    "duration_seconds": 2031.274667,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 37987749719,
+      "part": "S04E04-1",
+      "page": 2,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P02_S04E04-1_37987749719.xml",
+      "sha256": "1d5bab0d9006a160f4330f8656dfe0c0820e69d39a674e53a98b2a36cf597ee4",
+      "comments": 55,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P02_S04E04-1_37987749719.segment01.pb",
+          "sha256": "181e7c442b0bd4243585a7698d5ae98a0f3a36e349cbc536346e12780eb4fbd8"
+        }
+      ]
+    },
+    {
+      "cid": 37987811866,
+      "part": "S04E04-2",
+      "page": 3,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P03_S04E04-2_37987811866.xml",
+      "sha256": "4e4ba51ef07e9532798b345a9411e7ef376eef9571d4d2ed5d35c1d98818a1bc",
+      "comments": 62,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P03_S04E04-2_37987811866.segment01.pb",
+          "sha256": "cc078609e79cef2adfc71616b215d81cb25fabf48732035d657b23b8de8f0e41"
+        }
+      ]
+    },
+    {
+      "cid": 37987811994,
+      "part": "S04E04-3",
+      "page": 4,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P04_S04E04-3_37987811994.xml",
+      "sha256": "27d61c36f7aff6cf79d63904bb484010a29df91374c5b14454e9b341fe013fdd",
+      "comments": 45,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P04_S04E04-3_37987811994.segment01.pb",
+          "sha256": "d73f53ab39b61d21d5d5e374884042f9f4606ef83e13506c897033abfc64db49"
+        }
+      ]
+    },
+    {
+      "cid": 37987812322,
+      "part": "S04E04-4",
+      "page": 5,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P05_S04E04-4_37987812322.xml",
+      "sha256": "36b54f069a81257d4b0c323fff8aa75d8576e762fe8fc4ab429362ab75afdf54",
+      "comments": 67,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P05_S04E04-4_37987812322.segment01.pb",
+          "sha256": "043a59fc6345d29a0559c4e607c49c815398fcaa605ef51b05b2cb097adc070a"
+        }
+      ]
+    },
+    {
+      "cid": 37987812171,
+      "part": "S04E04-5",
+      "page": 6,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P06_S04E04-5_37987812171.xml",
+      "sha256": "0502fdc8802a6ff93da5d14694e2ffff3df9994c2f6db66f2206b0f0020fb87a",
+      "comments": 68,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P06_S04E04-5_37987812171.segment01.pb",
+          "sha256": "16895f464f855440ff659424b174f5e4d2b52cd162af12efce369de3c96a61d6"
+        }
+      ]
+    },
+    {
+      "cid": 37987812213,
+      "part": "S04E04-6",
+      "page": 7,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P07_S04E04-6_37987812213.xml",
+      "sha256": "beb1e2d38f1a66c848f9669f937a8e297613b8ec508099c81de07da984fcadc1",
+      "comments": 76,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P07_S04E04-6_37987812213.segment01.pb",
+          "sha256": "722050de365de8a12028490f9d1b09909fb6754a43514441f2c0ff54a2c11ad9"
+        }
+      ]
+    },
+    {
+      "cid": 37987812729,
+      "part": "S04E04-7",
+      "page": 8,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P08_S04E04-7_37987812729.xml",
+      "sha256": "73b6fb518a92d19f480e5d74293f868826e72491be8009d46e70dbdf7c219603",
+      "comments": 60,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P08_S04E04-7_37987812729.segment01.pb",
+          "sha256": "ed0679690ae0e47e4ca26aeb449409fed98e870c895323ec7b44d21994363747"
+        }
+      ]
+    },
+    {
+      "cid": 37987812807,
+      "part": "S04E04-8",
+      "page": 9,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P09_S04E04-8_37987812807.xml",
+      "sha256": "a95062209471faf6b09529cdb88a09dd2a4c760a3d1aaaca10a95f468eaff002",
+      "comments": 69,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P09_S04E04-8_37987812807.segment01.pb",
+          "sha256": "140f12b901a578b6752aff991c079d6dc8604ab6718c6727015123c69ce9d22a"
+        }
+      ]
+    },
+    {
+      "cid": 37987812715,
+      "part": "S04E04-9",
+      "page": 10,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P10_S04E04-9_37987812715.xml",
+      "sha256": "9c44d394ffb87e65392e17a9227721b0b1091da24a19c673089949012bc0e67b",
+      "comments": 65,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P10_S04E04-9_37987812715.segment01.pb",
+          "sha256": "79a76b1cb38653ef5728fdc79bbf1374a06c99390038a628f6a2e286ae21f8bf"
+        }
+      ]
+    },
+    {
+      "cid": 37987813136,
+      "part": "S04E04-10",
+      "page": 11,
+      "archived_integer_duration_seconds": 181,
+      "file": "hacks-danmaku/S04E04/P11_S04E04-10_37987813136.xml",
+      "sha256": "503a0cf491d942bac7aebbfbf0f2a684ffa1bc00327447ca204535c3dbd6e2ba",
+      "comments": 79,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P11_S04E04-10_37987813136.segment01.pb",
+          "sha256": "d872e76c42f870e5eba7d2ca466db8bfdfe1ef66e28e3fd08af70a38b39f1a0a"
+        }
+      ]
+    },
+    {
+      "cid": 37987813055,
+      "part": "S04E04-11",
+      "page": 12,
+      "archived_integer_duration_seconds": 249,
+      "file": "hacks-danmaku/S04E04/P12_S04E04-11_37987813055.xml",
+      "sha256": "25c89dd42caeee1bbd3746678046f346de4f6292e4f8839c5f50632703ebf087",
+      "comments": 61,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P12_S04E04-11_37987813055.segment01.pb",
+          "sha256": "68e2b443323907b936422b86df1325e16767ba5ef46d5f57f07fca941e22f653"
+        }
+      ]
+    }
+  ],
+  "excluded_parts": [
+    {
+      "cid": 37987749776,
+      "part": "0",
+      "page": 1,
+      "archived_integer_duration_seconds": 2417,
+      "file": "hacks-danmaku/S04E04/P01_0_37987749776.xml",
+      "sha256": "87e51bf16d4c9b4bedfab857145f3ac958073da2f8cddbceb3afbcf2e8ea31c2",
+      "comments": 0,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment01.pb",
+          "sha256": "a4e8bebcf83e1a48c9d516a4d56607109b988e7caf77c0cab76d6a351d51e19d"
+        },
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment02.pb",
+          "sha256": "325a020f88630e0dd25c7b16966737c1aaacfdefc1dc25123fe28292577886ee"
+        },
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment03.pb",
+          "sha256": "cab7141f68eb331cdffa9e4fc053c25165fe544cf1c5ef371c85bf0811b84534"
+        },
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment04.pb",
+          "sha256": "d596b20941d090d8d840259cf1b4dd1d0a44e589a760f4cada14c7159118c633"
+        },
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment05.pb",
+          "sha256": "16239d306e29180f611edfc0fe6b2b26a06ec65eb07cfae5ae20611c252ea233"
+        },
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment06.pb",
+          "sha256": "0e0392878e652910a6a6d515969597a57fa87a546ec17a2c2d68268334df0dbf"
+        },
+        {
+          "file": "hacks-danmaku/S04E04/P01_0_37987749776.segment07.pb",
+          "sha256": "5f6e6639c6ed7cb0b95d8c871440c889de2af204f73bad3b1b8ccf6f521f840c"
+        }
+      ],
+      "reason": "nonmatching numeric/other part label; not sequenced into this episode preview"
+    }
+  ],
+  "mapping": [
+    {
+      "part": 2,
+      "cid": 37987749719,
+      "source_comments": 55,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "177.27",
+      "preview_offset_seconds": 0.0,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": null,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 3,
+      "cid": 37987811866,
+      "source_comments": 62,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "177.326",
+      "preview_offset_seconds": 178.2274667,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 4,
+      "cid": 37987811994,
+      "source_comments": 45,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "171.076",
+      "preview_offset_seconds": 356.4549334,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 5,
+      "cid": 37987812322,
+      "source_comments": 67,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "178.222",
+      "preview_offset_seconds": 534.6824001,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 6,
+      "cid": 37987812171,
+      "source_comments": 68,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "176.075",
+      "preview_offset_seconds": 712.9098668,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 7,
+      "cid": 37987812213,
+      "source_comments": 76,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "177.612",
+      "preview_offset_seconds": 891.1373335,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 8,
+      "cid": 37987812729,
+      "source_comments": 60,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "178.112",
+      "preview_offset_seconds": 1069.3648002,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 9,
+      "cid": 37987812807,
+      "source_comments": 69,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "175.07",
+      "preview_offset_seconds": 1247.5922669,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 10,
+      "cid": 37987812715,
+      "source_comments": 65,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "179.848",
+      "preview_offset_seconds": 1425.8197336,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 11,
+      "cid": 37987813136,
+      "source_comments": 79,
+      "archived_integer_duration_seconds": 181,
+      "last_comment_seconds_lower_bound": "176.027",
+      "preview_offset_seconds": 1604.0472003,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    },
+    {
+      "part": 12,
+      "cid": 37987813055,
+      "source_comments": 61,
+      "archived_integer_duration_seconds": 249,
+      "last_comment_seconds_lower_bound": "246.803",
+      "preview_offset_seconds": 1782.274667,
+      "offset_status": "user_requested_equal_excess_duration_estimate",
+      "estimated_overlap_with_previous_seconds": 2.7725333,
+      "actual_part_duration_seconds": null,
+      "verified_overlap_seconds": null
+    }
+  ],
+  "artifacts": {
+    "naive_merged_xml": {
+      "file": "calibration/S04E04/naive-merged.xml",
+      "sha256": "94fd19a2a74aac9eb1b1f28ba4767b4f7e4191257061b5fce16fa070a1f178d8"
+    },
+    "aligned_xml": {
+      "file": "calibration/S04E04/aligned.xml",
+      "sha256": "41dca5332857394b4016dfadaafa3712e14af2f6a70a110ec43ecbaa7eba5a0a"
+    },
+    "ass": {
+      "file": "calibration/S04E04/绝望写手.Hacks.S04E04.1080p.H265-NEW字幕组V2.ass",
+      "sha256": "f9fcf69ecf5c1f0124d55f4020fed4a335a715986119dd9206479b605ea326b1"
+    }
+  },
+  "anchor_status": {
+    "public_first_frames": "no recovered old-CID first frames; see first-frame source survey",
+    "actual_overlap_seconds": null
+  },
+  "cut_label_clues": [],
+  "limitations": [
+    "Original comments and their per-part timestamps are preserved unchanged",
+    "No measured overlaps or cut intervals are inferred from total duration alone",
+    "Reference records contain only release identity, duration and fingerprint; no device or storage paths"
+  ],
+  "estimation_model": {
+    "method": "share_positive_archived_duration_excess_equally_across_joins",
+    "requested_by": "user on 2026-10-29",
+    "duration_basis": "archived integer-second part durations, not the last comment time",
+    "source_sum_seconds": 2059.0,
+    "reference_seconds": 2031.274667,
+    "source_sum_minus_reference_seconds": 27.725333,
+    "join_count": 10,
+    "estimated_overlap_per_join_seconds": 2.7725333,
+    "formula": "D=sum(d_i)-T; o=max(D,0)/(n-1); start_i=sum(d_j for j<i)-(i-1)*o",
+    "shortfall_unresolved": false,
+    "shortfall_seconds": 0,
+    "raw_comment_tail_is_only_lower_bound": true,
+    "comparison_to_measured_image_intervals": "not established for this episode",
+    "actual_overlap_seconds": null
+  },
+  "assumptions": [
+    "first part starts at reference zero (unverified)",
+    "each part has no unmeasured internal edits or speed change",
+    "positive excess attributed entirely to identical adjacent overlaps, per user-selected preview model"
+  ],
+  "limits": [
+    "This is a requested timing estimate, not independent visual calibration or playback confirmation",
+    "Part-duration rounding, intro/outro differences, edits and version differences can invalidate uniform sharing",
+    "Last comment timestamps are lower bounds only; no negative overlap or forced stretching is applied for shortfalls"
+  ],
+  "xml_comment": "ESTIMATED PREVIEW: uniform sharing of positive archived-duration excess, requested by user. Not measured overlaps. Shortfall episodes retain naive timing and unresolved content/version differences.",
+  "ass_style": {
+    "tool": "biliass==2.5.0",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "display_region_ratio": 0.55,
+    "font_face": "Heiti SC",
+    "font_size": 44,
+    "opacity": 0.85,
+    "marquee_seconds": 8,
+    "still_seconds": 4,
+    "reduce_comments": false
+  }
+}

@@ -59,6 +59,31 @@ def verify_internet_search(catalog):
             body=(ROOT/request['saved_response_file']).read_bytes()
             if hashlib.sha256(body).hexdigest()!=request['sha256']or len(body)!=request['bytes']:
                 raise ValueError('Public cache response checksum mismatch')
+    if refs.get('visual_match_candidates'):
+        visual=json.loads((ROOT/refs['visual_match_candidates']).read_text())
+        by_cid={r['cid']:r for r in refs['images']}
+        matches=0;intros=0
+        for post in visual['posts']:
+            if Path(post['reference']['release']).name!=post['reference']['release']:
+                raise ValueError('Reference release must not contain a personal path')
+            for anchor in post['anchors']:
+                image=by_cid[anchor['new_cid']]
+                if anchor.get('candidate_pts')is None:
+                    intros+=1
+                    continue
+                matches+=1
+                if anchor['reference_image_sha256']!=image['sha256']or anchor['reference_image_file']!=image['file']:
+                    raise ValueError('Visual candidate source image mismatch')
+                if anchor['combined_score']<.95 or anchor['best_at_window_edge']:
+                    raise ValueError('Visual candidate needs further quality review')
+                if not 0<=anchor['candidate_time_seconds']<post['reference']['duration_seconds']:
+                    raise ValueError('Visual candidate lies outside reference duration')
+                if abs(anchor['candidate_time_seconds']-anchor['candidate_pts']/24000)>1e-8:
+                    raise ValueError('Visual candidate PTS/time mismatch')
+                if anchor['old_cid_correspondence']!='unverified':
+                    raise ValueError('New-upload visual evidence cannot verify old-CID correspondence')
+        if visual['summary']!={'matched_non_intro_images':matches,'intro_images_without_unique_start':intros,'old_cid_mappings_verified':0,'old_danmaku_mapping_changed_using_new_images':False}:
+            raise ValueError('Visual candidate totals mismatch')
     return search,refs
 
 def main():
@@ -128,7 +153,8 @@ def main():
         lines.append(f'|[{post["bvid"]}]({post["source_page"]})|{post["episode_claimed_in_description"]}|{len(images)}|{sum(r["part_kind"]=="episode_segment"for r in images)}|{post["stat_at_check"]["danmaku"]}|')
     lines += [
         '\n这些是新投稿的首帧，**不是旧CID首帧的恢复**。S04E01前8个正片P的序号和181秒显示时长相同，已保存新旧CID对应候选；但旧尾段181+202秒，新尾段为121+121+144秒，存在重切，不能逐P机械替换，也不能据此宣布旧弹幕已精确校准。',
-        '\nS04E09属于原40条目目录之外的新发现，原归档中的缺失记录与29,782条总数不变；本轮只保存参考图和公开元数据，未抓取新投稿弹幕。新画面还需与相同版本原片匹配，原片和原片截图不入库。\n',
+        '\nS04E09属于原40条目目录之外的新发现，原归档中的缺失记录与29,782条总数不变；本轮保存参考图和公开元数据，未抓取新投稿弹幕。新画面的后续匹配另列于下文，原片和原片截图不入库。\n',
+        '后续已对照完整原片：22张非片头首帧均找到高相似画面候选（综合分数至少0.9749），两个正片首P的重复片头标志没有强行指定唯一起点。4个初轮低分候选经扩大窗口检索后找到高相似帧，保留搜索提示、原候选与最终PTS；时长提示仅选择搜索窗口，最终依据是图像匹配。新旧CID对应仍未验证，旧弹幕没有据此改轴。结果见 `references/reuploads/visual-match-candidates.json`。\n',
         '### 其他已实际核查的路线\n',
         '|路线|本轮范围与结果|\n|---|---|',
         '|BiliPlus|批量查询40个aid，命中S01E01/S03E05/S04E01的标题/封面缓存；后两集完整缓存、view_all、CID历史没有首帧。缓存CID与原目录一致；S01E02实际缓存接口返回-404。|',

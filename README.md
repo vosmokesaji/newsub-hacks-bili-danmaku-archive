@@ -2,7 +2,7 @@
 
 保存 NEW 字幕组 B 站投稿的弹幕，供配合对应版本原片播放。本仓库不包含视频。
 
-**弹幕抓取已结束；时间轴正逐集核对。** 第一集已通过用户实播确认；第三集已有独立画面候选；第一季其余集按用户要求生成均摊差值的估算试播，第5、8集保留缺口警告。详见[逐集校对留档](calibration/README.md)。原有 `hacks-danmaku/merged/` 仍保留未经重叠处理的简单合并版本；处理后的XML、同名ASS、映射和证据另存于 `calibration/`，须按状态区分实播确认、候选对齐与估算试播。
+**原归档弹幕抓取已结束；39集已留档，37集已有同名ASS，时间轴仍需按证据等级复核。** 第一集已通过用户实播确认；第三集已有独立画面候选；其余31集为均摊估算、4集为缺口未解决的简单拼接试播，S05E08/E09异常长P暂不生成播放版。详见[逐集校对留档](calibration/README.md)。原有 `hacks-danmaku/merged/` 保留未经重叠处理的简单合并版本；处理后的XML、同名ASS、映射和证据另存于 `calibration/`。
 
 ## 来源与抓取范围
 
@@ -55,19 +55,22 @@ references/
   reuploads/
     sources.json                       两个新投稿的公开页面字段、首帧来源及SHA256
     S04E01-correspondence-candidates.json 未验证的新旧分P对应候选及尾段重切差异
+    visual-match-candidates.json         新CID首帧与完整原片的22个画面候选及PTS
     BV1UMxG62Eww/、BV1kEHM6UEax/      新CID的28张首帧；与旧CID证据分开保存
   cache-metadata/                      BiliPlus公开缓存响应，没有取得新首帧
 scripts/
   audit_archive.py                     校验原始 XML/PB，生成基础审计
   build_calibrated_episode.py           按单集留档映射重建 XML/同名 ASS，或 --check
   estimate_equal_overlap.py             按用户指定的均摊差值规则生成估算试播
+  register_calibration.py               登记新集发行标识、原始引用和显式排除P
+  update_calibration_index.py           从逐集清单重建校对索引
   compare_part_intervals.py             比较独立画面间隔，汇总实测/估算状态
   audit_first_frame_sources.py          离线校验首帧清单与图片，生成来源调查报告
 calibration/
   README.md                            逐集留档入口、证据等级、重建方法
   分P接点比较.md                       已观测接点、均摊值与每集状态
   part-interval-comparison.json         接点比较的结构化数据
-  S01E01/ ... S01E10/
+  S01E01/ ... S05E10/                  39个原归档正片投稿的逐集记录
     alignment.json                     原始引用/SHA256、原片版本标识、映射与限制
     naive-merged.xml                   当时未经重叠处理的旧合并，留作对照
     aligned.xml                        当前处理版；是否实测须看清单状态
@@ -93,15 +96,15 @@ hacks-danmaku/
 
 ## 时间轴校准进度
 
-截至 **2026-10-29**：已对第一季10集建立完整留档，保留7,848条原始弹幕，均有同视频主文件名的ASS。另有29个已收录正片投稿尚未建立逐集处理版；未在B站上线的8集继续按预期无弹幕处理。
+截至 **2026-10-29**：已对39个原归档正片投稿建立逐集记录，37集有同视频主文件名的ASS，保留28,511条正片命名P弹幕。本轮新增27集播放产物及2集异常长P待处理记录。原目录缺失的8集没有生成空ASS；新发现的S04E09投稿单独保存画面证据，尚未下载新弹幕。每集文件均有原始引用、SHA256和处理状态，完整索引见[逐集校对留档](calibration/README.md)。
 
 |剧集|当前方法与进度|需要复核的点|
 |---|---|---|
 |S01E01|公开分P首帧与原片逐帧匹配；用户实播确认通过|保留首帧采样偏移和原P精确时长尚未测定的限制；已确认的ASS不变|
 |S01E03|公开分P首帧的独立画面候选；已生成试播，待用户确认|P1对应原片4.004–4.963秒非唯一黑场，试播暂取4.004秒；P2–P6逐帧匹配|
-|S01E02、S01E04、S01E06、S01E07、S01E09、S01E10|按用户指定规则均摊多出时长，已生成估算试播|没有独立画面或实播确认，不能称为实测重叠校准|
-|S01E05、S01E08|存档切片和短于原片，保留简单拼接试播；缺口未解决|分别短约29.079秒、3.792秒；不做负重叠或强制拉伸，也不直接断定删减时长|
-|S02E01–E08、已收录的S03/S04/S05投稿|原始弹幕已归档，逐集校准待处理|先寻找独立首帧/音视频/字幕依据；估算试播须另行记录方法|
+|其余31个有正片命名切片、时长和不短于原片的投稿|按用户指定规则均摊多出时长，已生成估算试播|排除数字占位P，保留名称【删】线索；不能称为实测重叠校准|
+|S01E05、S01E08、S03E02、S05E03|切片和短于原片，保留简单拼接试播；缺口未解决|分别短约29.079、3.792、38.431、47.170秒；不做负重叠或强制拉伸，不直接断定删减位置|
+|S05E08、S05E09|非标准长P，已保存原始引用和版本信息；没有播放版|待内容对照，不能凭当前长P时长等比压缩|
 
 第一、三集P2→P6的8个独立候选画面间隔均为 **297.005041667秒（7121帧）**；第三集首P则有片头单独裁切的线索。这个观察不能推广为所有集、所有P的真实交叉时间都相同。具体每接点及每集均摊值见[分P接点比较](calibration/分P接点比较.md)。
 
@@ -118,7 +121,7 @@ hacks-danmaku/
 - BiliPlus批查40个aid，仅命中3个标题/封面缓存；S03E05、S04E01的完整缓存没有首帧，CID与原目录一致。S01E02的BiliPlus、唧唧实际接口未给出图片。S01E02/E04/E05仍未取得新增旧首帧。
 - E02/E04/E05的有界独立档案查询未新增图片；Wayback变体遇429、Common Crawl连续504、空响应体均保留为未知，未解释成“没有存档”。
 
-仍未取得全集首帧。规范URL或特定服务的空结果不证明其他URL及来源都没有资源。新发现的S04E01参考图还需与原片核对，并继续验证新旧切片关系。
+已将这两个新投稿的22张非片头首帧与完整原片对照，得到高相似画面候选；两个重复片头标志未强行指定唯一起点。新CID长片段的画面间隔约178秒，尾部还有约118秒间隔，与第一、三集约297秒不同。新旧切片关系仍未验证，旧弹幕继续保留原来的估算状态；候选PTS、分数、窗口细化过程见 `references/reuploads/visual-match-candidates.json`。仍未取得全集旧首帧，特定服务的空结果不证明其他URL及来源都没有资源。
 
 逐条范围、状态与原页面字段依据见[首帧来源调查](docs/首帧来源调查.md)、[旧CID来源清单](processing/first-frame-sources.json)和[扩展搜索记录](processing/first-frame-internet-search.json)。
 
@@ -175,6 +178,7 @@ S05E08 只有一个非标准名称长 P，存档时长 4404 秒；S05E09 的两�
 python3 scripts/audit_archive.py
 python3 scripts/build_calibrated_episode.py S01E01 --check
 python3 scripts/compare_part_intervals.py
+python3 scripts/update_calibration_index.py
 python3 scripts/audit_first_frame_sources.py
 git diff --check
 ```

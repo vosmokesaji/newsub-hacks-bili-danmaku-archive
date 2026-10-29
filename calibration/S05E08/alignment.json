@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "episode": "S05E08",
+  "bvid": "BV1xyJA6BEZ8",
+  "status": "nonstandard_parts_pending_content_alignment",
+  "reference": {
+    "release": "绝望写手.Hacks.S05E08.1080p.H265-NEW字幕组.mp4",
+    "sha256": "cb00d0b8c50a810b56a4779195a1f84bfa7a12f3da27d849b342800268378933",
+    "size_bytes": 407448949,
+    "duration_seconds": 1985.76,
+    "frame_rate": "24000/1001"
+  },
+  "original_parts": [
+    {
+      "cid": 39117914685,
+      "part": "【吉 米 受 难 记S5-08】【魔术方块】Justice for Jimmy!",
+      "page": 1,
+      "archived_integer_duration_seconds": 4404,
+      "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.xml",
+      "sha256": "84b96b1fa3eb6a128836d514da02f9ad8c96805dd4c1bd0b69126441cf24febf",
+      "comments": 512,
+      "protobuf_packages": [
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment01.pb",
+          "sha256": "55088b9dd304d3a55d540f6cf8e89856ba9b9309edd3b177ac61c54f325ca25f"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment02.pb",
+          "sha256": "6dab71b10268dc4c9e2e748b540a1cd7aea4c3b7262099a3827b91d85e55b319"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment03.pb",
+          "sha256": "451fb9f102b521bd144ac7175187e752bb472e617b0b564acd90c9c0a6a9e980"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment04.pb",
+          "sha256": "acceadd48ec89ae436670a638a6319bf7d944a1e1c69e344135073c1e9d8aad5"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment05.pb",
+          "sha256": "941381e72af421ad849d02027aee38aadc1ae07a07d60a1b30c55be9fbc53a0d"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment06.pb",
+          "sha256": "aa5257e49f7570e42ed9d39f80a8f48454b3dab41cf4526f279087e12eddae9d"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment07.pb",
+          "sha256": "5f6e6639c6ed7cb0b95d8c871440c889de2af204f73bad3b1b8ccf6f521f840c"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment08.pb",
+          "sha256": "11323218e621d02b19f68def937e4bbcd25f02698201be84d90b5efcadf5a119"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment09.pb",
+          "sha256": "8adbd954807d9510f33393bd780acf0500c952a41fe2de9d45bbd08e9f9a42d7"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment10.pb",
+          "sha256": "f881e76d9793b737b39e17bd8274d1149a0d2f5e7042d70eea03421f2596f872"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment11.pb",
+          "sha256": "48b6fd2eaeaf805a0c15dc199341ffa06cfcab5166b403d2eff79bd1feed4785"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment12.pb",
+          "sha256": "de0772b49b77aa212fb44f4688865501df1939438701149432fc05a8c0d76fe4"
+        },
+        {
+          "file": "hacks-danmaku/S05E08/P01__吉_米_受_难_记S5-08__魔术方块_Justice_for_Jimmy__39117914685.segment13.pb",
+          "sha256": "adca32bec4b66b050af748293268ff496d043ee71ec679dd6264c10b72588320"
+        }
+      ]
+    }
+  ],
+  "excluded_parts": [],
+  "mapping": null,
+  "artifacts": {},
+  "anchor_status": {
+    "public_first_frames": "no recovered old-CID first frames; see first-frame source survey",
+    "actual_overlap_seconds": null
+  },
+  "cut_label_clues": [],
+  "limitations": [
+    "Original comments and their per-part timestamps are preserved unchanged",
+    "No measured overlaps or cut intervals are inferred from total duration alone",
+    "Reference records contain only release identity, duration and fingerprint; no device or storage paths",
+    "Only nonstandard long parts exist; no concatenation, scaling or playback ASS is generated until content identity is established"
+  ]
+}
