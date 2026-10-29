@@ -15,6 +15,7 @@ def main():
     comments=sum(sum(p['comments']for p in d['original_parts'])for d in playable)
     lines=['# 逐集校对留档\n',
         '此目录仅记录弹幕处理、公开参考图片、对应版本标识和校准测量。原视频、私人存储路径、设备连接信息、采集工具及原片截图不入库。\n',
+        '播放核对请用[逐集试播验证清单](试播验证清单.md)：列出当前播放轴的片头、每个分P接点、重点区间与片尾检查时间，并保留验证状态及适用版本。\n',
         f'截至2026-10-29：{len(records)}个已收录正片投稿建立留档，{len(playable)}集有同视频主文件名的ASS，保留{comments:,}条正片命名P弹幕。用户实播通过{counts["user_validated_playback"]}集，独立旧CID画面候选{counts["visual_candidate_pending_playback"]}集，均摊估算{counts["estimated_equal_overlap_pending_playback"]}集，缺口试播{counts["uncalibrated_shortfall_preview"]}集，非标准长P待处理{counts["nonstandard_parts_pending_content_alignment"]}集。\n',
         '原合集缺失的8集没有生成空ASS；另发现的S04E09新投稿仅保存公开首帧和画面候选，尚未抓取新弹幕，未混入旧归档。\n',
         '|剧集|状态|正片/待辨认原始条数|排除条数|线索|校对记录与播放产物|\n|---|---|---:|---:|---|---|']
@@ -45,6 +46,8 @@ def main():
         '\n重建ASS需要Python 3.11+及[固定依赖](../requirements-calibration.txt)。执行 `python3 scripts/estimate_equal_overlap.py <剧集>` 重建估算/缺口试播，不覆盖画面对齐或非标准待处理集；`--playback-dir <已有本地目录>` 同步同名ASS，路径不写入清单。指定 `python3 scripts/build_calibrated_episode.py <剧集>` 可按已有映射重建。',
         '\n`python3 scripts/compare_part_intervals.py`、`python3 scripts/update_calibration_index.py` 重建接点对照与本索引；`python3 scripts/audit_first_frame_sources.py` 验证公开图片与来源。不读取原片，不联网。\n']
     (ROOT/'calibration/README.md').write_text('\n'.join(lines).rstrip()+'\n')
+    from build_playback_checklist import write_outputs
+    write_outputs()
     print(f'Indexed {len(records)} records, {len(playable)} playback files and {comments} named-part comments')
 
 if __name__=='__main__':main()

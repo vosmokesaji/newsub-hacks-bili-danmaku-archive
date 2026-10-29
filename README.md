@@ -4,6 +4,8 @@
 
 **原归档弹幕抓取已结束；39集已留档，37集已有同名ASS，时间轴仍需按证据等级复核。** 第一集已通过用户实播确认；第三集已有独立画面候选；其余31集为均摊估算、4集为缺口未解决的简单拼接试播，S05E08/E09异常长P暂不生成播放版。详见[逐集校对留档](calibration/README.md)。原有 `hacks-danmaku/merged/` 保留未经重叠处理的简单合并版本；处理后的XML、同名ASS、映射和证据另存于 `calibration/`。
 
+试播时直接查看[逐集验证清单](calibration/试播验证清单.md)，按具体时间跳转核对。清单随校准记录和播放产物更新，包含需要优先检查的集数、每个接点的观看窗口及对应版本。
+
 ## 来源与抓取范围
 
 - 投稿者：NEW 字幕组；作品：`Hacks / 绝望写手`。
@@ -64,10 +66,15 @@ scripts/
   estimate_equal_overlap.py             按用户指定的均摊差值规则生成估算试播
   register_calibration.py               登记新集发行标识、原始引用和显式排除P
   update_calibration_index.py           从逐集清单重建校对索引
+  build_playback_checklist.py           生成具体试播检查时间与版本化验证状态，或 --check
+  record_playback_review.py             按检查ID和ASS版本追加实际观看反馈
   compare_part_intervals.py             比较独立画面间隔，汇总实测/估算状态
   audit_first_frame_sources.py          离线校验首帧清单与图片，生成来源调查报告
 calibration/
   README.md                            逐集留档入口、证据等级、重建方法
+  试播验证清单.md                       逐集片头、接点、重点区间和片尾的观看时间
+  playback-checklist.json               与文档对应的结构化检查点和适用版本
+  playback-reviews.json                 实际观看反馈及可辨认原弹幕线索；保留历史记录
   分P接点比较.md                       已观测接点、均摊值与每集状态
   part-interval-comparison.json         接点比较的结构化数据
   S01E01/ ... S05E10/                  39个原归档正片投稿的逐集记录
@@ -107,6 +114,16 @@ hacks-danmaku/
 |S05E08、S05E09|非标准长P，已保存原始引用和版本信息；没有播放版|待内容对照，不能凭当前长P时长等比压缩|
 
 第一、三集P2→P6的8个独立候选画面间隔均为 **297.005041667秒（7121帧）**；第三集首P则有片头单独裁切的线索。这个观察不能推广为所有集、所有P的真实交叉时间都相同。具体每接点及每集均摊值见[分P接点比较](calibration/分P接点比较.md)。
+
+### 按具体时间试播验证
+
+[逐集验证清单](calibration/试播验证清单.md)按当前播放时间轴列出各集片头、分P接点和片尾，并为缺口集、名称有【删】的P及片头例外列出重点检查区间。先按清单中的“建议观看范围”跳转，再观察弹幕是否跟上画面、经过接点后是否出现持续偏移；缺口或【删】对应的范围不是已经测定的删减区间。
+
+弹幕时间指文字开始入场，不等于剧情发生的精确时刻；观众发送本身也可能有反应延迟。若一个窗口没有可辨认的弹幕，保留“无法判断”，不能仅凭没有看到异常判定通过。反馈时给出剧集、检查点编号、所看时间、提前或滞后约几秒及可辨认的弹幕文字，便于定位和留档。
+
+重建ASS、校对索引或首帧来源报告后会自动刷新清单；直接编辑映射、状态或反馈后执行 `python3 scripts/build_playback_checklist.py`。`--check` 只核验文档与当前依据是否一致，不改文件。通过记录按ASS、原片及映射版本保留，依据变化后提示复验；局部窗口通过不自动代表整集通过。
+
+实际反馈通过 `scripts/record_playback_review.py` 追加至 `calibration/playback-reviews.json`，登记时需核对清单中的ASS版本；脚本会同步刷新清单，不改轴也不自动提升整集状态。原片、ASS或映射改变后显示旧记录待复验，追加反馈不清空历史。
 
 ### 从互联网继续找首帧
 
@@ -180,6 +197,7 @@ python3 scripts/build_calibrated_episode.py S01E01 --check
 python3 scripts/compare_part_intervals.py
 python3 scripts/update_calibration_index.py
 python3 scripts/audit_first_frame_sources.py
+python3 scripts/build_playback_checklist.py --check
 git diff --check
 ```
 

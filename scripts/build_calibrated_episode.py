@@ -108,6 +108,8 @@ def main():
     for role,path in [('aligned_xml',xml_path),('ass',ass_path)]:
         manifest['artifacts'][role]={'file':str(path.relative_to(ROOT)),'sha256':digest(path)}
     manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+    from build_playback_checklist import write_outputs
+    write_outputs()
     print(f'{args.episode}: rebuilt {len(seen)} comments; original parts unchanged')
 
 if __name__=='__main__':main()

@@ -178,6 +178,8 @@ def main():
         '- 执行 `python3 scripts/audit_first_frame_sources.py` 离线验证覆盖、CID及SHA256，并重建本文。无网络请求、不访问原视频。\n',
     ]
     (ROOT/'docs/首帧来源调查.md').write_text('\n'.join(lines).rstrip()+'\n')
+    from build_playback_checklist import write_outputs
+    write_outputs()
     print(f'Validated {len(rows)} catalogue entries, {count} original-CID images and {len(refs["images"])} separate new-upload images; unverified correspondences remain candidates.')
 
 if __name__=='__main__':main()

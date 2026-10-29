@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "comment_cues": [
+    {
+      "episode": "S01E03",
+      "cid": 35080571971,
+      "comment_id": "2188776437241793024",
+      "reason": "检查首P片头后的剧情是否同步。",
+      "checkpoint_suffix": "Q01"
+    },
+    {
+      "episode": "S01E03",
+      "cid": 35080703759,
+      "comment_id": "2071262336597264640",
+      "reason": "检查最后一个P的剧情对应。",
+      "checkpoint_suffix": "Q02"
+    },
+    {
+      "episode": "S03E02",
+      "cid": 36999204497,
+      "comment_id": "2157642673002570752",
+      "reason": "检查带删字P起段的剧情是否对应。",
+      "checkpoint_suffix": "Q01"
+    },
+    {
+      "episode": "S03E03",
+      "cid": 37047436123,
+      "comment_id": "2117483378210345728",
+      "reason": "原观众提到删减，重点检查本段及其后是否突然偏移。",
+      "checkpoint_suffix": "Q01"
+    },
+    {
+      "episode": "S05E03",
+      "cid": 38035326571,
+      "comment_id": "2117559274368193280",
+      "reason": "原观众提到删减，检查该P内偏差是否改变。",
+      "checkpoint_suffix": "Q01"
+    },
+    {
+      "episode": "S05E03",
+      "cid": 38035326571,
+      "comment_id": "2159766787104528384",
+      "reason": "比较该P后段与起段的偏差是否一致。",
+      "checkpoint_suffix": "Q02"
+    },
+    {
+      "episode": "S05E07",
+      "cid": 38860621025,
+      "comment_id": "2205385946311364864",
+      "reason": "检查带删字首个正片P中的剧情。",
+      "checkpoint_suffix": "Q01"
+    },
+    {
+      "episode": "S05E07",
+      "cid": 38860621025,
+      "comment_id": "2227501165662020096",
+      "reason": "检查首个正片P末段，随后留意下一接点。",
+      "checkpoint_suffix": "Q02"
+    }
+  ],
+  "records": [
+    {
+      "episode": "S01E01",
+      "scope": "episode",
+      "checkpoint_id": null,
+      "checkpoint_version": null,
+      "episode_version": "fbb962966f22392b0cae39ca85d38f3505e1dd22b2595f8641da1e48d530dde1",
+      "ass_sha256": "94cebd8db5e2b99254831da8f6ad9169fdbde121763b871dcfe1364fb8c8187e",
+      "reference_sha256": "ce32894f3cd2defe6629d349e17909a9a42416d74ad8235f28564a4d3df4694a",
+      "result": "pass",
+      "amount_seconds": null,
+      "notes": "弹幕的时间点没问题，非常完美",
+      "source": "existing_user_playback_confirmation",
+      "reported_on": "2026-10-29",
+      "coverage": "general_episode_confirmation; checkpoints were not individually reported",
+      "record_id": "eeef617cfa2f21d82c2e"
+    }
+  ]
+}
