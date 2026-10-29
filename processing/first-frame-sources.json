@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "scope": "39 archived full-episode posts plus one trailer; eight not-uploaded episodes are not targets",
+  "original_snapshot_audit": {
+    "source_snapshot": "https://web.archive.org/web/20260909144054/https://www.bilibili.com/video/BV1XWBXBcE3Q/",
+    "saved_decoded_html_sha256": "408d305860930bbd1c4c18c9a5ca8644749badf6f7ed349572780081ee993015",
+    "audit_basis": "previously retrieved decoded HTML and initial state; latest direct refresh was HTTP429",
+    "collection_json_path": "/videoData/ugc_season/sections/0/episodes",
+    "collection_entries": 40,
+    "collection_unique_cids": 291,
+    "collection_pages_field_names": [
+      "cid",
+      "dimension",
+      "duration",
+      "from",
+      "page",
+      "part",
+      "vid",
+      "weblink"
+    ],
+    "current_episode_json_path": "/videoData/pages",
+    "first_frame_fields": [
+      {
+        "json_path": "/videoData/pages/0/first_frame",
+        "cid": 34973421029,
+        "url": "http://i1.hdslb.com/bfs/storyff/_0000240ebupa7btys2spsgmykjo7j9b_firsti.jpg"
+      },
+      {
+        "json_path": "/videoData/pages/1/first_frame",
+        "cid": 34973421336,
+        "url": "http://i0.hdslb.com/bfs/storyff/_00000sjheo0itvnbo2qhflfclttsgeb_firsti.jpg"
+      },
+      {
+        "json_path": "/videoData/pages/2/first_frame",
+        "cid": 34973483069,
+        "url": "http://i0.hdslb.com/bfs/storyff/_00001lmzjbjwbw8bc2jhgzbmdwknneb_firsti.jpg"
+      },
+      {
+        "json_path": "/videoData/pages/3/first_frame",
+        "cid": 34973483291,
+        "url": "http://i1.hdslb.com/bfs/storyff/_00002lqpjwz574vc02fjsgqogh485hb_firsti.jpg"
+      },
+      {
+        "json_path": "/videoData/pages/4/first_frame",
+        "cid": 34973483639,
+        "url": "http://i0.hdslb.com/bfs/storyff/_00000t3lgdve5fgd22d7yt6a2vu6r7b_firsti.jpg"
+      },
+      {
+        "json_path": "/videoData/pages/5/first_frame",
+        "cid": 34973483827,
+        "url": "http://i1.hdslb.com/bfs/storyff/_00003iz653khkayz726mfm2mt6n2gbb_firsti.jpg"
+      }
+    ],
+    "conclusion": "collection has CID catalogue for all posts; first_frame appears only in the currently opened episode pages"
+  },
+  "summary": {
+    "catalogue_entries": 40,
+    "status_counts": {
+      "known_first_frames_saved": 2,
+      "canonical_query_no_snapshot": 11,
+      "rate_limited_pending_verification": 27
+    },
+    "episodes_with_first_frames": 2,
+    "saved_first_frame_images": 12,
+    "new_images_this_check": 0,
+    "stop_reason": "HTTP429; no retry/alternate proxy attempts"
+  },
+  "results": [
+    {
+      "episode": "S01E01",
+      "bvid": "BV1XWBXBcE3Q",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1XWBXBcE3Q/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "known_first_frames_saved",
+      "first_frame_count": 6,
+      "images": [
+        {
+          "part": 1,
+          "cid": 34973421029,
+          "url": "https://i1.hdslb.com/bfs/storyff/_0000240ebupa7btys2spsgmykjo7j9b_firsti.jpg",
+          "file": "calibration/S01E01/evidence/P01_34973421029.jpg",
+          "sha256": "86ef1d0974ef80b93d46fae586a46608cf66e1f9c5c3f0ca16769859968c1842"
+        },
+        {
+          "part": 2,
+          "cid": 34973421336,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00000sjheo0itvnbo2qhflfclttsgeb_firsti.jpg",
+          "file": "calibration/S01E01/evidence/P02_34973421336.jpg",
+          "sha256": "4908acaefba8d4edcbf3f5f69c5b3108eb962b3d415c05f20851b64b2cfec1fe"
+        },
+        {
+          "part": 3,
+          "cid": 34973483069,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00001lmzjbjwbw8bc2jhgzbmdwknneb_firsti.jpg",
+          "file": "calibration/S01E01/evidence/P03_34973483069.jpg",
+          "sha256": "5b0283c5ef0fa47f7a6db804504c6451214c69d7328b8ab380ce19aa222d293d"
+        },
+        {
+          "part": 4,
+          "cid": 34973483291,
+          "url": "https://i1.hdslb.com/bfs/storyff/_00002lqpjwz574vc02fjsgqogh485hb_firsti.jpg",
+          "file": "calibration/S01E01/evidence/P04_34973483291.jpg",
+          "sha256": "a27233b033e08727b47c0d09435b2b19a6aea93848cadcf2fc11da56ce6b3e1a"
+        },
+        {
+          "part": 5,
+          "cid": 34973483639,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00000t3lgdve5fgd22d7yt6a2vu6r7b_firsti.jpg",
+          "file": "calibration/S01E01/evidence/P05_34973483639.jpg",
+          "sha256": "bb0f45d10f7fb87843d96e8c035e35b576e2f2dd688c6653624843209756b6f2"
+        },
+        {
+          "part": 6,
+          "cid": 34973483827,
+          "url": "https://i1.hdslb.com/bfs/storyff/_00003iz653khkayz726mfm2mt6n2gbb_firsti.jpg",
+          "file": "calibration/S01E01/evidence/P06_34973483827.jpg",
+          "sha256": "7b5bd2d1ffa42839991740969b6ceaa565d6f672ecfbc1f44d0289f1624f9601"
+        }
+      ],
+      "source_snapshot": "https://web.archive.org/web/20260909144054/https://www.bilibili.com/video/BV1XWBXBcE3Q/",
+      "latest_snapshot_fetch": {
+        "http_status": 429,
+        "evidence_retained_from_previous_success": true
+      }
+    },
+    {
+      "episode": "S01E02",
+      "bvid": "BV1wpvkB3EGk",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1wpvkB3EGk/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E03",
+      "bvid": "BV1aTvvBMEZx",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1aTvvBMEZx/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "known_first_frames_saved",
+      "first_frame_count": 6,
+      "images": [
+        {
+          "part": 1,
+          "cid": 35080571971,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00003im6di3wat93c25hutp0s9wmqeb_firsti.jpg",
+          "file": "calibration/S01E03/evidence/P01_35080571971.jpg",
+          "sha256": "4a3179d6c4ef9f3c819aac7582b1b12d11c4978430db040e0cdf1f67e0ede441"
+        },
+        {
+          "part": 2,
+          "cid": 35080636487,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00000zvjnivqgsa1i27342u6k0iw7kb_firsti.jpg",
+          "file": "calibration/S01E03/evidence/P02_35080636487.jpg",
+          "sha256": "c17acd9693b7905406ad386f8d0c1c284d64a70c70dad1892710ba43a91ebe47"
+        },
+        {
+          "part": 3,
+          "cid": 35080637874,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00003kypb8f4gt47r2b15r4wq17c7ab_firsti.jpg",
+          "file": "calibration/S01E03/evidence/P03_35080637874.jpg",
+          "sha256": "6611e3e88b4dc4f585a9a4ef97aea999f6a6e81f33282a9ec58f41c9af915735"
+        },
+        {
+          "part": 4,
+          "cid": 35080700813,
+          "url": "https://i0.hdslb.com/bfs/storyff/_00001zftixy193p5a2j3l8ztgmy75qb_firsti.jpg",
+          "file": "calibration/S01E03/evidence/P04_35080700813.jpg",
+          "sha256": "46623bdeaefbbd43fad1fcbe81a0e855e91fdecfc9cb7fb9b0c8735a7c4f96af"
+        },
+        {
+          "part": 5,
+          "cid": 35080702737,
+          "url": "https://i2.hdslb.com/bfs/storyff/_00002z6fkijckd4tc2as9wt6fzsvp3b_firsti.jpg",
+          "file": "calibration/S01E03/evidence/P05_35080702737.jpg",
+          "sha256": "4cf5f9cd252416fd085726dee314be0591d12d12da7bc23e1306e27b9c9d8e5d"
+        },
+        {
+          "part": 6,
+          "cid": 35080703759,
+          "url": "https://i2.hdslb.com/bfs/storyff/_00001cfr4b8ed41dh2jw4bdmy6rej8b_firsti.jpg",
+          "file": "calibration/S01E03/evidence/P06_35080703759.jpg",
+          "sha256": "4a640bacc5f8786cfa5e2cde9523d04d9ae5bd2121736c6eb7a765fde6b2314d"
+        }
+      ],
+      "source_snapshot": "https://web.archive.org/web/20260909144052/https://www.bilibili.com/video/BV1aTvvBMEZx/"
+    },
+    {
+      "episode": "S01E04",
+      "bvid": "BV1U6iyB8E2x",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1U6iyB8E2x/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E05",
+      "bvid": "BV15vrVBwEQq",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV15vrVBwEQq/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E06",
+      "bvid": "BV1b2rsBpE49",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1b2rsBpE49/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E07",
+      "bvid": "BV1kkrUBVE3T",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1kkrUBVE3T/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E08",
+      "bvid": "BV146z7B4EZ3",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV146z7B4EZ3/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E09",
+      "bvid": "BV15hz9BuE1b",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV15hz9BuE1b/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S01E10",
+      "bvid": "BV1jxz9BkE1Y",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1jxz9BkE1Y/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "interpretation": "No snapshot returned for the queried canonical URL; does not prove all URL variants or other evidence are absent"
+    },
+    {
+      "episode": "S02E01",
+      "bvid": "BV1rDfDB4Evg",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1rDfDB4Evg/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1rDfDB4Evg%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E02",
+      "bvid": "BV1vzctzWELK",
+      "catalogue_part_count": 8,
+      "canonical_page": "https://www.bilibili.com/video/BV1vzctzWELK/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1vzctzWELK%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E03",
+      "bvid": "BV1RDcpz6ETB",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1RDcpz6ETB/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1RDcpz6ETB%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E04",
+      "bvid": "BV1UifEB2EiE",
+      "catalogue_part_count": 9,
+      "canonical_page": "https://www.bilibili.com/video/BV1UifEB2EiE/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1UifEB2EiE%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E05",
+      "bvid": "BV1NJAQzVEMj",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1NJAQzVEMj/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1NJAQzVEMj%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E06",
+      "bvid": "BV1gdNwzHETs",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1gdNwzHETs/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1gdNwzHETs%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E07",
+      "bvid": "BV1aDcrzWEEU",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1aDcrzWEEU/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1aDcrzWEEU%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S02E08",
+      "bvid": "BV1V8wtzWEL2",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1V8wtzWEL2/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1V8wtzWEL2%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S03E01",
+      "bvid": "BV1F8AJzLEtB",
+      "catalogue_part_count": 8,
+      "canonical_page": "https://www.bilibili.com/video/BV1F8AJzLEtB/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1F8AJzLEtB%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S03E02",
+      "bvid": "BV1mfXWByEmV",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1mfXWByEmV/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1mfXWByEmV%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S03E03",
+      "bvid": "BV1jAX5BAE1e",
+      "catalogue_part_count": 8,
+      "canonical_page": "https://www.bilibili.com/video/BV1jAX5BAE1e/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1jAX5BAE1e%2F",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S03E04",
+      "bvid": "BV19D9FBdEzR",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV19D9FBdEzR/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV19D9FBdEzR%2F",
+      "interpretation": "No snapshot returned for queried canonical URL; not universal absence"
+    },
+    {
+      "episode": "S03E05",
+      "bvid": "BV1ruDgB9EL9",
+      "catalogue_part_count": 6,
+      "canonical_page": "https://www.bilibili.com/video/BV1ruDgB9EL9/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1ruDgB9EL9%2F",
+      "interpretation": "No snapshot returned for queried canonical URL; not universal absence"
+    },
+    {
+      "episode": "S03E06",
+      "bvid": "BV1ZTD4BFEAm",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1ZTD4BFEAm/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "canonical_query_no_snapshot",
+      "first_frame_count": 0,
+      "last_successful_query_http_status": 200,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1ZTD4BFEAm%2F",
+      "interpretation": "No snapshot returned for queried canonical URL; not universal absence"
+    },
+    {
+      "episode": "S04E01",
+      "bvid": "BV1TpQMBwEXC",
+      "catalogue_part_count": 12,
+      "canonical_page": "https://www.bilibili.com/video/BV1TpQMBwEXC/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1TpQMBwEXC%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S04E02",
+      "bvid": "BV1xSdVBQEWR",
+      "catalogue_part_count": 12,
+      "canonical_page": "https://www.bilibili.com/video/BV1xSdVBQEWR/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1xSdVBQEWR%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S04E03",
+      "bvid": "BV11roLBfEHQ",
+      "catalogue_part_count": 10,
+      "canonical_page": "https://www.bilibili.com/video/BV11roLBfEHQ/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV11roLBfEHQ%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S04E04",
+      "bvid": "BV17M9iBwEHi",
+      "catalogue_part_count": 12,
+      "canonical_page": "https://www.bilibili.com/video/BV17M9iBwEHi/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV17M9iBwEHi%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S04E07",
+      "bvid": "BV1YJLm6fEFr",
+      "catalogue_part_count": 10,
+      "canonical_page": "https://www.bilibili.com/video/BV1YJLm6fEFr/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1YJLm6fEFr%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05_预告",
+      "bvid": "BV1HuXwBzE2m",
+      "catalogue_part_count": 1,
+      "canonical_page": "https://www.bilibili.com/video/BV1HuXwBzE2m/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1HuXwBzE2m%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E01",
+      "bvid": "BV18mdbBuEUP",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV18mdbBuEUP/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV18mdbBuEUP%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E02",
+      "bvid": "BV1z1oaBcEph",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1z1oaBcEph/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1z1oaBcEph%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E03",
+      "bvid": "BV1EzRLB5Etp",
+      "catalogue_part_count": 9,
+      "canonical_page": "https://www.bilibili.com/video/BV1EzRLB5Etp/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1EzRLB5Etp%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E04",
+      "bvid": "BV1JzRSBGEVR",
+      "catalogue_part_count": 7,
+      "canonical_page": "https://www.bilibili.com/video/BV1JzRSBGEVR/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1JzRSBGEVR%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E05",
+      "bvid": "BV1355q6bEbs",
+      "catalogue_part_count": 8,
+      "canonical_page": "https://www.bilibili.com/video/BV1355q6bEbs/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1355q6bEbs%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E06",
+      "bvid": "BV1bwGq6SEui",
+      "catalogue_part_count": 8,
+      "canonical_page": "https://www.bilibili.com/video/BV1bwGq6SEui/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1bwGq6SEui%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E07",
+      "bvid": "BV1FhEA6sEGK",
+      "catalogue_part_count": 10,
+      "canonical_page": "https://www.bilibili.com/video/BV1FhEA6sEGK/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1FhEA6sEGK%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E08",
+      "bvid": "BV1xyJA6BEZ8",
+      "catalogue_part_count": 1,
+      "canonical_page": "https://www.bilibili.com/video/BV1xyJA6BEZ8/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1xyJA6BEZ8%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E09",
+      "bvid": "BV1Biji6GEWS",
+      "catalogue_part_count": 2,
+      "canonical_page": "https://www.bilibili.com/video/BV1Biji6GEWS/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1Biji6GEWS%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    },
+    {
+      "episode": "S05E10",
+      "bvid": "BV122Ti6AEEH",
+      "catalogue_part_count": 11,
+      "canonical_page": "https://www.bilibili.com/video/BV122Ti6AEEH/",
+      "query_scope": "canonical direct video URL; some S01 variants also checked; not an exhaustive search of all possible archived URLs",
+      "checked_on": "2026-10-29",
+      "status": "rate_limited_pending_verification",
+      "first_frame_count": 0,
+      "last_query_http_status": 429,
+      "query_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV122Ti6AEEH%2F&timestamp=20261029",
+      "interpretation": "Availability is unknown; HTTP429 is not a no-snapshot result"
+    }
+  ],
+  "limitations": [
+    "No-snapshot canonical query results are not proof that all URL variants lack archives",
+    "HTTP429 means unverified availability, not no archive",
+    "Retrieved first_frame images require comparison with matching full episodes; in-part sampling offsets remain unknown",
+    "No private original video, device or storage metadata is included"
+  ]
+}
