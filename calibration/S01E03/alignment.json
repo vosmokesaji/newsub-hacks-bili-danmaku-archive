@@ -488,9 +488,9 @@
     "display_region_ratio": 0.55,
     "font_face": "Heiti SC",
     "font_size": 44,
-    "opacity": 0.85,
-    "marquee_seconds": 8,
-    "still_seconds": 4,
+    "opacity": 0.6,
+    "marquee_seconds": 12,
+    "still_seconds": 8,
     "reduce_comments": false
   },
   "artifacts": {
@@ -504,7 +504,7 @@
     },
     "ass": {
       "file": "calibration/S01E03/绝望写手.Hacks.S01E03.1080p.H265-NEW字幕组.ass",
-      "sha256": "0f456d05791e57e42369e997c11d228bf6a9d36a851ae11efe717ae21f462c3d"
+      "sha256": "7159317ffa8b7e6932a8fe27826528b09c3822f66bf495cc3f8fb5514b53310d"
     }
   },
   "xml_comment": "VISUAL CANDIDATE: P1 trial offset uses earliest compatible black-scene interval 4.004..4.963292s; P2-P6 assume zero thumbnail sampling offset. Not yet confirmed in playback.",

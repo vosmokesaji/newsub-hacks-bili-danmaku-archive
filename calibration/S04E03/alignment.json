@@ -296,7 +296,7 @@
     },
     "ass": {
       "file": "calibration/S04E03/绝望写手.Hacks.S04E03.1080p.H265-NEW字幕组V2.ass",
-      "sha256": "64e6a1db7136130a9425c7314ad50b5f8ce5dce6ac246f7f0782f84589ae9a58"
+      "sha256": "ba7bfded9f1f063e57265aa7bb21c512857758c79781c80efb6160ac75763125"
     }
   },
   "anchor_status": {
@@ -345,9 +345,9 @@
     "display_region_ratio": 0.55,
     "font_face": "Heiti SC",
     "font_size": 44,
-    "opacity": 0.85,
-    "marquee_seconds": 8,
-    "still_seconds": 4,
+    "opacity": 0.6,
+    "marquee_seconds": 12,
+    "still_seconds": 8,
     "reduce_comments": false
   }
 }

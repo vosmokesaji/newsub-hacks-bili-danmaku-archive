@@ -242,7 +242,7 @@
     },
     "ass": {
       "file": "calibration/S03E01/绝望写手.Hacks.S03E01.1080p.H265-NEW字幕组.ass",
-      "sha256": "057ec982285f1f75f24c0b4de267b280cb7351ee7c808223cb026ae0c431dda7"
+      "sha256": "18d8a3fffb4c6e6ebde52257e3569f189d3f97f00e8e4d5aa5d8c72e9a25a7b8"
     }
   },
   "anchor_status": {
@@ -291,9 +291,9 @@
     "display_region_ratio": 0.55,
     "font_face": "Heiti SC",
     "font_size": 44,
-    "opacity": 0.85,
-    "marquee_seconds": 8,
-    "still_seconds": 4,
+    "opacity": 0.6,
+    "marquee_seconds": 12,
+    "still_seconds": 8,
     "reduce_comments": false
   }
 }

@@ -215,7 +215,7 @@
     },
     "ass": {
       "file": "calibration/S05E04/绝望写手.Hacks.S05E04.1080p.H265-NEW字幕组.ass",
-      "sha256": "885c9e9d8c1299ea1d7c211d73b8f8fccb97e4643d0c7f186fd9093efea8aa00"
+      "sha256": "8c55974c71ebf77282eb57f1f9fcfa0ec1d6f8da1ab17d045e2485cfccd8ed67"
     }
   },
   "anchor_status": {
@@ -264,9 +264,9 @@
     "display_region_ratio": 0.55,
     "font_face": "Heiti SC",
     "font_size": 44,
-    "opacity": 0.85,
-    "marquee_seconds": 8,
-    "still_seconds": 4,
+    "opacity": 0.6,
+    "marquee_seconds": 12,
+    "still_seconds": 8,
     "reduce_comments": false
   }
 }
